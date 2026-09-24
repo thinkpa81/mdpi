@@ -2,7 +2,7 @@
 
 **Customer Data Collection Volume and Incremental Predictive Value for AI-Enabled Consumer Service Use: A Temporal Evaluation**
 
-This repository contains the analysis code, aggregate results, input schema without observations, and final Figures 2 and 3 supporting the manuscript and supplementary materials. The analysis uses the KISDI Panel Survey of Intelligent Information Society Users, 2023–2025. The development sample contains 1,565 participants; temporal evaluation contains 1,520 participants, including 879 who do not overlap with development.
+This repository contains the analysis code, aggregate results, input schema without observations, Figure 1, and final Figures 2 and 3 supporting the manuscript and supplementary materials. The analysis uses the KISDI Panel Survey of Intelligent Information Society Users, 2023–2025. The development sample contains 1,565 participants; temporal evaluation contains 1,520 participants, including 879 who do not overlap with development.
 
 The publication cleanup of 24 September 2026 preserves the statistical code and reported aggregate estimates. Duplicate table caches and internal code-maintenance reports were archived outside this repository. Historical selection receipts, analysis manifests, validation records, and code-adaptation hashes remain as provenance. Their dates and hashes refer to their original runs.
 
@@ -19,14 +19,14 @@ The source Word documents and the private `removed/` archive are not part of thi
 | `01_required_prior_analysis/` | Harmonization, candidate selection, nested validation, item budgets, block attribution, inference, historical aggregate results | Main Tables 1–5; Supplementary S1–S21 and related analyses |
 | `00_current_revision_20260909/` | Precision, ridge-family sensitivity, dependence diagnostics | Main Table 4; Supplementary S22–S26 |
 | `analysis_20260916/` | Auxiliary metrics, original representative-policy refit records, monthly/weekly outcome sensitivity, measurement diagnostics | Supplementary S28–S37 |
-| `figures_final/` | Full-precision aggregate inputs, plotting code, final PNG/SVG figures, source audit | Figures 2 and 3 |
+| `figures_final/` | Figure 1 extracted from the manuscript; full-precision aggregate inputs, plotting code, final PNG/SVG figures, and source audit for Figures 2 and 3 | Figures 1–3 |
 | `INPUT_SCHEMA_NO_OBSERVATIONS.json` | Required input fields without any participant records | Supplementary S27 |
 | `ENVIRONMENT_RECORDED.json` and `ADAPTATION_LOG.json` | Recorded environments and code provenance | Reproducibility documentation |
 | `PACKAGE_INVENTORY.json` and `MANIFEST_SHA256.json` | Current file inventory and SHA-256 integrity | This release |
 | `PUBLICATION_CLEANUP.json` | Archived-file list, duplicate-to-retained-file map, scope of this cleanup | This release |
 | `README_분석재현안내.md` | Detailed Korean execution instructions and scientific qualifications | Complete execution order |
 
-Table 6 and Figure 1 describe the proposed operational procedure and analysis design; they are not fitted statistical outputs. Historical Korean table caches are retained only where they are unique or required by the table-generation code. Identical removed copies can be reconstructed from the retained paths listed in `PUBLICATION_CLEANUP.json`.
+Table 6 and Figure 1 describe the proposed operational procedure and analysis design; they are not fitted statistical outputs. Figure 1 is provided as an exact PNG extraction from the final manuscript; its source is recorded in `figures_final/README.md`. Historical Korean table caches are retained only where they are unique or required by the table-generation code. Identical removed copies can be reconstructed from the retained paths listed in `PUBLICATION_CLEANUP.json`.
 
 ## Verify the package without private data
 
@@ -36,7 +36,7 @@ python verify_package.py --strict
 
 This checks released-file hashes, Python syntax, and JSON parsing. It does not refit models or reproduce participant-level bootstraps. `.git/`, local Python environments and caches, and `removed/` are ignored by the integrity check.
 
-## Recheck aggregates and reproduce figures
+## Recheck aggregates and reproduce Figures 2 and 3
 
 The recorded analysis used Python 3.12.13/3.12.14. See `ENVIRONMENT_RECORDED.json` for the exact package records; the operating system, BLAS, and fonts are not fully locked.
 

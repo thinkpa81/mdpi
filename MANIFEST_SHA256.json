@@ -840,8 +840,8 @@
     },
     {
       "path": "PACKAGE_INVENTORY.json",
-      "bytes": 84728,
-      "sha256": "b54adf6bc10ef276fb45f17e73b484eb3ef87a0fc771023d7fa9f585726fed30"
+      "bytes": 84769,
+      "sha256": "aee87bb8790d0ef594e29568fb2b2cee19202adb31c88e9d70b9708d8381bf03"
     },
     {
       "path": "PORTABILITY_VALIDATION.json",
@@ -855,8 +855,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6772,
-      "sha256": "945e1d36615ca79b17574b44e9804c2adec930943b9e592e3dac311261b2953f"
+      "bytes": 6980,
+      "sha256": "52483757b70bf07990a989009a1b98d30330e6ff48ee3ffadbc53b5b9b37dc22"
     },
     {
       "path": "README_분석재현안내.md",
@@ -1140,13 +1140,13 @@
     },
     {
       "path": "figures_final/README.md",
-      "bytes": 5615,
-      "sha256": "7600fdd326b96993955fe2592913993758d51fe78b793385b475ac1b034eb7c5"
+      "bytes": 6570,
+      "sha256": "c71761e32963bca2bca4230a1640ccc0ffaf985e93eced0da6c5e83e0d7474ff"
     },
     {
       "path": "figures_final/SHA256SUMS.json",
-      "bytes": 1273,
-      "sha256": "ad40b37cfdca5c431a0ff8006c74a8220f152ae682dd5c87405061988876983e"
+      "bytes": 1366,
+      "sha256": "02b52660a5a793b8ac987ec1486338a0b9e1c745622dfbd714120c943fc9767d"
     },
     {
       "path": "figures_final/audit_against_original_sources.py",
@@ -1157,6 +1157,11 @@
       "path": "figures_final/data/plot_data.json",
       "bytes": 18758,
       "sha256": "4b4fc9196f66cfaa18ab0e1aefd9cded420233e73a8bccf883c5c1b00e637760"
+    },
+    {
+      "path": "figures_final/figures/figure1.png",
+      "bytes": 603294,
+      "sha256": "d89758f432595a3da7a6f5ce324682e8d120f32f12b617e86a718c20860f010b"
     },
     {
       "path": "figures_final/figures/figure2.png",

@@ -1,12 +1,12 @@
 {
   "release_date": "2026-09-24",
   "scope": "Current public release, including this inventory, the SHA-256 manifest, and .gitignore; removed archives and local runtime caches are excluded.",
-  "total_files": 243,
+  "total_files": 244,
   "extension_counts": {
     ".csv": 85,
     ".json": 114,
     ".md": 11,
-    ".png": 2,
+    ".png": 3,
     ".py": 26,
     ".svg": 2,
     ".txt": 2,
@@ -249,6 +249,7 @@
     "figures_final/SHA256SUMS.json",
     "figures_final/audit_against_original_sources.py",
     "figures_final/data/plot_data.json",
+    "figures_final/figures/figure1.png",
     "figures_final/figures/figure2.png",
     "figures_final/figures/figure2.svg",
     "figures_final/figures/figure3.png",

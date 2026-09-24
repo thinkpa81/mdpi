@@ -1,7 +1,8 @@
 {
-  "README.md": "7600fdd326b96993955fe2592913993758d51fe78b793385b475ac1b034eb7c5",
+  "README.md": "c71761e32963bca2bca4230a1640ccc0ffaf985e93eced0da6c5e83e0d7474ff",
   "audit_against_original_sources.py": "80d55fa2322a783b1bd74323615f230866ea9391b003f89eb3d100094bddc5c9",
   "data/plot_data.json": "4b4fc9196f66cfaa18ab0e1aefd9cded420233e73a8bccf883c5c1b00e637760",
+  "figures/figure1.png": "d89758f432595a3da7a6f5ce324682e8d120f32f12b617e86a718c20860f010b",
   "figures/figure2.png": "05a455f08629f9ab3ff97a81fbb9315f49d12360fe3b80581f1208d239e31358",
   "figures/figure2.svg": "7396683cc8307e669dc35c581f5239a24b7ccfcad033de8ebcb356e84dd79cd3",
   "figures/figure3.png": "6eef9d5f91961ed0b19180d8fbe1f129f7a1bf9fde53f6d03752d6e864401e99",
