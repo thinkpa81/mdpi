@@ -1,0 +1,251 @@
+{
+  "purpose": "열명과 코드값의 정의만 제공. 실제·가상 관측치 0개. 실행용 입력파일이 아님.",
+  "source": "01_required_prior_analysis/code/harmonize_data.py",
+  "expected_input_names": [
+    "2023_numeric.csv",
+    "2024_numeric.csv",
+    "2025_numeric.csv"
+  ],
+  "year_specific_columns": {
+    "2023": {
+      "id": "ID",
+      "weight": "WEIGHTw2_B2",
+      "use": "q1_8",
+      "benefit": "q3_8",
+      "hesitation": "q15_6",
+      "management": "q20_7",
+      "safeguards_prefix": "q18_",
+      "consent": "q21",
+      "genai": "q23",
+      "digital_prefix": "q33_"
+    },
+    "2024": {
+      "id": "id",
+      "weight": "WEIGHTw3_B2",
+      "use": "Q1_8",
+      "benefit": "Q3_8",
+      "hesitation": "Q15_6",
+      "management": "q20_7",
+      "safeguards_prefix": "q18_",
+      "consent": "q21",
+      "genai": "Q24",
+      "digital_prefix": "Q31_"
+    },
+    "2025": {
+      "id": "id",
+      "weight": "WEIGHTw4_B2",
+      "use": "q1_8",
+      "benefit": "q3_8",
+      "hesitation": "q14_6",
+      "management": "q18_7",
+      "safeguards_prefix": "q11_",
+      "consent": "q12",
+      "genai": "q20",
+      "digital_prefix": "q29_"
+    }
+  },
+  "common_columns": {
+    "gender": "SQ1",
+    "age_group": "Age_group",
+    "education": "DQ2_1",
+    "region": "Area1",
+    "cross_weight": "wgt_b"
+  },
+  "code_rules": {
+    "gender": [
+      1,
+      2
+    ],
+    "age_group": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "education": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "region": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "use_frequency": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9
+    ],
+    "positive_any_use": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "negative_any_use": [
+      5,
+      9
+    ],
+    "benefit_expectation": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "data_management": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "hesitation_frequency": [
+      1,
+      2,
+      3,
+      4,
+      9
+    ],
+    "sample_selection_hesitation": [
+      1,
+      2
+    ],
+    "consent_strategy": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "genai_input_to_binary": {
+      "1": 1,
+      "2": 0
+    },
+    "safeguards_and_digital_valid": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "safeguard_item_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "digital_item_indices": [
+    1,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    14,
+    20
+  ],
+  "derived_outcome_columns": [
+    "outcome_frequency",
+    "outcome_any_use",
+    "outcome_regular_use",
+    "outcome_monthly_use"
+  ],
+  "id_rule": "원자료의 실제 식별자를 개인자료 저장영역에서만 유지한다. 이 스키마에는 식별자 값이 없다.",
+  "invalid_code_rule": "허용값 외 코드는 결측 처리. 실제 응답코드의 의미는 원 코드북에서 확인한다.",
+  "alternative_coding_evaluated_20260916": {
+    "monthly_use_positive_codes": [
+      1,
+      2,
+      3
+    ],
+    "regular_use_positive_codes": [
+      1,
+      2
+    ],
+    "analysis": "analysis_20260916/code/run_alternative_outcomes.py",
+    "history_definition": "Original prior_any_use held fixed",
+    "results": "analysis_20260916/outputs/alternative_outcomes/all_targets_policy_metrics.csv",
+    "repeated_nested_cross_validation_rerun": false
+  },
+  "expected_harmonized_private_files": [
+    "analysis_20260916/private/development.csv",
+    "analysis_20260916/private/evaluation.csv"
+  ],
+  "measurement_diagnostic_dictionary_files": {
+    "2023": {
+      "variables_file": "2023_variables.csv",
+      "variables_columns": [
+        "변수명",
+        "변수설명"
+      ],
+      "values_file": "2023_values.csv",
+      "values_columns": [
+        "변수명",
+        "Value",
+        "Label"
+      ]
+    },
+    "2024": {
+      "variables_file": "2024_variables.csv",
+      "variables_columns": [
+        "변수명",
+        "변수설명"
+      ],
+      "values_file": "2024_values.csv",
+      "values_columns": [
+        "변수명",
+        "Value",
+        "Label"
+      ]
+    },
+    "2025": {
+      "variables_file": "2025_variables.csv",
+      "variables_columns": [
+        "변수명",
+        "변수설명"
+      ],
+      "values_file": "2025_values.csv",
+      "values_columns": [
+        "변수명",
+        "Value",
+        "Label"
+      ]
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "project_source_archive": "3_KCI_분석코드_재현지원_최종본_20260916.zip",
+  "source_archive_drive_file_id": "1XLEEQUZyGh97lnuD_GL25P8J50FMJqIB",
+  "aggregate_subdirectory": "01_required_prior_analysis/revision_20260907/outputs/",
+  "aggregate_source_sha256": {
+    "revision_lookup/repro_20260916/01_required_prior_analysis/revision_20260907/outputs/development_budget_policies.csv": "039547f1773f4b51112d58b0a7a782fc8477ab576e761d612033355c5162a844",
+    "revision_lookup/repro_20260916/01_required_prior_analysis/revision_20260907/outputs/nested_budget_summary.csv": "ec25b2c9d5c51589fa3ba2398ac228a374e567f967c3ef78495659eaf5b24f03",
+    "revision_lookup/repro_20260916/01_required_prior_analysis/revision_20260907/outputs/temporal_budget_policy_metrics.csv": "793242f495084f31d459ee17c747ef5bac7005b55aa5e098f34736f05797dc5b",
+    "revision_lookup/repro_20260916/01_required_prior_analysis/revision_20260907/outputs/block_attribution_development_descriptive.csv": "06362dba1f8fb58f8335076a893bbe3a0a10ae31998e2a354e42398a4273ec08",
+    "revision_lookup/repro_20260916/01_required_prior_analysis/revision_20260907/outputs/block_attribution_evaluation.csv": "26fe6e84be4094d48cbbd273709433d60ed29dadf5e52db31e22ed16ddc955e4"
+  },
+  "source_docx_sha256": {
+    "source/main.docx": "8757f3e6ecb3ed9f137c5d242f61d91d0394f0bf6e5a8dcfc726828bdd3445f7",
+    "source/supp.docx": "d4815102e0cdfb1e0c16094da3e7736bd64a9d597cb1bd54d623fe8fd623f23c"
+  },
+  "source_column_filters": {
+    "development_budget_policies.csv": {
+      "rows": 124,
+      "columns_used": [
+        "algorithm",
+        "availability",
+        "budget",
+        "development_oof_log_loss"
+      ]
+    },
+    "nested_budget_summary.csv": {
+      "rows": 124,
+      "columns_used": [
+        "algorithm",
+        "availability",
+        "budget",
+        "nested_log_loss_mean"
+      ]
+    },
+    "temporal_budget_policy_metrics.csv": {
+      "rows": 124,
+      "filter": "evaluation_domain == 'all'",
+      "columns_used": [
+        "algorithm",
+        "availability",
+        "budget",
+        "log_loss",
+        "baseline_model",
+        "source_model",
+        "delta_baseline_log_loss"
+      ],
+      "note": "Benchmark values taken from ridge budget 0; P0 and ridge::NONE."
+    },
+    "block_attribution_development_descriptive.csv": {
+      "rows": 28,
+      "columns_used": [
+        "algorithm",
+        "has_history",
+        "block",
+        "shapley_log_loss_reduction"
+      ]
+    },
+    "block_attribution_evaluation.csv": {
+      "rows": 28,
+      "filter": "domain == 'whole'",
+      "columns_used": [
+        "algorithm",
+        "has_history",
+        "block",
+        "shapley_log_loss_reduction",
+        "joint_basic95_low",
+        "joint_basic95_high"
+      ]
+    }
+  },
+  "data_scope": "Aggregate model-performance and block-attribution statistics only. No participant records, identifiers, individual predictions, source DOCX documents, or microdata are included.",
+  "precision": "All numeric strings in data/plot_data.json are copied from source CSV decimal strings. Only their conversion to plotting-library floats occurs at rendering. No rounded DOCX values, interpolations, or digitized image coordinates are used as plot input.",
+  "validation_summary": {
+    "checks_passed": 420,
+    "unavailable_values": 0,
+    "cross_check_tolerance_for_four_decimal_DOCX_values": "0.00005"
+  },
+  "figure2_benchmark": {
+    "P0": "0.6606246186097116",
+    "NONE": "0.6856435498450167"
+  },
+  "figure3_interval_scope": {
+    "evaluation_sample": "whole temporal evaluation sample",
+    "n": 1520,
+    "simultaneous_family_size": 56,
+    "bootstrap_replicates": 2000,
+    "conditional_on": "fixed predictions"
+  },
+  "style_changes": [
+    "Additional original-item budget",
+    "H fixed / H excluded",
+    "Average marginal contribution followed by (log-loss reduction) on a second line",
+    "Temporal / simultaneous 95% interval",
+    "Unicode minus signs on negative tick labels"
+  ]
+}

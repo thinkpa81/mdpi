@@ -1,0 +1,299 @@
+[
+  {
+    "path": "analysis_20260916/code/extract_validate_metrics.py",
+    "source_file_sha256": "915aaff8d577a10bd37d9e4438e1ae1e36b905902d25d6c00ede84bb3a985d94",
+    "packaged_sha256": "90a5697852c327b9ddc75c0612246562d988fd02c2dc8b9919057ee967f90846",
+    "change_scope": "filesystem/CLI inputs and optional manuscript/archive check only; policy/metric logic unchanged; explanatory comment/docstring removal on 2026-09-23",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "92abb0ba965e54f8a3ab6345a9609e10bb2d646aa5c179cae060ae87f0cc8f12",
+      "packaged_sha256": "90a5697852c327b9ddc75c0612246562d988fd02c2dc8b9919057ee967f90846",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "analysis_20260916/code/refit_original_representatives.py",
+    "source_file_sha256": "edd237d17e661db9dcc983979cc10f6776fe5d5316f0de74bf6dbcd0e11e9173",
+    "packaged_sha256": "3e809d2bafa9880b212d701619c3ce061423533599b48d20c93086416fe81ca9",
+    "change_scope": "filesystem/CLI inputs and optional manuscript/archive check only; policy/metric logic unchanged; explanatory comment/docstring removal on 2026-09-23",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "f40f457abe02b32270ed36b573843c7df1e232d32d574ab8e4487a1d1aeb00e7",
+      "packaged_sha256": "3e809d2bafa9880b212d701619c3ce061423533599b48d20c93086416fe81ca9",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "00_current_revision_20260909/code/run_precision_analysis.py",
+    "source_file_sha256": "2f2d62952127fbfa1fc0707f4216aac332c7a68f8ce4e3757263decd714f3463",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "7c559ab9c9dcbcd02224621bebcbe0e6663b4b86026b7d9854868fd842e28809",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "2f2d62952127fbfa1fc0707f4216aac332c7a68f8ce4e3757263decd714f3463",
+      "packaged_sha256": "7c559ab9c9dcbcd02224621bebcbe0e6663b4b86026b7d9854868fd842e28809",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "00_current_revision_20260909/code/run_ridge_sensitivity.py",
+    "source_file_sha256": "99a96066e7c17ec1e3b0f09424fc074f116d51aebe546e3bf4ea33530fdef431",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "0398e80ff2f5aa05590562a96696cc4d4c283d7c50c6293fe2749b461cc19749",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "99a96066e7c17ec1e3b0f09424fc074f116d51aebe546e3bf4ea33530fdef431",
+      "packaged_sha256": "0398e80ff2f5aa05590562a96696cc4d4c283d7c50c6293fe2749b461cc19749",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/code/audit_measurement.py",
+    "source_file_sha256": "123aefc89520212603787b6c6d3bf893d4647e7116235f3b67c86ae8b1684a83",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "0b4bad2e13717026bf4b58f7d47001bc412cc086838ce785d84c2474d9243a0e",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "123aefc89520212603787b6c6d3bf893d4647e7116235f3b67c86ae8b1684a83",
+      "packaged_sha256": "0b4bad2e13717026bf4b58f7d47001bc412cc086838ce785d84c2474d9243a0e",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/code/harmonize_data.py",
+    "source_file_sha256": "a89f5c2b808f0e64fb7d1d66b569223776fc5b10d589b4f333d6ab309775cfdf",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "9c1b2cc66f29674c4029a425988c59f2d55d120e3f389c7b87798466bd19c396",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "a89f5c2b808f0e64fb7d1d66b569223776fc5b10d589b4f333d6ab309775cfdf",
+      "packaged_sha256": "9c1b2cc66f29674c4029a425988c59f2d55d120e3f389c7b87798466bd19c396",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/code/prepare_document_tables.py",
+    "source_file_sha256": "b921f1b73db1f845bab0b73f6dceb49ce99ba9065adc74343610d4289764ab9e",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "91cc6b3feac399949880e960c70d1659d346f85e155cb0e6f94ab24ea4914f4b",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "b921f1b73db1f845bab0b73f6dceb49ce99ba9065adc74343610d4289764ab9e",
+      "packaged_sha256": "91cc6b3feac399949880e960c70d1659d346f85e155cb0e6f94ab24ea4914f4b",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/code/run_additional_contrasts.py",
+    "source_file_sha256": "923b84f1a953ffc3dbc70d51b622475d17bf1d8d378cb8d28ba24adc1be99826",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "5bb9f42f88194b35108cc5167c1f30064d13ffe3102f06c54c0142da978140a1",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "923b84f1a953ffc3dbc70d51b622475d17bf1d8d378cb8d28ba24adc1be99826",
+      "packaged_sha256": "5bb9f42f88194b35108cc5167c1f30064d13ffe3102f06c54c0142da978140a1",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/code/run_exhaustive.py",
+    "source_file_sha256": "9b8dba3897b822823ec402455f5914f3aa9e812bc35395d28eb2ce527935d3bd",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "aaf3263877a14dbd3876a7ddc25f72bbca98f7d684d19f5035be19a6289dc2da",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "9b8dba3897b822823ec402455f5914f3aa9e812bc35395d28eb2ce527935d3bd",
+      "packaged_sha256": "aaf3263877a14dbd3876a7ddc25f72bbca98f7d684d19f5035be19a6289dc2da",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/code/run_exploratory_shortlist.py",
+    "source_file_sha256": "5c96122412673284935407d0e6f35946d5af60d1f89f2a507de303f4fbeeff17",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "e4c3456e32a842ccc35c1c41ee2ddcc6c54106111f4d63836075e7f363009623",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "5c96122412673284935407d0e6f35946d5af60d1f89f2a507de303f4fbeeff17",
+      "packaged_sha256": "e4c3456e32a842ccc35c1c41ee2ddcc6c54106111f4d63836075e7f363009623",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/code/run_itemized_sensitivity.py",
+    "source_file_sha256": "d249f8ab07674c0eb10627aa71e6a1b5234ac981f6b84ed0e3fa991f496406f2",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "3bee88dfa4059366670450937b48d2989bd8735f6ab5ffb7df4d8d8e40667f88",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "d249f8ab07674c0eb10627aa71e6a1b5234ac981f6b84ed0e3fa991f496406f2",
+      "packaged_sha256": "3bee88dfa4059366670450937b48d2989bd8735f6ab5ffb7df4d8d8e40667f88",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/code/run_selected_inference.py",
+    "source_file_sha256": "dd766d735f331d326090b87f4652634cf650ed192c2ddc7d6a419147e7ef7754",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "a5a4443ac74e63c172b838ce42263e25b4aed000c8410db3b27ee5bd228ddb50",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "dd766d735f331d326090b87f4652634cf650ed192c2ddc7d6a419147e7ef7754",
+      "packaged_sha256": "a5a4443ac74e63c172b838ce42263e25b4aed000c8410db3b27ee5bd228ddb50",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/code/validate_analysis.py",
+    "source_file_sha256": "3ef63163dd00a211663567661de2580ebd4ac37ea550bbeb79105d99a90dc417",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "0e085fbff550b767a086c534cc89d605619be15245d92a5d9348238797a0b9fc",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "3ef63163dd00a211663567661de2580ebd4ac37ea550bbeb79105d99a90dc417",
+      "packaged_sha256": "0e085fbff550b767a086c534cc89d605619be15245d92a5d9348238797a0b9fc",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py",
+    "source_file_sha256": "eac38ed514d4b7eecedff44ea17fcad3d431cbc8417fa63347379a55ab267563",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "721d7afd6a5c1b25b1d6f6212f4e77831db754ad33e51e8cdd75e5bc6e855d8c",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "eac38ed514d4b7eecedff44ea17fcad3d431cbc8417fa63347379a55ab267563",
+      "packaged_sha256": "721d7afd6a5c1b25b1d6f6212f4e77831db754ad33e51e8cdd75e5bc6e855d8c",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/revision_20260907/code/run_block_attribution.py",
+    "source_file_sha256": "7e317f4ce94eff2e6c699580b6c271ef14a2c98874a1e391b684a2dff582150c",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "935fd8cadfa140694006ddd866c47dec2bd13c6003046baaf7cfa5e68ecc5cc7",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "7e317f4ce94eff2e6c699580b6c271ef14a2c98874a1e391b684a2dff582150c",
+      "packaged_sha256": "935fd8cadfa140694006ddd866c47dec2bd13c6003046baaf7cfa5e68ecc5cc7",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/revision_20260907/code/run_budget_policy.py",
+    "source_file_sha256": "ce01433a6af7e6818fee89354deaee6df57ea04ec410d7db2f8396489ace4a75",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "5b1c2611c92f6d03d87fb09af77d8644c697d5361df530c22f24f3c30e31512b",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "ce01433a6af7e6818fee89354deaee6df57ea04ec410d7db2f8396489ace4a75",
+      "packaged_sha256": "5b1c2611c92f6d03d87fb09af77d8644c697d5361df530c22f24f3c30e31512b",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/revision_20260907/code/run_decision_boundaries.py",
+    "source_file_sha256": "2e6a70b23004e58176fcee730d4e6f83c7caebaf0855af77d3e4c9f7478e6d93",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "4579e1039348e5e5f939c30bd5802fb0d41c105ae4915ce6a9e83df8741f8cd4",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "2e6a70b23004e58176fcee730d4e6f83c7caebaf0855af77d3e4c9f7478e6d93",
+      "packaged_sha256": "4579e1039348e5e5f939c30bd5802fb0d41c105ae4915ce6a9e83df8741f8cd4",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/revision_20260907/code/run_standardized_sensitivity.py",
+    "source_file_sha256": "f408a9f4715033d110aad1f7cba9f25e352cd6b571f21ce705d4bc6178f864d4",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "037c9fb97d86fac22a6141c4a293f6f0088d437b8d78327f7955dd51bdd41436",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "f408a9f4715033d110aad1f7cba9f25e352cd6b571f21ce705d4bc6178f864d4",
+      "packaged_sha256": "037c9fb97d86fac22a6141c4a293f6f0088d437b8d78327f7955dd51bdd41436",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "01_required_prior_analysis/revision_20260907/code/validate_budget_policy.py",
+    "source_file_sha256": "79875bc0ca7aa7cc6b85e9a2070f0a0acae6b14af31f337e48c1bf0665523f3c",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "b09fda31574d70552ff9244f993af97a7f980f2800b8434a553a65f989faf288",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "79875bc0ca7aa7cc6b85e9a2070f0a0acae6b14af31f337e48c1bf0665523f3c",
+      "packaged_sha256": "b09fda31574d70552ff9244f993af97a7f980f2800b8434a553a65f989faf288",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "analysis_20260916/code/audit_alternative_outcomes.py",
+    "source_file_sha256": "bcd9b5a23bb0b0de67f9a2d760b261628e7efba097d62018118c8587429f47c4",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "3f2934c3cbb568b351258b1fdad073ebf2fc83e0377d29c711e1ed5fa011e112",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "bcd9b5a23bb0b0de67f9a2d760b261628e7efba097d62018118c8587429f47c4",
+      "packaged_sha256": "3f2934c3cbb568b351258b1fdad073ebf2fc83e0377d29c711e1ed5fa011e112",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "analysis_20260916/code/measurement_descriptive_diagnostics.py",
+    "source_file_sha256": "ffc927f92663473f0f0ac35ad9779d8cf40a55d6e882c75e4800f857181bdc89",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "ae07ea5e70f90f7edbf3a541051fc620f6002218479f94c7dd8fb14d6391f286",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "ffc927f92663473f0f0ac35ad9779d8cf40a55d6e882c75e4800f857181bdc89",
+      "packaged_sha256": "ae07ea5e70f90f7edbf3a541051fc620f6002218479f94c7dd8fb14d6391f286",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "analysis_20260916/code/run_alternative_outcomes.py",
+    "source_file_sha256": "4ff97bac56a8f5f110e8e96b01a3b206196c53d1c6295acdf12eae7035988e2f",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "da99f6108cdf727c7c0dab636cc038be420f91513bb6867466c28e2aac844906",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "4ff97bac56a8f5f110e8e96b01a3b206196c53d1c6295acdf12eae7035988e2f",
+      "packaged_sha256": "da99f6108cdf727c7c0dab636cc038be420f91513bb6867466c28e2aac844906",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  },
+  {
+    "path": "analysis_20260916/code/summarize_alternative_outcomes.py",
+    "source_file_sha256": "bf30d93e2b21c9c5381387c320fc62e0a3c235461074fa17f373f6761efc7728",
+    "source_kind": "Comment-cleaned Drive package read on 2026-09-23",
+    "packaged_sha256": "cd6196c15f9923a82d3abd3e587e8a05243ffeea1254950435721063d9439b6d",
+    "change_scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained",
+    "quality_revision_20260923": {
+      "date": "2026-09-23",
+      "input_release_sha256": "bf30d93e2b21c9c5381387c320fc62e0a3c235461074fa17f373f6761efc7728",
+      "packaged_sha256": "cd6196c15f9923a82d3abd3e587e8a05243ffeea1254950435721063d9439b6d",
+      "scope": "Formatting and reviewed execution-safety/portability improvements; research computation retained"
+    }
+  }
+]

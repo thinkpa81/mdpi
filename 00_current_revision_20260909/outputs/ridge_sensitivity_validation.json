@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "analysis_status": "post-hoc sensitivity; primary analysis retained",
+  "input_hashes": {
+    "protocol_sha256": "61d4db92ccbab4038fa7596ad7a0f9fd70acaed6027ad26c3ead875f291ebce9",
+    "evaluation_sha256": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+    "development_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+    "prediction_sha256": "fec8c3db9737276b67006f26765ed2e6fb87e9fcc442b42be334ed5eef2bd1a7",
+    "policy_sha256": "039547f1773f4b51112d58b0a7a782fc8477ab576e761d612033355c5162a844",
+    "old_family_sha256": "9c85aafd01d83c310ee1aeba614e1ebd68ebf2610be64918020d99ef866ab37b",
+    "old_standardized_bounds_sha256": "fb22cea385b8c72027dc1c45b3d7f352c65c2169e8d42e78c0614d6fcbe24003",
+    "old_primary_bounds_sha256": "bfe9773219b620a85e54886edc61a4e4a6246405eb1f34192d2978f101a04394"
+  },
+  "code_sha256": "ea426e20ad410a0b6bba0900ec4bda1a148249e6ec977956accddd6b4eb185c0",
+  "bootstrap_reps": 2000,
+  "seed": 20260909,
+  "ridge_policy_rows": 124,
+  "ridge_families": 4,
+  "condition_rows": 8,
+  "global_contrast_rows": 2,
+  "selection_stability_rows": 4,
+  "max_abs_existing_ridge_reconstruction_errors": {
+    "q_primary_absolute": 8.673617379884035e-17,
+    "q_standardized": 0.0,
+    "delta": 9.8879238130678e-17,
+    "bootstrap_se": 9.8879238130678e-17,
+    "primary_upper": 7.563394355258879e-16,
+    "standardized_upper": 9.8879238130678e-17
+  },
+  "independent_checks": {
+    "status": "PASS",
+    "manual_log_loss_formula_used": true,
+    "existing_precision_table_crosschecked": true,
+    "max_abs_errors": {
+      "manual_delta_vs_new": 0.0,
+      "existing_precision_delta_vs_new": 1.533669025111095e-14,
+      "existing_precision_se_vs_new": 8.370040771588094e-17,
+      "existing_precision_marginal_low_vs_new": 3.0872873701959236e-14,
+      "existing_precision_marginal_high_vs_new": 3.022105135586095e-14,
+      "existing_precision_marginal_upper_vs_new": 3.100341164352649e-14
+    },
+    "condition_dependence": [
+      {
+        "domain": "whole",
+        "minimum_offdiagonal_correlation": 0.7922647913424962,
+        "maximum_offdiagonal_correlation": 0.9691927016427259,
+        "maximum_absolute_offdiagonal_correlation": 0.9691927016427259,
+        "all_offdiagonal_zero": false
+      },
+      {
+        "domain": "disjoint",
+        "minimum_offdiagonal_correlation": 0.7875369800786475,
+        "maximum_offdiagonal_correlation": 0.9684396305795909,
+        "maximum_absolute_offdiagonal_correlation": 0.9684396305795909,
+        "all_offdiagonal_zero": false
+      }
+    ],
+    "independent_signs_supported": false
+  },
+  "hgb_was_in_same_family_as_ridge": false,
+  "hgb_removal_changes_ridge_critical_values": false,
+  "independent_sign_test_valid": false,
+  "primary_analysis_changed": false
+}

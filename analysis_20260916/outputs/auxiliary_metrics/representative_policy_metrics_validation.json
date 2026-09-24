@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "scope": "Stored aggregate-output validation, not an independent raw-observation rerun in this task.",
+  "output_rows": 40,
+  "policy_count": 20,
+  "source_files": {
+    "selected": {
+      "archive_member": "00_current_revision_20260909/outputs/selected_policy_auxiliary_metrics.csv",
+      "sha256": "d6e52efbafb9657f56731ec6baa54209c4a5a9dcb30cc1ba794ed8bfd45684f4",
+      "identical_in_both_packages": true
+    },
+    "temporal": {
+      "archive_member": "01_required_prior_analysis/revision_20260907/outputs/temporal_budget_policy_metrics.csv",
+      "sha256": "793242f495084f31d459ee17c747ef5bac7005b55aa5e098f34736f05797dc5b",
+      "identical_in_both_packages": true
+    },
+    "development": {
+      "archive_member": "01_required_prior_analysis/revision_20260907/outputs/development_budget_policies.csv",
+      "sha256": "039547f1773f4b51112d58b0a7a782fc8477ab576e761d612033355c5162a844",
+      "identical_in_both_packages": true
+    },
+    "calibration": {
+      "archive_member": "00_current_revision_20260909/outputs/calibration_numerical_validation.csv",
+      "sha256": "f800c6195ddbc30760424a3895addcab529deb48a6dec294f2fc284f4e42cf15",
+      "identical_in_both_packages": true
+    }
+  },
+  "checks": [
+    "selected metrics exactly equal the corresponding 60 temporal metrics rows",
+    "60 selected policies match frozen development-policy mapping",
+    "20 policy combinations, actual item counts, development log loss and full temporal log loss match current manuscript Table 3",
+    "all 60 domain row counts and event rates match recorded n/events",
+    "full-sample log loss and Brier reconstruct from weighted disjoint/shared subgroups",
+    "NONE ROC AUC=0.5, AP=sample event rate, calibration slope not identifiable"
+  ],
+  "domains": {
+    "all": {
+      "n": 1520,
+      "events": 853,
+      "event_rate": 0.5611842105263158
+    },
+    "development_disjoint_id": {
+      "n": 879,
+      "events": 471,
+      "event_rate": 0.5358361774744027
+    },
+    "development_shared_id": {
+      "n": 641,
+      "events": 382,
+      "event_rate": 0.5959438377535101
+    }
+  },
+  "max_abs_strict_mle_slope_difference_in_40_rows": 0.0016807062696155,
+  "calibration_slope_for_document": "Original stored calibration_slope preserved; strict MLE slope is a separate numerical check only."
+}

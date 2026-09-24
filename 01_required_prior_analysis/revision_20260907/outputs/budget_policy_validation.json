@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "checks_passed": 26,
+  "checks": [
+    {
+      "check": "frozen_policy_receipt",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "executed_code_matches_current",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "protocol_matches_execution",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "original_model_code_unchanged",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "development_input_unchanged",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "124_complete_unique_policies",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "complete_budget_grid",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "selected_costs_feasible",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "budget_zero_no_collection",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "unavailable_history_never_used",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "nested_feasible_set_minimum_monotone",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "original_string_ids_preserved",
+      "passed": true,
+      "details": "ID strings with underscores must remain unchanged."
+    },
+    {
+      "check": "one_outer_prediction_per_participant_per_repeat",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "five_outer_folds_each_repeat",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "ten_nested_selections_each_policy",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "all_nested_choices_budget_feasible",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "nested_unavailable_history_never_used",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "nested_predictions_complete_and_finite",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "nested_metrics_recompute_from_individual_predictions",
+      "passed": true,
+      "details": "max error=0"
+    },
+    {
+      "check": "repeat_mean_is_mean_loss_not_ensemble_loss",
+      "passed": true,
+      "details": "max error=0"
+    },
+    {
+      "check": "temporal_ids_and_outcomes_in_original_order",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "participant_overlap_matches_source",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "temporal_metrics_recompute_all_domains",
+      "passed": true,
+      "details": "max error=0"
+    },
+    {
+      "check": "source_cache_verified_against_refitted_models",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "source_cache_unchanged",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "temporal_evaluation_input_unchanged",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "scope": "Numerical, identity, provenance, and budget consistency checks; not a guarantee of external validity or acceptance."
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "manual_log_loss_formula_used": true,
+  "existing_precision_table_crosschecked": true,
+  "max_abs_errors": {
+    "manual_delta_vs_new": 0.0,
+    "existing_precision_delta_vs_new": 1.533669025111095e-14,
+    "existing_precision_se_vs_new": 8.370040771588094e-17,
+    "existing_precision_marginal_low_vs_new": 3.0872873701959236e-14,
+    "existing_precision_marginal_high_vs_new": 3.022105135586095e-14,
+    "existing_precision_marginal_upper_vs_new": 3.100341164352649e-14
+  },
+  "condition_dependence": [
+    {
+      "domain": "whole",
+      "minimum_offdiagonal_correlation": 0.7922647913424962,
+      "maximum_offdiagonal_correlation": 0.9691927016427259,
+      "maximum_absolute_offdiagonal_correlation": 0.9691927016427259,
+      "all_offdiagonal_zero": false
+    },
+    {
+      "domain": "disjoint",
+      "minimum_offdiagonal_correlation": 0.7875369800786475,
+      "maximum_offdiagonal_correlation": 0.9684396305795909,
+      "maximum_absolute_offdiagonal_correlation": 0.9684396305795909,
+      "all_offdiagonal_zero": false
+    }
+  ],
+  "independent_signs_supported": false
+}

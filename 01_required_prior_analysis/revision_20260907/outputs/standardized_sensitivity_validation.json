@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "amendment_sha256": "47b3ea023a82630c53b63c71d3af7afa7a379995b8f128bb43531f7e91e29ce0",
+  "code_sha256": "2e76c069b4503727c30bf10caff3f006cf3a76ad76f060483aadc704eb34dc9d",
+  "policy_input_hashes": {
+    "development_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+    "evaluation_sha256": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+    "predictions_sha256": "fec8c3db9737276b67006f26765ed2e6fb87e9fcc442b42be334ed5eef2bd1a7",
+    "development_policy_sha256": "039547f1773f4b51112d58b0a7a782fc8477ab576e761d612033355c5162a844",
+    "primary_policy_bounds_sha256": "bfe9773219b620a85e54886edc61a4e4a6246405eb1f34192d2978f101a04394"
+  },
+  "policy_rows": 248,
+  "policy_families": 8,
+  "attribution_effects": 56,
+  "attribution_family": {
+    "effects": 56,
+    "bootstrap_reps": 2000,
+    "seed": 2026090717,
+    "standardized_max_abs_critical_value": 3.2266291057245713,
+    "primary_max_abs_absolute_critical_value": 0.022735520539450417,
+    "minimum_se": 0.0001367245931107851,
+    "maximum_se": 0.01103266916256315,
+    "method": "two-sided fixed-bootstrap-SE standardized maximum-absolute band, single 56-effect family",
+    "cached_bootstrap_sha256": "d08d4f1a8e29ad9953954cd7dcda87d0913d6912f8a3080373a2b9249059a3c9",
+    "primary_attribution_sha256": "26fe6e84be4094d48cbbd273709433d60ed29dadf5e52db31e22ed16ddc955e4"
+  },
+  "policy_benchmark_superiority_changed_rows": 0,
+  "attribution_sign_changed_rows": 18,
+  "policy_full_noninferiority_changed_margin_0.01": 71,
+  "policy_full_noninferiority_new_passes_margin_0.01": 71,
+  "policy_full_noninferiority_lost_passes_margin_0.01": 0,
+  "primary_analysis_retained": true,
+  "identical_primary_bootstrap_critical_values_reproduced": true,
+  "naming": "fixed-bootstrap-SE standardized maximum statistic; not replicate-studentized bootstrap-t",
+  "limits": "retrospective sensitivity, fixed predictions; no training, selection, or adaptive-reuse uncertainty correction"
+}

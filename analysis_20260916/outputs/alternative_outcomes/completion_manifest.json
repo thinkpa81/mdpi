@@ -1,0 +1,83 @@
+{
+  "status": "complete",
+  "targets": [
+    {
+      "target": "monthly",
+      "status": "complete",
+      "elapsed_seconds": 52.64721751213074,
+      "development_n": 1565,
+      "development_events": 674,
+      "evaluation_n": 1520,
+      "evaluation_events": 594,
+      "disjoint_n": 879,
+      "disjoint_events": 326,
+      "candidates_per_algorithm": 256,
+      "grid_configurations": 1792,
+      "folds": 5,
+      "candidate_fold_fits": 8960,
+      "budgets": 31,
+      "policy_metric_rows": 248,
+      "representative_rows": 40,
+      "evaluation_fitted_models": 51,
+      "joint_superiority_rows": 3,
+      "frozen_selection_sha256": "3a5c67d70bc2c78f2b1e1308200e4d628079e0b1bdcea331a1be871b6305ce19",
+      "development_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+      "evaluation_sha256": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+      "versions": {
+        "python": "3.12.14",
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "scipy": "1.17.0",
+        "scikit_learn": "1.8.0",
+        "joblib": "1.5.3"
+      },
+      "completed_utc": "2026-09-16T06:07:18.407159+00:00",
+      "limits": [
+        "post hoc threshold sensitivity, not measurement-invariance identification",
+        "no repeated nested CV rerun",
+        "fixed-prediction bootstrap, no refit/selection uncertainty",
+        "separate family coverage, no across-target guarantee",
+        "constant-prediction calibration slope undefined"
+      ]
+    },
+    {
+      "target": "regular",
+      "status": "complete",
+      "elapsed_seconds": 52.65007710456848,
+      "development_n": 1565,
+      "development_events": 298,
+      "evaluation_n": 1520,
+      "evaluation_events": 292,
+      "disjoint_n": 879,
+      "disjoint_events": 171,
+      "candidates_per_algorithm": 256,
+      "grid_configurations": 1792,
+      "folds": 5,
+      "candidate_fold_fits": 8960,
+      "budgets": 31,
+      "policy_metric_rows": 248,
+      "representative_rows": 40,
+      "evaluation_fitted_models": 49,
+      "joint_superiority_rows": 0,
+      "frozen_selection_sha256": "21caa9098ca6a900fd06811832519581f189e5c9a6a4326d1c757f38e9e8da3d",
+      "development_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+      "evaluation_sha256": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+      "versions": {
+        "python": "3.12.14",
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "scipy": "1.17.0",
+        "scikit_learn": "1.8.0",
+        "joblib": "1.5.3"
+      },
+      "completed_utc": "2026-09-16T06:08:11.062419+00:00",
+      "limits": [
+        "post hoc threshold sensitivity, not measurement-invariance identification",
+        "no repeated nested CV rerun",
+        "fixed-prediction bootstrap, no refit/selection uncertainty",
+        "separate family coverage, no across-target guarantee",
+        "constant-prediction calibration slope undefined"
+      ]
+    }
+  ]
+}

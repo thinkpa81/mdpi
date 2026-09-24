@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "573cbde3f28a5a885649740d323a6bc49fa2cb38e31f34529dee25f3622459d8",
+  "code_sha256": "d66f4b497b054797d37592a5bb12dabfad152a02a13c4746946af31f39e63945",
+  "input_hashes": {
+    "development_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+    "evaluation_sha256": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+    "evaluation_predictions_sha256": "fec8c3db9737276b67006f26765ed2e6fb87e9fcc442b42be334ed5eef2bd1a7",
+    "development_policy_sha256": "039547f1773f4b51112d58b0a7a782fc8477ab576e761d612033355c5162a844"
+  },
+  "policy": {
+    "original_policy_rows_crosschecked": 248,
+    "output_contrast_rows": 496,
+    "unique_families": 8,
+    "max_abs_reconstruction_errors": {
+      "delta": 9.8879238130678e-17,
+      "primary_bound": 1.096345236817342e-15,
+      "standardized_bound": 9.8879238130678e-17,
+      "bootstrap_se": 9.974659986866641e-17
+    },
+    "self_contrast_rows": 6
+  },
+  "attribution": {
+    "effects": 56,
+    "q_primary_absolute": 0.022735520539450417,
+    "q_standardized": 3.2266291057245713,
+    "bootstrap_sha256": "d08d4f1a8e29ad9953954cd7dcda87d0913d6912f8a3080373a2b9249059a3c9",
+    "positive_direction_only": true
+  },
+  "metrics": {
+    "source_rows": 372,
+    "unique_model_domain_pairs": 162,
+    "all_existing_metrics_reproduced": true,
+    "maximum_abs_errors": {
+      "log_loss": 0.0,
+      "brier": 1.1102230246251565e-16,
+      "roc_auc": 1.1102230246251565e-16,
+      "average_precision": 2.220446049250313e-16,
+      "calibration_intercept": 8.673617379884035e-17,
+      "calibration_slope": 2.220446049250313e-16
+    },
+    "max_abs_tighter_mle_slope_difference": 0.001680706269615584,
+    "constant_prediction_slope_not_identifiable": true,
+    "note": "Selected-policy table preserves existing values; tighter unpenalized MLE is a numerical diagnostic."
+  },
+  "normal_quantiles": {
+    "z80": 0.8416212335729143,
+    "z95": 1.6448536269514722,
+    "z975": 1.959963984540054
+  },
+  "post_hoc": true,
+  "original_policies_unchanged": true,
+  "original_primary_inference_retained": true,
+  "limits": "conditional fixed-model local additive-shift precision, not achieved power, exact prospective MDD, future sample-size calculation, training-selection or adaptive-reuse uncertainty"
+}

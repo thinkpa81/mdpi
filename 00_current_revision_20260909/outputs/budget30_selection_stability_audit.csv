@@ -1,0 +1,5 @@
+algorithm,availability,budget,frozen_full_development_subset,frozen_subset_outer_selection_count,outer_partitions,unique_selected_subsets,block_H_inclusion_count,block_D_inclusion_count,block_B_inclusion_count,block_M_inclusion_count,block_P_inclusion_count,block_C_inclusion_count,block_A_inclusion_count,block_K_inclusion_count,zero_match_implies_random,interpretation
+ridge,history_available,30,H_D_B_M_P_A_K,2,10,3,10,10,10,2,8,0,10,10,False,low exact-subset stability; randomness is not identified by this frequency table
+ridge,history_unavailable,30,D_B_P_A_K,4,10,4,0,10,10,2,8,2,10,10,False,low exact-subset stability; randomness is not identified by this frequency table
+hgb,history_available,30,H_D_M_P_C_A_K,0,10,8,10,10,10,5,10,4,6,6,False,low exact-subset stability; randomness is not identified by this frequency table
+hgb,history_unavailable,30,D_M_P_C_A_K,0,10,6,0,10,10,5,10,6,8,8,False,low exact-subset stability; randomness is not identified by this frequency table

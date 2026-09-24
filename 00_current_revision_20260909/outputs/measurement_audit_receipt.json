@@ -1,0 +1,13 @@
+{
+  "audit_date": "2026-09-08",
+  "source_scope": "3 questionnaire text files plus variable and value dictionary sheets only; no respondent records emitted in artifact",
+  "n_years": 3,
+  "outcome_row_and_response_codes_identical": true,
+  "Q1_prompt_2023_2024_identical": true,
+  "Q1_prompt_2025_identical_to_2024": false,
+  "old_wording_subgroup_identification": "not possible from supplied dictionaries: no assignment/version/date fields found",
+  "reverse_temporal_identifies_measurement_effect": false,
+  "official_access_url": "http<local-path-omitted>/ContentsList.html?menuId=2010125&rootId=2010004&sub_div=D",
+  "access_is_unrestricted": false,
+  "IRB_waiver_verified": false
+}

@@ -1,0 +1,41 @@
+algorithm,has_history,domain,rule,best_development_subset,best_development_log_loss,tolerance,chosen_subset,chosen_config,chosen_development_log_loss,chosen_additional_items
+ridge,True,extended_K,one_se,H_D_B_M_P_A_K,0.6292921291184919,0.00868741379274968,H_D_B_A,1.0,0.6362755316368176,6
+ridge,True,extended_K,delta_0.0025,H_D_B_M_P_A_K,0.6292921291184919,0.0025,H_D_A_K,1.0,0.6316089221778484,16
+ridge,True,extended_K,delta_0.005,H_D_B_M_P_A_K,0.6292921291184919,0.005,H_D_K,1.0,0.633478707878488,15
+ridge,True,extended_K,delta_0.01,H_D_B_M_P_A_K,0.6292921291184919,0.01,H_D_B,1.0,0.6379948075675399,5
+ridge,True,extended_K,delta_0.02,H_D_B_M_P_A_K,0.6292921291184919,0.02,H_D,1.0,0.6396754472363618,4
+ridge,True,original_noK,one_se,H_D_B_P_A,0.636039150799616,0.008408262073427918,H_D,1.0,0.6396754472363618,4
+ridge,True,original_noK,delta_0.0025,H_D_B_P_A,0.636039150799616,0.0025,H_D_B,1.0,0.6379948075675399,5
+ridge,True,original_noK,delta_0.005,H_D_B_P_A,0.636039150799616,0.005,H_D,1.0,0.6396754472363618,4
+ridge,True,original_noK,delta_0.01,H_D_B_P_A,0.636039150799616,0.01,H_D,1.0,0.6396754472363618,4
+ridge,True,original_noK,delta_0.02,H_D_B_P_A,0.636039150799616,0.02,H_B_A,0.1,0.6557119973590803,2
+ridge,False,extended_K,one_se,D_B_P_A_K,0.645554504910448,0.007776895551950317,D_A_K,1.0,0.6495521869548352,16
+ridge,False,extended_K,delta_0.0025,D_B_P_A_K,0.645554504910448,0.0025,D_B_A_K,1.0,0.6465315444142528,17
+ridge,False,extended_K,delta_0.005,D_B_P_A_K,0.645554504910448,0.005,D_A_K,1.0,0.6495521869548352,16
+ridge,False,extended_K,delta_0.01,D_B_P_A_K,0.645554504910448,0.01,D_B_A,1.0,0.6545563941969289,6
+ridge,False,extended_K,delta_0.02,D_B_P_A_K,0.645554504910448,0.02,D,1.0,0.6621656516928427,4
+ridge,False,original_noK,one_se,D_B_P_A,0.654363857240483,0.007429610107301454,D_B,1.0,0.6582120307239033,5
+ridge,False,original_noK,delta_0.0025,D_B_P_A,0.654363857240483,0.0025,D_B_A,1.0,0.6545563941969289,6
+ridge,False,original_noK,delta_0.005,D_B_P_A,0.654363857240483,0.005,D_B,1.0,0.6582120307239033,5
+ridge,False,original_noK,delta_0.01,D_B_P_A,0.654363857240483,0.01,D,1.0,0.6621656516928427,4
+ridge,False,original_noK,delta_0.02,D_B_P_A,0.654363857240483,0.02,B_A,0.1,0.6736656514353723,2
+hgb,True,extended_K,one_se,H_D_M_P_C_A_K,0.620817620210149,0.004612385252909294,H_D_M_P_A,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6241806893132597,17
+hgb,True,extended_K,delta_0.0025,H_D_M_P_C_A_K,0.620817620210149,0.0025,H_D_M_P_C_K,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6221157681523305,28
+hgb,True,extended_K,delta_0.005,H_D_M_P_C_A_K,0.620817620210149,0.005,H_D_M_P_A,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6241806893132597,17
+hgb,True,extended_K,delta_0.01,H_D_M_P_C_A_K,0.620817620210149,0.01,H_D_P,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6284341422186445,15
+hgb,True,extended_K,delta_0.02,H_D_M_P_C_A_K,0.620817620210149,0.02,H_D_M,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6378678578039242,5
+hgb,True,original_noK,one_se,H_D_M_P_A,0.6241806893132597,0.0034529906698215797,H_D_M_P,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6263444622412933,16
+hgb,True,original_noK,delta_0.0025,H_D_M_P_A,0.6241806893132597,0.0025,H_D_M_P,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6263444622412933,16
+hgb,True,original_noK,delta_0.005,H_D_M_P_A,0.6241806893132597,0.005,H_D_P,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6284341422186445,15
+hgb,True,original_noK,delta_0.01,H_D_M_P_A,0.6241806893132597,0.01,H_D_M_C_A,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6332706689577972,7
+hgb,True,original_noK,delta_0.02,H_D_M_P_A,0.6241806893132597,0.02,H_D,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6440872421067338,4
+hgb,False,extended_K,one_se,D_M_P_C_A_K,0.6317969039258379,0.0043833481682089654,D_M_P_A_K,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6344975802563864,28
+hgb,False,extended_K,delta_0.0025,D_M_P_C_A_K,0.6317969039258379,0.0025,D_M_P_C_A_K,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6317969039258379,29
+hgb,False,extended_K,delta_0.005,D_M_P_C_A_K,0.6317969039258379,0.005,D_M_P_A_K,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6344975802563864,28
+hgb,False,extended_K,delta_0.01,D_M_P_C_A_K,0.6317969039258379,0.01,D_M_P_A,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.640925623536283,17
+hgb,False,extended_K,delta_0.02,D_M_P_C_A_K,0.6317969039258379,0.02,D_M_C_A,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.650369538146649,7
+hgb,False,original_noK,one_se,D_M_P_C_A,0.6379512231708448,0.003915096035708597,D_M_P_A,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.640925623536283,17
+hgb,False,original_noK,delta_0.0025,D_M_P_C_A,0.6379512231708448,0.0025,D_M_P_C_A,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6379512231708448,18
+hgb,False,original_noK,delta_0.005,D_M_P_C_A,0.6379512231708448,0.005,D_M_P_A,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.640925623536283,17
+hgb,False,original_noK,delta_0.01,D_M_P_C_A,0.6379512231708448,0.01,D_P,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6465103724542357,15
+hgb,False,original_noK,delta_0.02,D_M_P_C_A,0.6379512231708448,0.02,D_C,"{'max_leaf_nodes': 7, 'learning_rate': 0.05}",0.6579254494910797,5

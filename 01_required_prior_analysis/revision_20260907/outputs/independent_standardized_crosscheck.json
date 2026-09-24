@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "policy_rows_verified": 248,
+  "policy_families_verified": 8,
+  "attribution_effects_verified": 56,
+  "maximum_numeric_error": 1.1657341758564144e-12,
+  "attribution_standardized_critical_value": 3.2266291057245713,
+  "policy_superiority_changed_rows": 0,
+  "attribution_sign_changed_rows": 18
+}

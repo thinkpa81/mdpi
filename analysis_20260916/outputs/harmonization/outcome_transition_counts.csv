@@ -1,0 +1,9 @@
+﻿sample,prior_any_use,outcome_any_use,n
+development,0.0,0.0,344
+development,0.0,1.0,255
+development,1.0,0.0,341
+development,1.0,1.0,625
+evaluation,0.0,0.0,299
+evaluation,0.0,1.0,200
+evaluation,1.0,0.0,368
+evaluation,1.0,1.0,653

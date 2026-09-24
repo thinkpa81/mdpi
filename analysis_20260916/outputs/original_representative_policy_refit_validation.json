@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "operation": "Refit only frozen representative policies on development data and evaluate fixed predictions. No hyperparameter tuning or policy reselection.",
+  "policies": 20,
+  "unique_prediction_models": 20,
+  "metric_rows": 40,
+  "development_n": 1565,
+  "development_events": 880,
+  "evaluation_n": 1520,
+  "evaluation_events": 853,
+  "disjoint_n": 879,
+  "disjoint_events": 471,
+  "max_absolute_differences_from_stored": {
+    "log_loss": 0.0,
+    "roc_auc": 0.0,
+    "average_precision": 0.0,
+    "brier": 8.326672684688674e-17,
+    "calibration_intercept": 8.326672684688674e-17,
+    "calibration_slope": 1.1102230246251565e-16
+  },
+  "comparison_tolerance": 1e-08,
+  "development_file_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+  "evaluation_file_sha256": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+  "original_development_file_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+  "frozen_policy_sha256": "73cc56f6ce78fd154571657a7b5c9b0a57befa909b02e75bacf5998b487560b5",
+  "original_core_code_sha256": "9bd384b6ee19e0805e8bfc5d94d935d07db5d115f7e6082cf70d048622b8b1d5",
+  "original_environment": {
+    "source": "01_required_prior_analysis/analysis_outputs/evaluation_summary.json",
+    "python": "3.12.13",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0"
+  },
+  "rerun_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0"
+  },
+  "environment_differences": {
+    "python": {
+      "original": "3.12.13",
+      "rerun": "3.12.14"
+    }
+  },
+  "threads": 1,
+  "parallel_jobs": 1,
+  "elapsed_seconds": 0.9772584438323975,
+  "scope_limit": "This validates 20 original representative policies and their auxiliary metrics; it does not rerun nested selection or all 124 policies."
+}

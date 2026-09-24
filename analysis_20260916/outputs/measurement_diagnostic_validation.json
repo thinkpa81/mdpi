@@ -1,0 +1,17 @@
+{
+  "development_n": 1565,
+  "evaluation_n": 1520,
+  "evaluation_disjoint_n": 879,
+  "overlap_n": 641,
+  "identifier_uniqueness": true,
+  "overlap_flag_matches_id_intersection": true,
+  "consumer_frequency_matches_raw_2024_and_2025": true,
+  "overlap_2024_development_outcome_equals_evaluation_history": true,
+  "frequency_value_labels_identical_2023_2024_2025": true,
+  "all_thresholds_match_harmonized_binary_outcomes": true,
+  "missing_selected_frequencies": 0,
+  "rates_weighted": false,
+  "pandas_version": "2.2.3",
+  "participant_rows_exported": false,
+  "analysis_status": "post_hoc_descriptive_measurement_diagnostic"
+}

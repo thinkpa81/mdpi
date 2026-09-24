@@ -1,0 +1,36 @@
+{
+  "target": "regular",
+  "target_column": "outcome_regular_use",
+  "positive_codes": [
+    1,
+    2
+  ],
+  "development_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+  "protocol_sha256": "3401287a14342136bf4feadd9d1161b2132b6e78a110119c155cd1dbd56e37ce",
+  "code_sha256": "6588d96812a26bb893df3c70c5306276b781ced41a0924d2ead44e6168e6007f",
+  "source_model_sha256": "9bd384b6ee19e0805e8bfc5d94d935d07db5d115f7e6082cf70d048622b8b1d5",
+  "source_policy_sha256": "e5c0fa2bb9616159c5c40eb681fd9ddad527e7c93dd9155c9a58f9da14de055a",
+  "seed": 20260907,
+  "ridge_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "hgb_grid": [
+    {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    }
+  ],
+  "start_utc": "2026-09-16T06:07:18.419137+00:00",
+  "status": "post hoc sensitivity; evaluation previously inspected; this selection phase receives development only",
+  "development_n": 1565,
+  "development_events": 298,
+  "jobs": 6
+}

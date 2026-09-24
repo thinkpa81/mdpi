@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "nested_assignment_rows_verified": 3130,
+  "nested_id_original_string_preserved": true,
+  "outer_splits_reconstructed": 10,
+  "nested_argmin_selections_verified": 1240,
+  "nested_repeat_metric_rows_verified": 248,
+  "nested_summary_rows_verified": 124,
+  "nested_fold_metric_rows_verified": 1240,
+  "nested_max_numeric_error": 1.1102230246251565e-16,
+  "selection_frequency_rows_verified": 489
+}

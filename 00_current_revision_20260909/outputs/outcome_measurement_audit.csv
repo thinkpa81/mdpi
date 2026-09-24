@@ -1,0 +1,4 @@
+﻿year,official_wave,Q1_prompt,outcome_variable,outcome_row_label,positive_codes,negative_codes,detailed_consumer_service_explanation_present,questionnaire_text_sha256,version_or_interview_date_fields_detected,unchanged_version_subgroup_identifiable
+2023,2,Q1. 귀하는 최근 1년간 아래의 지능형(인공지능) 서비스를 얼마나 이용하고 계십니까?,q1_8,"8) 소비(쇼핑 어드바이저, 온라인 쇼핑 등)","1,2,3,4","5,9",False,d2aeebab793274d6426253d6a78428936f260f0f3487830b297de08f4d141f3b,,False
+2024,3,Q1. 귀하는 최근 1년간 아래의 지능형(인공지능) 서비스를 얼마나 이용하고 계십니까?,Q1_8,"8) 소비(쇼핑 어드바이저, 온라인 쇼핑 등)","1,2,3,4","5,9",False,7f4fce60bb970c3ba56b8fff7e61438917dacc0a4dd974d8a09adf040dfde806,,False
+2025,4,Q1. 귀하는 최근 1년간 아래의 지능형(인공지능) 서비스를 얼마나 자주 이용하고 계십니까?,q1_8,"8) 소비(쇼핑 어드바이저, 온라인 쇼핑 등)","1,2,3,4","5,9",True,20392e8bdd1eae9a4269a82bc448c1a48827154407f19a5226f3723af49d3a5d,,False

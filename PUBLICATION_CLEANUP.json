@@ -1,0 +1,660 @@
+{
+  "release_date": "2026-09-24",
+  "source_file_count": 278,
+  "archived_file_count": 41,
+  "categories": {
+    "exact_duplicate_table_cache": 37,
+    "internal_maintenance_reports": 2,
+    "superseded_release_inventory": 2
+  },
+  "scope": "Publication cleanup only; no model selection, training, statistical estimates, or historical receipts changed.",
+  "archived_files": [
+    {
+      "path": "00_current_revision_20260909/tables/attribution_key.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "48558d28c33a557c24d61a1cfe0d6caaf3a3d6e30e24139baa34d56a0cca1aae",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/attribution_key.json",
+      "canonical_sha256": "48558d28c33a557c24d61a1cfe0d6caaf3a3d6e30e24139baa34d56a0cca1aae",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/attribution_key.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/budget_available.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "18b98e8ea21d080e9d6104037c6386312c2ba7fd38b11ecf263fcce4423e37dd",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/budget_available.json",
+      "canonical_sha256": "18b98e8ea21d080e9d6104037c6386312c2ba7fd38b11ecf263fcce4423e37dd",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/budget_available.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/budget_unavailable.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "3981a0574f86988bfa977f9eb233042592c6b857b87d31388f51acadee424e81",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/budget_unavailable.json",
+      "canonical_sha256": "3981a0574f86988bfa977f9eb233042592c6b857b87d31388f51acadee424e81",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/budget_unavailable.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/decision_implications.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "7abc6b088d5912eb2f785dee98cb8e6537a2614bc4522f917716004e015ff679",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/decision_implications.json",
+      "canonical_sha256": "7abc6b088d5912eb2f785dee98cb8e6537a2614bc4522f917716004e015ff679",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/decision_implications.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/design.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "f64cfa3be646de8a3dd192d784518f2c10d1bfd4d8f59d2b33a8b123acf9d6a0",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/design.json",
+      "canonical_sha256": "f64cfa3be646de8a3dd192d784518f2c10d1bfd4d8f59d2b33a8b123acf9d6a0",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/design.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/inference_families.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "ea2d7004fbf8d8f07e5fcadd8555fb5c03a7ef49c25352196b6d5ab19f94098a",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/inference_families.json",
+      "canonical_sha256": "ea2d7004fbf8d8f07e5fcadd8555fb5c03a7ef49c25352196b6d5ab19f94098a",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/inference_families.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/main_blocks.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "bbd6ab4d97163862205fbbf8e0bd0b3c99a080262913e0eb1952a2bd821c199a",
+      "canonical_path": "01_required_prior_analysis/tables/main_blocks.json",
+      "canonical_sha256": "bbd6ab4d97163862205fbbf8e0bd0b3c99a080262913e0eb1952a2bd821c199a",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/main_blocks.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/main_sample.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "85b2e39b4a5e4691fc9b030c67a07b00256b2b1a4002f4820f1ae81991169f5a",
+      "canonical_path": "01_required_prior_analysis/tables/main_sample.json",
+      "canonical_sha256": "85b2e39b4a5e4691fc9b030c67a07b00256b2b1a4002f4820f1ae81991169f5a",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/main_sample.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/main_selected_inference.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "336fb388fe84823848eb73938cb8ed6c9dd132e1b9043c0904fb27b958a46007",
+      "canonical_path": "01_required_prior_analysis/tables/main_selected_inference.json",
+      "canonical_sha256": "336fb388fe84823848eb73938cb8ed6c9dd132e1b9043c0904fb27b958a46007",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/main_selected_inference.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/main_sensitivity.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "f2f804d2f6de8e7bc099ab29fefeaf3460281009c29d5c209b9214a74470b345",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/main_sensitivity.json",
+      "canonical_sha256": "f2f804d2f6de8e7bc099ab29fefeaf3460281009c29d5c209b9214a74470b345",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/main_sensitivity.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/main_shortlist.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "92110cd2d5abe0b1289cf0bacda77d99f5cb604087e0a943476b3ee5961b5e78",
+      "canonical_path": "01_required_prior_analysis/tables/main_shortlist.json",
+      "canonical_sha256": "92110cd2d5abe0b1289cf0bacda77d99f5cb604087e0a943476b3ee5961b5e78",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/main_shortlist.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/policy_bounds.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "8482baed0c828fe1409720a6e08fdcc6a776edbc67c338743b91da72d4572d52",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/policy_bounds.json",
+      "canonical_sha256": "8482baed0c828fe1409720a6e08fdcc6a776edbc67c338743b91da72d4572d52",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/policy_bounds.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/selection_stability.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "221a52aa9bdafa11e52d44deeb6b32323d9a54e722b17899e62f5c2648ee4ecc",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/selection_stability.json",
+      "canonical_sha256": "221a52aa9bdafa11e52d44deeb6b32323d9a54e722b17899e62f5c2648ee4ecc",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/selection_stability.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/standardized_K.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "41b7a059abebfa97db2e9cf6f65bc36b4f01bf7962f3690f9c7564ef17e28584",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/standardized_K.json",
+      "canonical_sha256": "41b7a059abebfa97db2e9cf6f65bc36b4f01bf7962f3690f9c7564ef17e28584",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/standardized_K.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/standardized_policy.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "d36f14a7107131358f64b87a3a348d7aac38c1a6fb83bb20fa82109e855ac4da",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/standardized_policy.json",
+      "canonical_sha256": "d36f14a7107131358f64b87a3a348d7aac38c1a6fb83bb20fa82109e855ac4da",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/standardized_policy.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/supp_K_contrasts.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "ee119a77d163ef58341e6d3d669cbf0e777412b7a0b9a667cd0c149641b50397",
+      "canonical_path": "01_required_prior_analysis/tables/supp_K_contrasts.json",
+      "canonical_sha256": "ee119a77d163ef58341e6d3d669cbf0e777412b7a0b9a667cd0c149641b50397",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/supp_K_contrasts.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/supp_attribution_person_disjoint.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "f448d7814d49f386827fe5a79090c8e782bc5e936eb424c1dc716846fb84c0fb",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/supp_attribution_person_disjoint.json",
+      "canonical_sha256": "f448d7814d49f386827fe5a79090c8e782bc5e936eb424c1dc716846fb84c0fb",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/supp_attribution_person_disjoint.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/supp_attribution_whole.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "aa2e87b2ca8c90d9b9ec17b81b974a0919b75481f1d5b9eeb748ad2bfdd63da1",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/supp_attribution_whole.json",
+      "canonical_sha256": "aa2e87b2ca8c90d9b9ec17b81b974a0919b75481f1d5b9eeb748ad2bfdd63da1",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/supp_attribution_whole.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/supp_budget_hgb_0.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "7b6432d88eafd9a296f625315eb66c5a73590cf446c6f9540cfb0662111ff181",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/supp_budget_hgb_0.json",
+      "canonical_sha256": "7b6432d88eafd9a296f625315eb66c5a73590cf446c6f9540cfb0662111ff181",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/supp_budget_hgb_0.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/supp_budget_hgb_1.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "eaa96e4b63e8a0bd050fef2d42a4f8747e6647a551ea91cef66073c66c4ec820",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/supp_budget_hgb_1.json",
+      "canonical_sha256": "eaa96e4b63e8a0bd050fef2d42a4f8747e6647a551ea91cef66073c66c4ec820",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/supp_budget_hgb_1.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/supp_budget_ridge_0.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "c0151e2d54eec201afe042ed97d2496deed74f14db9ce9be0ea0316d4f2d803a",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/supp_budget_ridge_0.json",
+      "canonical_sha256": "c0151e2d54eec201afe042ed97d2496deed74f14db9ce9be0ea0316d4f2d803a",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/supp_budget_ridge_0.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/supp_budget_ridge_1.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "e37ba0b5ce70e361b5c74985374e11ade87e970f07938092df25a1d5a119db3d",
+      "canonical_path": "01_required_prior_analysis/revision_20260907/tables/supp_budget_ridge_1.json",
+      "canonical_sha256": "e37ba0b5ce70e361b5c74985374e11ade87e970f07938092df25a1d5a119db3d",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": false,
+        "reader_if_required": null,
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/supp_budget_ridge_1.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/supp_digital.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "3da973c0f11cd6a427dc7ad89de3835bb343e17f81d4d0ed0777bb6e65412a50",
+      "canonical_path": "01_required_prior_analysis/tables/supp_digital.json",
+      "canonical_sha256": "3da973c0f11cd6a427dc7ad89de3835bb343e17f81d4d0ed0777bb6e65412a50",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/supp_digital.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/supp_disjoint_candidates.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "eb64234275ee914cd96a2e6fe839146734f4e124a6ba8d63489fd176537f11bc",
+      "canonical_path": "01_required_prior_analysis/tables/supp_disjoint_candidates.json",
+      "canonical_sha256": "eb64234275ee914cd96a2e6fe839146734f4e124a6ba8d63489fd176537f11bc",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/supp_disjoint_candidates.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/supp_mapping.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "d3bfa941246c1c7fd23f6c071ac6ae9faa88342f94382812e7e1a2becbdd5d9d",
+      "canonical_path": "01_required_prior_analysis/tables/supp_mapping.json",
+      "canonical_sha256": "d3bfa941246c1c7fd23f6c071ac6ae9faa88342f94382812e7e1a2becbdd5d9d",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/supp_mapping.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/supp_quality.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "e48df44e4ab6793138054a1dfdaf2903202fbbc4db75e7d30925eadf30e1576e",
+      "canonical_path": "01_required_prior_analysis/tables/supp_quality.json",
+      "canonical_sha256": "e48df44e4ab6793138054a1dfdaf2903202fbbc4db75e7d30925eadf30e1576e",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/supp_quality.json"
+    },
+    {
+      "path": "00_current_revision_20260909/tables/supp_weighted.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "42f4752cdc5998b9e39c6defa4bf2a5c15bce64909d3b2e5c4bf9632387695ab",
+      "canonical_path": "01_required_prior_analysis/tables/supp_weighted.json",
+      "canonical_sha256": "42f4752cdc5998b9e39c6defa4bf2a5c15bce64909d3b2e5c4bf9632387695ab",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/00_current_revision_20260909/tables/supp_weighted.json"
+    },
+    {
+      "path": "01_required_prior_analysis/revision_20260907/tables/main_blocks.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "bbd6ab4d97163862205fbbf8e0bd0b3c99a080262913e0eb1952a2bd821c199a",
+      "canonical_path": "01_required_prior_analysis/tables/main_blocks.json",
+      "canonical_sha256": "bbd6ab4d97163862205fbbf8e0bd0b3c99a080262913e0eb1952a2bd821c199a",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/01_required_prior_analysis/revision_20260907/tables/main_blocks.json"
+    },
+    {
+      "path": "01_required_prior_analysis/revision_20260907/tables/main_sample.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "85b2e39b4a5e4691fc9b030c67a07b00256b2b1a4002f4820f1ae81991169f5a",
+      "canonical_path": "01_required_prior_analysis/tables/main_sample.json",
+      "canonical_sha256": "85b2e39b4a5e4691fc9b030c67a07b00256b2b1a4002f4820f1ae81991169f5a",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/01_required_prior_analysis/revision_20260907/tables/main_sample.json"
+    },
+    {
+      "path": "01_required_prior_analysis/revision_20260907/tables/main_selected_inference.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "336fb388fe84823848eb73938cb8ed6c9dd132e1b9043c0904fb27b958a46007",
+      "canonical_path": "01_required_prior_analysis/tables/main_selected_inference.json",
+      "canonical_sha256": "336fb388fe84823848eb73938cb8ed6c9dd132e1b9043c0904fb27b958a46007",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/01_required_prior_analysis/revision_20260907/tables/main_selected_inference.json"
+    },
+    {
+      "path": "01_required_prior_analysis/revision_20260907/tables/main_shortlist.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "92110cd2d5abe0b1289cf0bacda77d99f5cb604087e0a943476b3ee5961b5e78",
+      "canonical_path": "01_required_prior_analysis/tables/main_shortlist.json",
+      "canonical_sha256": "92110cd2d5abe0b1289cf0bacda77d99f5cb604087e0a943476b3ee5961b5e78",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/01_required_prior_analysis/revision_20260907/tables/main_shortlist.json"
+    },
+    {
+      "path": "01_required_prior_analysis/revision_20260907/tables/supp_K_contrasts.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "ee119a77d163ef58341e6d3d669cbf0e777412b7a0b9a667cd0c149641b50397",
+      "canonical_path": "01_required_prior_analysis/tables/supp_K_contrasts.json",
+      "canonical_sha256": "ee119a77d163ef58341e6d3d669cbf0e777412b7a0b9a667cd0c149641b50397",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/01_required_prior_analysis/revision_20260907/tables/supp_K_contrasts.json"
+    },
+    {
+      "path": "01_required_prior_analysis/revision_20260907/tables/supp_digital.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "3da973c0f11cd6a427dc7ad89de3835bb343e17f81d4d0ed0777bb6e65412a50",
+      "canonical_path": "01_required_prior_analysis/tables/supp_digital.json",
+      "canonical_sha256": "3da973c0f11cd6a427dc7ad89de3835bb343e17f81d4d0ed0777bb6e65412a50",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/01_required_prior_analysis/revision_20260907/tables/supp_digital.json"
+    },
+    {
+      "path": "01_required_prior_analysis/revision_20260907/tables/supp_disjoint_candidates.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "eb64234275ee914cd96a2e6fe839146734f4e124a6ba8d63489fd176537f11bc",
+      "canonical_path": "01_required_prior_analysis/tables/supp_disjoint_candidates.json",
+      "canonical_sha256": "eb64234275ee914cd96a2e6fe839146734f4e124a6ba8d63489fd176537f11bc",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/01_required_prior_analysis/revision_20260907/tables/supp_disjoint_candidates.json"
+    },
+    {
+      "path": "01_required_prior_analysis/revision_20260907/tables/supp_mapping.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "d3bfa941246c1c7fd23f6c071ac6ae9faa88342f94382812e7e1a2becbdd5d9d",
+      "canonical_path": "01_required_prior_analysis/tables/supp_mapping.json",
+      "canonical_sha256": "d3bfa941246c1c7fd23f6c071ac6ae9faa88342f94382812e7e1a2becbdd5d9d",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/01_required_prior_analysis/revision_20260907/tables/supp_mapping.json"
+    },
+    {
+      "path": "01_required_prior_analysis/revision_20260907/tables/supp_quality.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "e48df44e4ab6793138054a1dfdaf2903202fbbc4db75e7d30925eadf30e1576e",
+      "canonical_path": "01_required_prior_analysis/tables/supp_quality.json",
+      "canonical_sha256": "e48df44e4ab6793138054a1dfdaf2903202fbbc4db75e7d30925eadf30e1576e",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/01_required_prior_analysis/revision_20260907/tables/supp_quality.json"
+    },
+    {
+      "path": "01_required_prior_analysis/revision_20260907/tables/supp_weighted.json",
+      "category": "exact_duplicate_table_cache",
+      "sha256": "42f4752cdc5998b9e39c6defa4bf2a5c15bce64909d3b2e5c4bf9632387695ab",
+      "canonical_path": "01_required_prior_analysis/tables/supp_weighted.json",
+      "canonical_sha256": "42f4752cdc5998b9e39c6defa4bf2a5c15bce64909d3b2e5c4bf9632387695ab",
+      "reason_ko": "동일 바이트 집계표 사본. 보존 원본과 SHA-256이 같으며 배포 통계 코드가 이 사본을 입력으로 읽지 않음.",
+      "dependency_evidence": {
+        "canonical_input_required": true,
+        "reader_if_required": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py:41-72",
+        "duplicate_input_readers": [],
+        "scope": "All 26 Python modules inspected for file reads and path construction; revision tables are outputs, current tables are not inputs."
+      },
+      "archive_path": "removed/01_required_prior_analysis/revision_20260907/tables/supp_weighted.json"
+    },
+    {
+      "path": "CODE_REVIEW_20260923.json",
+      "category": "internal_code_maintenance_report",
+      "sha256": "457a218f4d204531b402117b2967fe41295bba9010a49074b979ea23f4efe126",
+      "canonical_path": null,
+      "reason_ko": "2026-09-23 내부 정비·납품 보고서. 현행 공개 실행의 입력이 아니며 정비 전후 코드 해시 계보는 ADAPTATION_LOG.json에 유지. 수치 검증 이력 원본은 removed에 보존.",
+      "dependency_evidence": {
+        "python_input_readers": [],
+        "documentation_update_required": [
+          "README_분석재현안내.md"
+        ]
+      },
+      "archive_path": "removed/CODE_REVIEW_20260923.json"
+    },
+    {
+      "path": "CODE_REVIEW_20260923.md",
+      "category": "internal_code_maintenance_report",
+      "sha256": "132ceee715c881cac051f6eb94a4ed1e71771c2c64800070ad5e8f59058dac28",
+      "canonical_path": null,
+      "reason_ko": "2026-09-23 내부 정비·납품 보고서. 현행 공개 실행의 입력이 아니며 정비 전후 코드 해시 계보는 ADAPTATION_LOG.json에 유지. 수치 검증 이력 원본은 removed에 보존.",
+      "dependency_evidence": {
+        "python_input_readers": [],
+        "documentation_update_required": [
+          "README_분석재현안내.md"
+        ]
+      },
+      "archive_path": "removed/CODE_REVIEW_20260923.md"
+    },
+    {
+      "path": "MANIFEST_SHA256.json",
+      "reason_ko": "구성 변경 전 배포파일 목록·해시는 removed에 원본 그대로 보관하고 현행 목록으로 새 파일 생성. 역사적 실행/동결 해시를 이 새 목록에 맞춰 변경하지 않음.",
+      "category": "superseded_release_inventory",
+      "sha256": "456f12fd4fefc651848c78bda6e5e26425a76ee109e4c9813bec310e85521bd6",
+      "archive_path": "removed/MANIFEST_SHA256.json"
+    },
+    {
+      "path": "PACKAGE_INVENTORY.json",
+      "reason_ko": "기존 목록은 삭제 사본과 코드리뷰 경로를 포함하므로 removed에 원본 보관 후 공개파일 기준 목록 새 생성.",
+      "category": "superseded_release_inventory",
+      "sha256": "d5a17dfb821a411a447c9c63cab9463620292c19d118e8bd47c59c6d3a244e1f",
+      "archive_path": "removed/PACKAGE_INVENTORY.json"
+    }
+  ],
+  "retained_duplicate_copies": [
+    {
+      "path": "ADAPTATION_LOG.json",
+      "reason_ko": "정비 이전 원본과 공개 코드의 해시를 연결하는 실질적 계보. 현재 코드와 역사적 동결 해시가 다른 이유를 추적할 수 있으므로 보존."
+    },
+    {
+      "path": "PORTABILITY_VALIDATION.json",
+      "reason_ko": "대표정책 40행의 원자료 재적합 오차·환경·수행 범위를 기록하여 S28–S29 검증을 지지하므로 보존."
+    },
+    {
+      "path": "analysis_20260916/outputs/harmonization/scale_quality.json",
+      "reason_ko": "동일 바이트이나 별도의 20260916 원자료 재구축 단계 산출물. 단계별 data_manifest와 재현 순서 묶음을 보존."
+    },
+    {
+      "path": "analysis_20260916/outputs/harmonization/feature_groups.json",
+      "reason_ko": "동일 바이트이나 별도의 20260916 원자료 재구축 단계 산출물. 단계별 재현 묶음 보존."
+    },
+    {
+      "path": "analysis_20260916/outputs/harmonization/outcome_transition_counts.csv",
+      "reason_ko": "동일 바이트이나 별도의 20260916 원자료 재구축 단계 집계. 분석 자료 재구성 검증 계보 유지."
+    }
+  ],
+  "code_dependency_findings": [
+    {
+      "source": "01_required_prior_analysis/revision_20260907/code/prepare_revision_tables.py",
+      "input_root": "01_required_prior_analysis/tables",
+      "required_names": [
+        "main_blocks",
+        "main_sample",
+        "supp_mapping",
+        "supp_digital",
+        "supp_quality",
+        "main_selected_inference",
+        "supp_K_contrasts",
+        "main_shortlist",
+        "supp_disjoint_candidates",
+        "main_sensitivity",
+        "supp_weighted"
+      ],
+      "evidence": "Lines 41–72 explicitly read BASE/tables then write R/tables. All required BASE copies preserved, including non-identical main_sensitivity."
+    },
+    {
+      "source": "01_required_prior_analysis/code/prepare_document_tables.py",
+      "finding": "Reads aggregate CSVs and audit/scale_quality.json; writes base tables. Does not read any recommended removed table."
+    },
+    {
+      "source": "00_current_revision_20260909/code/run_precision_analysis.py; run_ridge_sensitivity.py",
+      "finding": "Reads CSVs/receipts under prior revision outputs and private inputs. Neither script reads current tables."
+    }
+  ]
+}

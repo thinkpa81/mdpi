@@ -1,0 +1,7 @@
+algorithm,has_history,candidate_extended,reference_original,delta_log_loss,paired95_low,paired95_high,joint_upper95_basic,contrasts_in_family,status
+ridge,True,ridge::H_D_B_M_P_C_A_K,ridge::H_D_B_M_P_C_A,-0.014901662869344141,-0.021188124234954444,-0.008457673325271104,-0.006860514628688268,6,post-hoc matched-learner scope sensitivity; tuned settings may differ
+ridge,False,ridge::D_B_M_P_C_A_K,ridge::D_B_M_P_C_A,-0.013717317898529527,-0.020458889383639125,-0.006737384812718925,-0.005676169657873653,6,post-hoc matched-learner scope sensitivity; tuned settings may differ
+ridge_fixed,True,ridge_fixed::H_D_B_M_P_C_A_K,ridge_fixed::H_D_B_M_P_C_A,-0.013767182652209286,-0.020018229655025276,-0.007403177869681816,-0.0057260344115534125,6,post-hoc matched-learner scope sensitivity; tuned settings may differ
+ridge_fixed,False,ridge_fixed::D_B_M_P_C_A_K,ridge_fixed::D_B_M_P_C_A,-0.013121045956546616,-0.019680866516570295,-0.006406454673613378,-0.005079897715890742,6,post-hoc matched-learner scope sensitivity; tuned settings may differ
+hgb,True,hgb::H_D_B_M_P_C_A_K,hgb::H_D_B_M_P_C_A,-0.020109563962252705,-0.02771177463400097,-0.012273994410329342,-0.012068415721596832,6,post-hoc matched-learner scope sensitivity; tuned settings may differ
+hgb,False,hgb::D_B_M_P_C_A_K,hgb::D_B_M_P_C_A,-0.0167093646910899,-0.025402114563067926,-0.007773206409736375,-0.008668216450434028,6,post-hoc matched-learner scope sensitivity; tuned settings may differ

@@ -1,0 +1,17 @@
+n,unique_policy_models,family_unique_contrasts,joint_critical_value,bootstrap_reps,bootstrap_seed,baseline_model,full_model,scope,target,algorithm,availability,domain
+1520,10,20,0.017569987635634766,2000,20260909,P0,ridge::H_D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,monthly,ridge,history_available,whole
+1520,10,19,0.018794734309650656,2000,20260909,ridge::NONE,ridge::D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,monthly,ridge,history_unavailable,whole
+1520,15,29,0.017467825682193797,2000,20260909,P0,hgb::H_D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,monthly,hgb,history_available,whole
+1520,12,23,0.018878012159260625,2000,20260909,hgb::NONE,hgb::D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,monthly,hgb,history_unavailable,whole
+879,10,20,0.023084879858191822,2000,20260909,P0,ridge::H_D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,monthly,ridge,history_available,disjoint
+879,10,19,0.024815826975098775,2000,20260909,ridge::NONE,ridge::D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,monthly,ridge,history_unavailable,disjoint
+879,15,29,0.02334929877282166,2000,20260909,P0,hgb::H_D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,monthly,hgb,history_available,disjoint
+879,12,23,0.025410669369209615,2000,20260909,hgb::NONE,hgb::D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,monthly,hgb,history_unavailable,disjoint
+1520,10,20,0.01915132117092789,2000,20260909,P0,ridge::H_D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,regular,ridge,history_available,whole
+1520,11,21,0.019766345186607907,2000,20260909,ridge::NONE,ridge::D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,regular,ridge,history_unavailable,whole
+1520,11,22,0.017510667147016608,2000,20260909,P0,hgb::H_D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,regular,hgb,history_available,whole
+1520,12,23,0.018368689504588274,2000,20260909,hgb::NONE,hgb::D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,regular,hgb,history_unavailable,whole
+879,10,20,0.02586534996186612,2000,20260909,P0,ridge::H_D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,regular,ridge,history_available,disjoint
+879,11,21,0.026599729992126713,2000,20260909,ridge::NONE,ridge::D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,regular,ridge,history_unavailable,disjoint
+879,11,22,0.024504386688742618,2000,20260909,P0,hgb::H_D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,regular,hgb,history_available,disjoint
+879,12,23,0.02534507197966607,2000,20260909,hgb::NONE,hgb::D_B_M_P_C_A_K,separate target/algorithm/history/domain fixed-prediction family,regular,hgb,history_unavailable,disjoint

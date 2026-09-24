@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "chronology development 2023 to 2024; evaluation 2024 to 2025",
+      "status": "PASS"
+    },
+    {
+      "check": "participant uniqueness within each transition",
+      "status": "PASS"
+    },
+    {
+      "check": "sample counts and target events",
+      "status": "PASS"
+    },
+    {
+      "check": "shared/disjoint participants",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable development file matches freeze",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen configuration hash matches receipt",
+      "status": "PASS"
+    },
+    {
+      "check": "evaluation file hash matches receipt",
+      "status": "PASS"
+    },
+    {
+      "check": "freeze receipt precedes evaluation phase read",
+      "status": "PASS"
+    },
+    {
+      "check": "256 unique block combinations including intercept only",
+      "status": "PASS"
+    },
+    {
+      "check": "history regimes each contain 128 combinations",
+      "status": "PASS"
+    },
+    {
+      "check": "no outcome or identifying field enters model predictors",
+      "status": "PASS"
+    },
+    {
+      "check": "each development participant occurs in one OOF validation fold",
+      "status": "PASS"
+    },
+    {
+      "check": "770 complete probability vectors including benchmarks",
+      "status": "PASS"
+    },
+    {
+      "check": "all reported log losses match participant predictions",
+      "status": "PASS"
+    },
+    {
+      "check": "eight one-SE choices use frozen selections",
+      "status": "PASS"
+    },
+    {
+      "check": "selected contrasts equal raw log-loss subtraction",
+      "status": "PASS"
+    },
+    {
+      "check": "all intended exhaustive contrast families complete",
+      "status": "PASS"
+    },
+    {
+      "check": "primary four and secondary four contrast families separate",
+      "status": "PASS"
+    },
+    {
+      "check": "500 paired union-participant refit replicates",
+      "status": "PASS"
+    },
+    {
+      "check": "all four expanded frozen choices have refit inference",
+      "status": "PASS"
+    },
+    {
+      "check": "all shortlist rows jointly satisfy both criteria",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed ridge is not counted as an independent learner",
+      "status": "PASS"
+    },
+    {
+      "check": "weighted analysis explicitly uses 1369 eligible evaluations",
+      "status": "PASS"
+    },
+    {
+      "check": "itemized full sensitivity has eight models",
+      "status": "PASS"
+    }
+  ],
+  "limits": "Consistency gates do not turn a reused retrospective evaluation wave into prospective confirmation."
+}

@@ -1,0 +1,35 @@
+{
+  "tables": {
+    "main_auxiliary": 20,
+    "main_precision": 4,
+    "supp_precision_disjoint": 4,
+    "supp_precision_comparison": 8
+  },
+  "images": {
+    "figure_budget_validation": {
+      "pixels": [
+        3120,
+        2163
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "grayscale_safe": true,
+      "legend_distinguishes_markers_and_line_styles": true
+    },
+    "figure_block_attribution": {
+      "pixels": [
+        3120,
+        2099
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "grayscale_safe": true,
+      "legend_distinguishes_markers_and_line_styles": true
+    }
+  },
+  "source_results_unchanged": true
+}

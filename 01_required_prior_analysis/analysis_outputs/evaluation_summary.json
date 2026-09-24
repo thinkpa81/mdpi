@@ -1,0 +1,25 @@
+{
+  "development_n": 1565,
+  "evaluation_n": 1520,
+  "overlap_n": 641,
+  "disjoint_n": 879,
+  "overlap_fraction": 0.4217105263157895,
+  "candidate_subsets": 256,
+  "learners": [
+    "ridge tuned",
+    "ridge fixed C=.1",
+    "HGB tuned"
+  ],
+  "all_models_with_benchmarks": 770,
+  "bootstrap_reps": 2000,
+  "inference_scope": "Each algorithm x history regime x full-domain has separate simultaneous family (127 or 63 comparisons). No cross-family multiplicity guarantee.",
+  "fixed_prediction_bootstrap_scope": "Evaluation sampling conditional on fitted models and development selection; union-participant refit bootstrap supplied separately.",
+  "elapsed_seconds": 20.114851474761963,
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  }
+}

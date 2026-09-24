@@ -1,0 +1,9 @@
+algorithm,history_available,domain,n,candidates,directed_pair_contrasts,policy_unique_nonzero_contrasts,pairwise_critical_value,policy_critical_value,bootstrap_reps,coverage
+ridge,False,whole,1520,128,16256,21,0.027365410902121298,0.023125055144324436,2000,approximate 95% separately per algorithm/availability/domain and inference purpose; fixed fitted predictions
+ridge,False,disjoint,879,128,16256,21,0.037232158173234046,0.03103450671618057,2000,approximate 95% separately per algorithm/availability/domain and inference purpose; fixed fitted predictions
+ridge,True,whole,1520,257,65792,25,0.031402007156156424,0.022292148162224155,2000,approximate 95% separately per algorithm/availability/domain and inference purpose; fixed fitted predictions
+ridge,True,disjoint,879,257,65792,25,0.04349126050363708,0.029735024026618255,2000,approximate 95% separately per algorithm/availability/domain and inference purpose; fixed fitted predictions
+hgb,False,whole,1520,128,16256,31,0.032332174627053054,0.02297049839611392,2000,approximate 95% separately per algorithm/availability/domain and inference purpose; fixed fitted predictions
+hgb,False,disjoint,879,128,16256,31,0.04558519418390569,0.03073256444047339,2000,approximate 95% separately per algorithm/availability/domain and inference purpose; fixed fitted predictions
+hgb,True,whole,1520,257,65792,28,0.0393580429300918,0.02063294136640798,2000,approximate 95% separately per algorithm/availability/domain and inference purpose; fixed fitted predictions
+hgb,True,disjoint,879,257,65792,28,0.05572532091691928,0.028367832931910263,2000,approximate 95% separately per algorithm/availability/domain and inference purpose; fixed fitted predictions

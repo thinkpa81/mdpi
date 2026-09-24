@@ -1,0 +1,231 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-07T15:27:25.674556+00:00",
+  "status_of_evaluation": "previously examined 2025 outcomes; retrospective exploratory reanalysis",
+  "frozen_budget_policy_sha256": "73cc56f6ce78fd154571657a7b5c9b0a57befa909b02e75bacf5998b487560b5",
+  "development_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+  "evaluation_sha256": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+  "original_evaluation_prediction_cache_sha256": "fec8c3db9737276b67006f26765ed2e6fb87e9fcc442b42be334ed5eef2bd1a7",
+  "original_evaluation_receipt_sha256": "c901d06845e42d96186bd41d6ddbac15e17482f0b75b1a59861cd788f299de54",
+  "checks": [
+    {
+      "source_model": "P0",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::H_B",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::H_B_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::H_D",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::H_D_B",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::H_D_B_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::H_D_B_M_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::H_D_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::H_D_A_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::H_D_B_A_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::H_D_B_M_A_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::H_D_B_P_A_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::H_D_B_M_P_A_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::NONE",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::B",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::B_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::B_C_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::D",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::D_B",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::D_B_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::D_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::D_A_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::D_B_A_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "ridge::D_B_P_A_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::H",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::H_B",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::H_B_M",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::H_B_M_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::H_D",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::H_D_M",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::H_D_M_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::H_D_M_C_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::H_D_B_M_C_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::H_D_P",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::H_D_M_P",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::H_D_M_P_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::H_D_M_P_C_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::H_D_M_P_C_A_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::NONE",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::B",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::B_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::B_M_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::D",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::D_C",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::D_B_C",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::D_M_C_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::D_B_M_C_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::D_P",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::D_P_C",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::D_M_P_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::D_M_P_C_A",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::D_P_C_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::D_M_P_A_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    },
+    {
+      "source_model": "hgb::D_M_P_C_A_K",
+      "recomputed_max_abs_prediction_difference": 0.0
+    }
+  ],
+  "all_cache_checks_passed": true,
+  "n_unique_policy_models": 54,
+  "seconds": 3.8233160972595215
+}

@@ -1,0 +1,341 @@
+threshold,model,net_benefit,scope
+0.1,P0,0.5124269005847953,hypothetical classification utility; not intervention effectiveness
+0.1,hgb::D_B_M_P_C_A,0.5124269005847953,hypothetical classification utility; not intervention effectiveness
+0.1,hgb::D_B_M_P_C_A_K,0.5124269005847953,hypothetical classification utility; not intervention effectiveness
+0.1,hgb::D_M_P_A,0.5124269005847953,hypothetical classification utility; not intervention effectiveness
+0.1,hgb::D_M_P_A_K,0.5124269005847953,hypothetical classification utility; not intervention effectiveness
+0.1,hgb::H_D_B_M_P_C_A,0.5124269005847953,hypothetical classification utility; not intervention effectiveness
+0.1,hgb::H_D_B_M_P_C_A_K,0.5124269005847953,hypothetical classification utility; not intervention effectiveness
+0.1,hgb::H_D_M_P,0.5124269005847953,hypothetical classification utility; not intervention effectiveness
+0.1,hgb::H_D_M_P_A,0.5124269005847953,hypothetical classification utility; not intervention effectiveness
+0.1,prevalence,0.5124269005847953,hypothetical classification utility; not intervention effectiveness
+0.1,ridge::D_A_K,0.5125,hypothetical classification utility; not intervention effectiveness
+0.1,ridge::D_B,0.5124269005847953,hypothetical classification utility; not intervention effectiveness
+0.1,ridge::D_B_M_P_C_A,0.5125,hypothetical classification utility; not intervention effectiveness
+0.1,ridge::D_B_M_P_C_A_K,0.5125730994152047,hypothetical classification utility; not intervention effectiveness
+0.1,ridge::H_D,0.5124269005847953,hypothetical classification utility; not intervention effectiveness
+0.1,ridge::H_D_B_A,0.5124269005847953,hypothetical classification utility; not intervention effectiveness
+0.1,ridge::H_D_B_M_P_C_A,0.5125,hypothetical classification utility; not intervention effectiveness
+0.1,ridge::H_D_B_M_P_C_A_K,0.5126461988304093,hypothetical classification utility; not intervention effectiveness
+0.1,act_none,0.0,
+0.1,act_all,0.5124269005847953,
+0.15000000000000002,P0,0.48374613003095973,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,hgb::D_B_M_P_C_A,0.4832043343653251,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,hgb::D_B_M_P_C_A_K,0.4832043343653251,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,hgb::D_M_P_A,0.48374613003095973,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,hgb::D_M_P_A_K,0.482546439628483,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,hgb::H_D_B_M_P_C_A,0.482546439628483,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,hgb::H_D_B_M_P_C_A_K,0.4826625386996904,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,hgb::H_D_M_P,0.482546439628483,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,hgb::H_D_M_P_A,0.4832043343653251,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,prevalence,0.48374613003095973,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,ridge::D_A_K,0.48212074303405567,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,ridge::D_B,0.484094427244582,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,ridge::D_B_M_P_C_A,0.484094427244582,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,ridge::D_B_M_P_C_A_K,0.4825851393188854,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,ridge::H_D,0.4842105263157895,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,ridge::H_D_B_A,0.4842105263157895,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,ridge::H_D_B_M_P_C_A,0.48169504643962846,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,ridge::H_D_B_M_P_C_A_K,0.48030185758513927,hypothetical classification utility; not intervention effectiveness
+0.15000000000000002,act_none,0.0,
+0.15000000000000002,act_all,0.4837461300309598,
+0.20000000000000004,P0,0.45148026315789475,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,hgb::D_B_M_P_C_A,0.4495065789473684,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,hgb::D_B_M_P_C_A_K,0.44786184210526314,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,hgb::D_M_P_A,0.4486842105263158,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,hgb::D_M_P_A_K,0.44819078947368424,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,hgb::H_D_B_M_P_C_A,0.45016447368421053,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,hgb::H_D_B_M_P_C_A_K,0.4493421052631579,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,hgb::H_D_M_P,0.4473684210526316,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,hgb::H_D_M_P_A,0.44720394736842106,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,prevalence,0.45148026315789475,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,ridge::D_A_K,0.44473684210526315,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,ridge::D_B,0.45148026315789475,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,ridge::D_B_M_P_C_A,0.44473684210526315,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,ridge::D_B_M_P_C_A_K,0.4442434210526316,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,ridge::H_D,0.4486842105263158,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,ridge::H_D_B_A,0.45016447368421053,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,ridge::H_D_B_M_P_C_A,0.45,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,ridge::H_D_B_M_P_C_A_K,0.4488486842105263,hypothetical classification utility; not intervention effectiveness
+0.20000000000000004,act_none,0.0,
+0.20000000000000004,act_all,0.4514802631578948,
+0.25000000000000006,P0,0.41491228070175434,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,hgb::D_B_M_P_C_A,0.40877192982456134,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,hgb::D_B_M_P_C_A_K,0.40789473684210525,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,hgb::D_M_P_A,0.4076754385964912,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,hgb::D_M_P_A_K,0.4021929824561403,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,hgb::H_D_B_M_P_C_A,0.41337719298245607,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,hgb::H_D_B_M_P_C_A_K,0.4131578947368421,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,hgb::H_D_M_P,0.4094298245614035,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,hgb::H_D_M_P_A,0.40877192982456134,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,prevalence,0.41491228070175434,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,ridge::D_A_K,0.4072368421052632,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,ridge::D_B,0.4052631578947368,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,ridge::D_B_M_P_C_A,0.40921052631578947,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,ridge::D_B_M_P_C_A_K,0.4072368421052632,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,ridge::H_D,0.41578947368421054,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,ridge::H_D_B_A,0.41973684210526313,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,ridge::H_D_B_M_P_C_A,0.41710526315789476,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,ridge::H_D_B_M_P_C_A_K,0.4153508771929824,hypothetical classification utility; not intervention effectiveness
+0.25000000000000006,act_none,0.0,
+0.25000000000000006,act_all,0.41491228070175445,
+0.30000000000000004,P0,0.3731203007518797,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,hgb::D_B_M_P_C_A,0.3632518796992481,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,hgb::D_B_M_P_C_A_K,0.35874060150375936,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,hgb::D_M_P_A,0.35817669172932326,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,hgb::D_M_P_A_K,0.3521616541353383,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,hgb::H_D_B_M_P_C_A,0.3755639097744361,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,hgb::H_D_B_M_P_C_A_K,0.3682330827067669,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,hgb::H_D_M_P,0.3734022556390977,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,hgb::H_D_M_P_A,0.3731203007518797,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,prevalence,0.3731203007518797,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,ridge::D_A_K,0.36860902255639094,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,ridge::D_B,0.3669172932330827,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,ridge::D_B_M_P_C_A,0.3674812030075187,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,ridge::D_B_M_P_C_A_K,0.3678571428571428,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,ridge::H_D,0.3758458646616541,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,ridge::H_D_B_A,0.3777255639097744,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,ridge::H_D_B_M_P_C_A,0.3765037593984962,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,ridge::H_D_B_M_P_C_A_K,0.37133458646616535,hypothetical classification utility; not intervention effectiveness
+0.30000000000000004,act_none,0.0,
+0.30000000000000004,act_all,0.37312030075187974,
+0.3500000000000001,P0,0.32489878542510114,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,hgb::D_B_M_P_C_A,0.3151315789473684,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,hgb::D_B_M_P_C_A_K,0.31371457489878535,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,hgb::D_M_P_A,0.3070344129554655,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,hgb::D_M_P_A_K,0.2973178137651821,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,hgb::H_D_B_M_P_C_A,0.3333502024291497,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,hgb::H_D_B_M_P_C_A_K,0.3253036437246963,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,hgb::H_D_M_P,0.3275303643724695,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,hgb::H_D_M_P_A,0.33016194331983795,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,prevalence,0.32489878542510114,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,ridge::D_A_K,0.32338056680161936,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,ridge::D_B,0.32505060728744933,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,ridge::D_B_M_P_C_A,0.32191295546558696,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,ridge::D_B_M_P_C_A_K,0.31923076923076915,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,ridge::H_D,0.3322874493927125,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,ridge::H_D_B_A,0.3326923076923076,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,ridge::H_D_B_M_P_C_A,0.3324392712550607,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,ridge::H_D_B_M_P_C_A_K,0.32661943319838055,hypothetical classification utility; not intervention effectiveness
+0.3500000000000001,act_none,0.0,
+0.3500000000000001,act_all,0.3248987854251012,
+0.40000000000000013,P0,0.26864035087719285,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,hgb::D_B_M_P_C_A,0.2594298245614034,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,hgb::D_B_M_P_C_A_K,0.2489035087719297,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,hgb::D_M_P_A,0.2546052631578946,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,hgb::D_M_P_A_K,0.2335526315789472,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,hgb::H_D_B_M_P_C_A,0.2837719298245613,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,hgb::H_D_B_M_P_C_A_K,0.28245614035087707,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,hgb::H_D_M_P,0.2660087719298244,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,hgb::H_D_M_P_A,0.2675438596491227,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,prevalence,0.26864035087719285,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,ridge::D_A_K,0.26513157894736833,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,ridge::D_B,0.26798245614035077,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,ridge::D_B_M_P_C_A,0.2739035087719297,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,ridge::D_B_M_P_C_A_K,0.2706140350877192,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,ridge::H_D,0.269298245614035,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,ridge::H_D_B_A,0.29057017543859637,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,ridge::H_D_B_M_P_C_A,0.2835526315789473,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,ridge::H_D_B_M_P_C_A_K,0.28157894736842093,hypothetical classification utility; not intervention effectiveness
+0.40000000000000013,act_none,0.0,
+0.40000000000000013,act_all,0.2686403508771929,
+0.45000000000000007,P0,0.2315191387559808,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,hgb::D_B_M_P_C_A,0.2091507177033492,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,hgb::D_B_M_P_C_A_K,0.19778708133971284,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,hgb::D_M_P_A,0.19312200956937792,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,hgb::D_M_P_A_K,0.18032296650717694,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,hgb::H_D_B_M_P_C_A,0.23038277511961716,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,hgb::H_D_B_M_P_C_A_K,0.2258971291866028,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,hgb::H_D_M_P,0.22380382775119614,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,hgb::H_D_M_P_A,0.22805023923444967,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,prevalence,0.2021531100478468,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,ridge::D_A_K,0.2015550239234449,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,ridge::D_B,0.21004784688995207,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,ridge::D_B_M_P_C_A,0.211901913875598,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,ridge::D_B_M_P_C_A_K,0.20825358851674636,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,ridge::H_D,0.22739234449760756,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,ridge::H_D_B_A,0.24264354066985638,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,ridge::H_D_B_M_P_C_A,0.23654306220095686,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,ridge::H_D_B_M_P_C_A_K,0.2405502392344497,hypothetical classification utility; not intervention effectiveness
+0.45000000000000007,act_none,0.0,
+0.45000000000000007,act_all,0.20215311004784692,
+0.5000000000000001,P0,0.18749999999999992,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,hgb::D_B_M_P_C_A,0.12960526315789458,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,hgb::D_B_M_P_C_A_K,0.1315789473684209,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,hgb::D_M_P_A,0.1184210526315788,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,hgb::D_M_P_A_K,0.11513157894736827,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,hgb::H_D_B_M_P_C_A,0.17631578947368406,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,hgb::H_D_B_M_P_C_A_K,0.17697368421052623,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,hgb::H_D_M_P,0.17368421052631572,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,hgb::H_D_M_P_A,0.16973684210526307,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,prevalence,0.12236842105263143,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,ridge::D_A_K,0.1427631578947367,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,ridge::D_B,0.15263157894736828,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,ridge::D_B_M_P_C_A,0.16578947368421038,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,ridge::D_B_M_P_C_A_K,0.15197368421052618,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,ridge::H_D,0.18223684210526309,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,ridge::H_D_B_A,0.18421052631578932,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,ridge::H_D_B_M_P_C_A,0.18618421052631565,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,ridge::H_D_B_M_P_C_A_K,0.1861842105263157,hypothetical classification utility; not intervention effectiveness
+0.5000000000000001,act_none,0.0,
+0.5000000000000001,act_all,0.12236842105263146,
+0.5500000000000002,P0,0.13369883040935654,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,hgb::D_B_M_P_C_A,0.08238304093567234,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,hgb::D_B_M_P_C_A_K,0.0660087719298244,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,hgb::D_M_P_A,0.04415204678362557,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,hgb::D_M_P_A_K,0.0527777777777776,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,hgb::H_D_B_M_P_C_A,0.11798245614035072,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,hgb::H_D_B_M_P_C_A_K,0.13048245614035073,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,hgb::H_D_M_P,0.12163742690058467,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,hgb::H_D_M_P_A,0.11586257309941504,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,prevalence,0.024853801169590378,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,ridge::D_A_K,0.09320175438596474,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,ridge::D_B,0.07514619883040917,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,ridge::D_B_M_P_C_A,0.08603801169590625,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,ridge::D_B_M_P_C_A_K,0.09429824561403492,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,ridge::H_D,0.1271198830409355,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,ridge::H_D_B_A,0.13194444444444428,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,ridge::H_D_B_M_P_C_A,0.12149122807017526,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,ridge::H_D_B_M_P_C_A_K,0.13413742690058467,hypothetical classification utility; not intervention effectiveness
+0.5500000000000002,act_none,0.0,
+0.5500000000000002,act_all,0.02485380116959046,
+0.6000000000000002,P0,0.06644736842105234,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,hgb::D_B_M_P_C_A,0.006578947368420791,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,hgb::D_B_M_P_C_A_K,0.009539473684210303,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,hgb::D_M_P_A,-0.035197368421052894,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,hgb::D_M_P_A_K,0.006578947368420866,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,hgb::H_D_B_M_P_C_A,0.055921052631578726,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,hgb::H_D_B_M_P_C_A_K,0.058223684210526094,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,hgb::H_D_M_P,0.05296052631578925,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,hgb::H_D_M_P_A,0.04111842105263135,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,prevalence,0.0,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,ridge::D_A_K,0.040131578947368234,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,ridge::D_B,0.0065789473684208285,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,ridge::D_B_M_P_C_A,0.007236842105262896,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,ridge::D_B_M_P_C_A_K,0.03059210526315767,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,ridge::H_D,0.05427631578947346,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,ridge::H_D_B_A,0.06217105263157868,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,ridge::H_D_B_M_P_C_A,0.055921052631578726,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,ridge::H_D_B_M_P_C_A_K,0.07039473684210504,hypothetical classification utility; not intervention effectiveness
+0.6000000000000002,act_none,0.0,
+0.6000000000000002,act_all,-0.09703947368421095,
+0.6500000000000001,P0,0.0,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,hgb::D_B_M_P_C_A,-0.0596804511278197,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,hgb::D_B_M_P_C_A_K,-0.017387218045112906,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,hgb::D_M_P_A,-0.04454887218045125,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,hgb::D_M_P_A_K,-0.012875939849624162,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,hgb::H_D_B_M_P_C_A,-0.02434210526315808,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,hgb::H_D_B_M_P_C_A_K,0.008458646616541225,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,hgb::H_D_M_P,0.006390977443608879,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,hgb::H_D_M_P_A,-0.02189849624060165,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,prevalence,0.0,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,ridge::D_A_K,-0.04783834586466181,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,ridge::D_B,-0.034680451127819666,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,ridge::D_B_M_P_C_A,-0.07227443609022574,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,ridge::D_B_M_P_C_A_K,-0.027067669172932497,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,ridge::H_D,-0.0215225563909776,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,ridge::H_D_B_A,-0.00573308270676711,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,ridge::H_D_B_M_P_C_A,-0.023214285714285895,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,ridge::H_D_B_M_P_C_A_K,0.0007518796992479494,hypothetical classification utility; not intervention effectiveness
+0.6500000000000001,act_none,0.0,
+0.6500000000000001,act_all,-0.25375939849624085,
+0.7000000000000002,P0,0.0,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,hgb::D_B_M_P_C_A,-0.10789473684210549,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,hgb::D_B_M_P_C_A_K,-0.05635964912280718,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,hgb::D_M_P_A,-0.08947368421052647,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,hgb::D_M_P_A_K,-0.060745614035087894,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,hgb::H_D_B_M_P_C_A,-0.06535087719298267,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,hgb::H_D_B_M_P_C_A_K,-0.026973684210526466,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,hgb::H_D_M_P,-0.027850877192982668,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,hgb::H_D_M_P_A,-0.06732456140350898,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,prevalence,0.0,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,ridge::D_A_K,-0.08070175438596511,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,ridge::D_B,-0.057017543859649245,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,ridge::D_B_M_P_C_A,-0.10899122807017564,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,ridge::D_B_M_P_C_A_K,-0.06973684210526339,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,ridge::H_D,-0.09100877192982477,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,ridge::H_D_B_A,-0.08640350877193011,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,ridge::H_D_B_M_P_C_A,-0.1021929824561406,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,ridge::H_D_B_M_P_C_A_K,-0.0747807017543862,hypothetical classification utility; not intervention effectiveness
+0.7000000000000002,act_none,0.0,
+0.7000000000000002,act_all,-0.46271929824561475,
+0.7500000000000002,P0,0.0,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,hgb::D_B_M_P_C_A,-0.14868421052631606,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,hgb::D_B_M_P_C_A_K,-0.07039473684210545,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,hgb::D_M_P_A,-0.1282894736842108,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,hgb::D_M_P_A_K,-0.08750000000000019,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,hgb::H_D_B_M_P_C_A,-0.12039473684210553,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,hgb::H_D_B_M_P_C_A_K,-0.061184210526315994,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,hgb::H_D_M_P,-0.05000000000000015,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,hgb::H_D_M_P_A,-0.1302631578947371,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,prevalence,0.0,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,ridge::D_A_K,-0.08355263157894756,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,ridge::D_B,-0.05131578947368434,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,ridge::D_B_M_P_C_A,-0.13815789473684237,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,ridge::D_B_M_P_C_A_K,-0.08289473684210545,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,ridge::H_D,-0.06907894736842123,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,ridge::H_D_B_A,-0.18355263157894772,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,ridge::H_D_B_M_P_C_A,-0.17565789473684243,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,ridge::H_D_B_M_P_C_A_K,-0.11447368421052662,hypothetical classification utility; not intervention effectiveness
+0.7500000000000002,act_none,0.0,
+0.7500000000000002,act_all,-0.7552631578947382,
+0.8000000000000002,P0,0.0,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,hgb::D_B_M_P_C_A,-0.1638157894736844,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,hgb::D_B_M_P_C_A_K,-0.052631578947368515,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,hgb::D_M_P_A,-0.1407894736842107,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,hgb::D_M_P_A_K,-0.08157894736842118,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,hgb::H_D_B_M_P_C_A,-0.15526315789473702,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,hgb::H_D_B_M_P_C_A_K,-0.03947368421052641,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,hgb::H_D_M_P,-0.038815789473684255,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,hgb::H_D_M_P_A,-0.1618421052631581,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,prevalence,0.0,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,ridge::D_A_K,-0.06710526315789485,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,ridge::D_B,-0.05065789473684216,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,ridge::D_B_M_P_C_A,-0.12500000000000017,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,ridge::D_B_M_P_C_A_K,-0.09671052631578962,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,ridge::H_D,-0.07828947368421062,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,ridge::H_D_B_A,-0.1723684210526318,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,ridge::H_D_B_M_P_C_A,-0.1802631578947371,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,ridge::H_D_B_M_P_C_A_K,-0.10592105263157914,hypothetical classification utility; not intervention effectiveness
+0.8000000000000002,act_none,0.0,
+0.8000000000000002,act_all,-1.1940789473684226,
+0.8500000000000002,P0,0.0,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,hgb::D_B_M_P_C_A,-0.1186403508771932,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,hgb::D_B_M_P_C_A_K,-0.06995614035087733,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,hgb::D_M_P_A,-0.08574561403508787,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,hgb::D_M_P_A_K,-0.06995614035087733,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,hgb::H_D_B_M_P_C_A,-0.07872807017543874,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,hgb::H_D_B_M_P_C_A_K,-0.006140350877193012,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,hgb::H_D_M_P,-0.021491228070175478,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,hgb::H_D_M_P_A,-0.14605263157894763,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,prevalence,0.0,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,ridge::D_A_K,-0.06118421052631591,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,ridge::D_B,-0.05986842105263169,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,ridge::D_B_M_P_C_A,-0.09232456140350895,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,ridge::D_B_M_P_C_A_K,-0.06271929824561417,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,ridge::H_D,-0.07390350877192996,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,ridge::H_D_B_A,-0.14232456140350902,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,ridge::H_D_B_M_P_C_A,-0.1445175438596494,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,ridge::H_D_B_M_P_C_A_K,-0.1105263157894739,hypothetical classification utility; not intervention effectiveness
+0.8500000000000002,act_none,0.0,
+0.8500000000000002,act_all,-1.9254385964912317,
+0.9000000000000002,P0,0.0,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,hgb::D_B_M_P_C_A,-0.10000000000000028,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,hgb::D_B_M_P_C_A_K,-0.09407894736842133,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,hgb::D_M_P_A,-0.09473684210526344,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,hgb::D_M_P_A_K,-0.03684210526315801,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,hgb::H_D_B_M_P_C_A,0.0,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,hgb::H_D_B_M_P_C_A_K,0.002631578947368421,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,hgb::H_D_M_P,0.0,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,hgb::H_D_M_P_A,0.0006578947368421052,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,prevalence,0.0,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,ridge::D_A_K,-0.10460526315789503,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,ridge::D_B,-0.04868421052631593,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,ridge::D_B_M_P_C_A,-0.09934210526315818,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,ridge::D_B_M_P_C_A_K,-0.09276315789473712,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,ridge::H_D,-0.11710526315789507,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,ridge::H_D_B_A,-0.11644736842105297,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,ridge::H_D_B_M_P_C_A,-0.11973684210526352,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,ridge::H_D_B_M_P_C_A_K,-0.11184210526315823,hypothetical classification utility; not intervention effectiveness
+0.9000000000000002,act_none,0.0,
+0.9000000000000002,act_all,-3.3881578947368522,

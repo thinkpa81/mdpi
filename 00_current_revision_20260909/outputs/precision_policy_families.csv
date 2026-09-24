@@ -1,0 +1,9 @@
+algorithm,history_available,domain,n,unique_nonself_contrasts,q_primary_absolute,q_standardized,coverage,bootstrap_reps,seed
+ridge,False,whole,1520,21,0.023125055144324436,2.606807609085381,separately for each algorithm/availability/domain family,2000,20260909
+ridge,False,disjoint,879,21,0.03103450671618057,2.5752381693336783,separately for each algorithm/availability/domain family,2000,20260909
+ridge,True,whole,1520,25,0.02229214816222482,2.65580397971585,separately for each algorithm/availability/domain family,2000,20260909
+ridge,True,disjoint,879,25,0.029735024026618886,2.623851463746673,separately for each algorithm/availability/domain family,2000,20260909
+hgb,False,whole,1520,31,0.02297049839611392,2.756492256429987,separately for each algorithm/availability/domain family,2000,20260909
+hgb,False,disjoint,879,31,0.03073256444047339,2.747916138595601,separately for each algorithm/availability/domain family,2000,20260909
+hgb,True,whole,1520,28,0.020632941366408974,2.71628024333187,separately for each algorithm/availability/domain family,2000,20260909
+hgb,True,disjoint,879,28,0.028367832931910263,2.7606178470648786,separately for each algorithm/availability/domain family,2000,20260909

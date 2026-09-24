@@ -1,0 +1,136 @@
+{
+  "release_date": "2026-09-24",
+  "status": "PASS",
+  "scope": "Publication-package verification using the latest supplied manuscript and supplementary document, stored aggregate outputs, static code checks, privacy screening, and cleanup-preservation checks. No model fitting or new statistical resampling was performed for this release.",
+  "manuscript_baseline": [
+    {
+      "filename": "260921_JTAER_Main_Manuscript_English_MDPI(3).docx",
+      "sha256": "7bde07010efffe9f9373695bd3dc3d9128ed06660b18d37363af74982073ace9"
+    },
+    {
+      "filename": "JTAER_Supplementary_Materials_English(3).docx",
+      "sha256": "e00a6bb1bddb0006b018a37d17b41cc8397a7a3517197df7611d214a5ec3ca2c"
+    }
+  ],
+  "checks": {
+    "source_package_integrity": {
+      "status": "PASS",
+      "files_checked": 277,
+      "python_files_checked": 26,
+      "unlisted_files": 0,
+      "manifest_sha256": "456f12fd4fefc651848c78bda6e5e26425a76ee109e4c9813bec310e85521bd6",
+      "scope": "Released-file integrity and syntax; no model fitting or historical analysis rerun"
+    },
+    "main_manuscript_and_figure_crosscheck": {
+      "status": "PASS",
+      "checks": 420,
+      "failures": 0,
+      "missing_development_values": 0,
+      "targets": [
+        "Main Table 3",
+        "Main Table 5",
+        "Supplementary Tables S7-S10",
+        "Supplementary Tables S12-S13",
+        "Figures 2-3"
+      ],
+      "basis": "Full-precision aggregate results compared with rounded document tables; exact figure inputs resolved.",
+      "evidence_sha256": "7be2f7570901f263143d44473beba89c60f9c7f2ba8b9917e18eec51898aa8ae"
+    },
+    "latest_supplementary_crosscheck": {
+      "status": "PASS",
+      "checks": 605,
+      "failures": 0,
+      "targets": [
+        "Supplementary Tables S28-S37"
+      ],
+      "scope": "Latest attached supplementary Tables S28–S37 versus archived aggregate CSV outputs; no individual records, model fitting or new bootstrap",
+      "evidence_sha256": "46eb9c2105994ee24842cc3a2caf56a748f27b209a5dca3e938d1623baaaf63b"
+    },
+    "stored_representative_metrics": {
+      "status": "PASS",
+      "output_rows": 40,
+      "policy_count": 20,
+      "scope": "Stored aggregate-output validation; refit validation is provided separately.",
+      "document_table3_checked_in_this_metric_run": false,
+      "source_files": {
+        "selected": {
+          "path": "00_current_revision_20260909/outputs/selected_policy_auxiliary_metrics.csv",
+          "sha256": "d6e52efbafb9657f56731ec6baa54209c4a5a9dcb30cc1ba794ed8bfd45684f4"
+        },
+        "temporal": {
+          "path": "01_required_prior_analysis/revision_20260907/outputs/temporal_budget_policy_metrics.csv",
+          "sha256": "793242f495084f31d459ee17c747ef5bac7005b55aa5e098f34736f05797dc5b"
+        },
+        "development": {
+          "path": "01_required_prior_analysis/revision_20260907/outputs/development_budget_policies.csv",
+          "sha256": "039547f1773f4b51112d58b0a7a782fc8477ab576e761d612033355c5162a844"
+        },
+        "calibration": {
+          "path": "00_current_revision_20260909/outputs/calibration_numerical_validation.csv",
+          "sha256": "f800c6195ddbc30760424a3895addcab529deb48a6dec294f2fc284f4e42cf15"
+        }
+      },
+      "max_abs_strict_mle_slope_difference_in_40_rows": 0.0016807062696155,
+      "calibration_slope_for_document": "Original stored calibration_slope preserved; strict MLE slope is a separate numerical check only.",
+      "evidence_sha256": "035a87b3ce6f9a0ffe478eb3af141e9309e21dfac932b925e7c290e9fead97f7"
+    },
+    "cleanup_preservation": {
+      "status": "PASS",
+      "statistical_and_plotting_python_files_byte_identical": 25,
+      "aggregate_csv_files_byte_identical": 85,
+      "retained_table_caches_byte_identical": 43,
+      "required_base_table_inputs_preserved": 11,
+      "duplicate_to_canonical_hash_matches": 37,
+      "figure_numeric_values_preserved": 488,
+      "original_source_paths_archived": 41,
+      "existing_nonstatistical_files_changed": [
+        "README_분석재현안내.md",
+        "S16_S17_확인결과.md",
+        "verify_package.py"
+      ],
+      "scope": "README and table-reference documentation were updated. The verifier excludes the removed archive. Historical statistical code, aggregate estimates, frozen selections, and execution receipts are preserved.",
+      "evidence_sha256": "526ea181e41ac510e7e551b27bda1ecf1d9af7de607423e163aea4c8cd901843"
+    },
+    "python_syntax_and_comment_policy": {
+      "status": "PASS",
+      "python_files": 26,
+      "statistical_and_plotting_files_unchanged": 25,
+      "ordinary_comments": 0,
+      "docstrings": 0,
+      "shebang_lines_preserved": 19,
+      "only_changed_python_file": "verify_package.py",
+      "scope": "AST parsing, compilation, token inspection, and byte comparisons. CLI help strings and executable shebangs are preserved."
+    },
+    "public_content_screening": {
+      "status": "PASS",
+      "scope": "Content-level privacy and credential screening; not a licence/redistribution ruling.",
+      "source_files_screened": 278,
+      "csv_files_screened": 85,
+      "json_files_screened": 150,
+      "csv_rows_screened": 22216,
+      "csv_json_parse_errors": 0,
+      "credential_pattern_hits": 0,
+      "direct_contact_identifier_hits": 0,
+      "participant_record_files_detected": 0,
+      "participant_identifier_arrays_detected": 0,
+      "individual_prediction_arrays_detected": 0,
+      "participant_fold_assignments_detected": 0,
+      "participant_resampling_multiplicities_detected": 0,
+      "new_or_changed_release_text_hits_before_manifest_generation": 0,
+      "conclusion": "No participant records, identifier arrays, individual predictions, participant fold assignments, resampling multiplicities, or API credentials were found. All CSV/JSON datasets are aggregate analytical outputs, configuration records, or questionnaire/provenance metadata.",
+      "evidence_sha256": "b1f1917f23279c2ff079a6311e504a7e7cd1653ae0c83ef33c4eeec7b3b489ec"
+    }
+  },
+  "interpretation_limits": [
+    "This release verifies correspondence and preservation of existing results; it is not an independent replication from participant-level source data.",
+    "No full repeated nested cross-validation, full block-attribution analysis, alternative-outcome fitting, new bootstrap, or original representative-model refit was run during this publication cleanup.",
+    "Historical validation records describe their original execution dates and environments. Their recorded source hashes are not rewritten to match later formatting or packaging changes.",
+    "Only the listed manuscript tables and checks were audited here. The counts do not assert that every manuscript sentence, citation, or numerical statement was independently verified.",
+    "Privacy screening examines visible data structures and apparent credentials; it is not a licence or redistribution-rights ruling."
+  ],
+  "release_integrity": {
+    "manifest": "MANIFEST_SHA256.json",
+    "command": "python verify_package.py --strict",
+    "scope": "The manifest is generated after this validation record and covers every public release file except the manifest itself. Historical manifests and removed archive contents are excluded."
+  }
+}

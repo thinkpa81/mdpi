@@ -1,0 +1,9 @@
+period,prior_use,next_use,n
+development,0,0,344
+development,0,1,255
+development,1,0,341
+development,1,1,625
+evaluation,0,0,299
+evaluation,0,1,200
+evaluation,1,0,368
+evaluation,1,1,653

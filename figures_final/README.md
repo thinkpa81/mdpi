@@ -1,0 +1,60 @@
+# JTAER Revised Figures 2 and 3
+
+This package reproduces Figures 2 and 3 from exact, full-precision **aggregate** analysis outputs. It contains no participant-level records, individual predictions, or source Word documents.
+
+## Files
+
+- `figures/figure2.png` and `figure3.png`: 320 dpi raster figures for Word.
+- `figures/figure2.svg` and `figure3.svg`: vector figures with editable text.
+- `data/plot_data.json`: only the aggregate values, panel conditions, and labels needed for these figures; numeric strings retain the source CSV precision.
+- `plot_figures.py`: self-contained renderer; the original DOCX documents are not needed.
+- `requirements.txt`: versions used to render the supplied figures.
+- `source_provenance.json`: source-file hashes, filters, column mappings, and benchmark definitions.
+- `validation/evidence_mapping.json`: cell/row/column provenance and full numerical evidence.
+- `validation/numerical_validation.json`: 420 successful checks against reported DOCX values and across aggregate files.
+- `audit_against_original_sources.py`: optional complete source audit, requiring the separately held original documents and source aggregate files as described below.
+
+## Reproduce the figures
+
+The figure materials are in `figures_final/` within the complete reproducibility package. Run these commands from the package root with Python 3.10 or later:
+
+```bash
+python -m pip install -r figures_final/requirements.txt
+python figures_final/plot_figures.py
+```
+
+The command validates array sizes, panel order, finite values, and interval ordering, then regenerates all four figures in `figures_final/figures/`. Input and default output paths are resolved relative to the script, so the renderer also works from another current directory. Missing input data are reported before creating output files. A different destination can be selected with `--output-dir /path/to/results`.
+
+## Scientific interpretation
+
+Figure 2 panel order is: upper left Ridge/history available; upper right Ridge/history unavailable; lower left HGB/history available; lower right HGB/history unavailable. The horizontal temporal benchmark is P0 (0.6606246186097116) when history is available and NONE (0.6856435498450167) when history is unavailable. All four temporal curves use the same full temporal evaluation sample of 1,520 participants. Development OOF is a selection score; nested validation evaluates the selection procedure.
+
+Figure 3 panel order is: upper left Ridge/H fixed; upper right Ridge/H excluded; lower left HGB/H fixed; lower right HGB/H excluded. **H fixed means H is included in every information combination.** Block order is D, B, M, P, C, A, K. Squares show descriptive development OOF contributions. Filled circles and error bars show temporal contributions and the primary simultaneous 95% intervals for the full evaluation sample. The interval family contains 56 effects across both evaluation groups, two model families, two H conditions, and seven blocks; the figure displays the 28 effects in the full sample. Positive values denote average log-loss reduction.
+
+## Optional full source audit
+
+The supplied `validation/` reports and `source_provenance.json` preserve the historical audit against the original Korean documents. They are not reports of a new model-training run. The input/output changes in this distribution preserve the plotting calculations and styles.
+
+An independent source audit accepts the original Korean documents or the final English documents through explicit paths. Source Word documents are not included in this public package. Keep authorized local copies outside the package and pass their locations:
+
+```bash
+python -m pip install python-docx==1.2.0
+python figures_final/audit_against_original_sources.py \
+  --main-docx /path/to/main_manuscript.docx \
+  --supp-docx /path/to/supplementary_materials.docx \
+  --output-dir /path/to/fresh_figure_audit
+```
+
+By default, the audit reads the following five CSV files from `01_required_prior_analysis/revision_20260907/outputs/`, resolved relative to the complete package rather than the current directory:
+
+- `development_budget_policies.csv`
+- `nested_budget_summary.csv`
+- `temporal_budget_policy_metrics.csv`
+- `block_attribution_development_descriptive.csv`
+- `block_attribution_evaluation.csv`
+
+Use `--aggregate-dir /path/to/aggregate/outputs` to select another copy. Without `--output-dir`, fresh audit results are written to `figures_final/revised_figures/`. The optional default document locations are `figures_final/source/main.docx` and `figures_final/source/supp.docx`; creating these files is unnecessary when explicit document paths are supplied.
+
+The audit checks source availability and table dimensions before extraction. It ignores single-row equation tables, recognizes Korean and English model/condition labels, checks reported values at four-decimal precision, verifies matching development scores and the temporal reference lines, and checks simultaneous-interval widths. Fresh evidence records the actual source paths and their SHA-256 hashes, including documents outside the package. It writes new evidence, numerical validation, and PNG/SVG figures without overwriting the historical validation records. It does not rerun model training or participant-level bootstrapping.
+
+The extraction bundle deliberately omits source microdata, Word files, and all aggregate columns/rows that are not needed for plotting or the recorded audit evidence. The five aggregate source CSV files are provided elsewhere in the complete reproducibility package; the standalone renderer only needs the compact JSON.

@@ -1,0 +1,98 @@
+{
+  "source_policy": "Authorized files read only; row-level outputs private; no claim of byte identity with un-fetched Drive originals.",
+  "waves": [
+    {
+      "year": 2023,
+      "source_name": "2023_numeric.csv",
+      "source_bytes": 2916939,
+      "source_sha256": "f8379d56f1e3487c7b16d6b9454ac9b170d7de9e55448c036068732cdef32cd4",
+      "source_rows": 4581,
+      "source_columns": 307
+    },
+    {
+      "year": 2024,
+      "source_name": "2024_numeric.csv",
+      "source_bytes": 2893059,
+      "source_sha256": "a6b2161b5599d4cb18529f6f13965dec12945472b72ec862bcc0339a6f6384c1",
+      "source_rows": 4420,
+      "source_columns": 307
+    },
+    {
+      "year": 2025,
+      "source_name": "2025_numeric.csv",
+      "source_bytes": 2839032,
+      "source_sha256": "c1942e3cbfaaf7c74ec701187509c47a15e2d59f896918362e8d66ab4ec9dc51",
+      "source_rows": 4324,
+      "source_columns": 322
+    }
+  ],
+  "comparison_tolerance": "rtol=atol=1e-12 only for numeric workbook serialization differences",
+  "development": {
+    "n": 1565,
+    "events": 880,
+    "prevalence": 0.5623003194888179,
+    "unique_ids": 1565,
+    "output_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+    "valid_longitudinal_weight_n": 1565,
+    "model_columns_missing": {
+      "prior_any_use": 0,
+      "gender": 0,
+      "age_group": 0,
+      "education": 0,
+      "region": 0,
+      "benefit_expectation": 53,
+      "data_management": 0,
+      "safeguard_expectation": 0,
+      "consent_strategy": 0,
+      "genai_experience": 0,
+      "digital_competence_11": 0
+    }
+  },
+  "evaluation": {
+    "n": 1520,
+    "events": 853,
+    "prevalence": 0.5611842105263158,
+    "unique_ids": 1520,
+    "output_sha256": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+    "valid_longitudinal_weight_n": 1369,
+    "model_columns_missing": {
+      "prior_any_use": 0,
+      "gender": 0,
+      "age_group": 0,
+      "education": 0,
+      "region": 0,
+      "benefit_expectation": 52,
+      "data_management": 7,
+      "safeguard_expectation": 0,
+      "consent_strategy": 0,
+      "genai_experience": 0,
+      "digital_competence_11": 0
+    }
+  },
+  "overlap": {
+    "shared_ids": 641,
+    "evaluation_share": 0.4217105263157895,
+    "evaluation_person_disjoint_n": 879,
+    "evaluation_person_disjoint_events": 471
+  },
+  "common_all_waves_ids": 3333,
+  "source_weight_rule": "outcome_long_weight is descriptive/evaluation-only and is never a model feature; 2025 missing weights are not filled with invented weights",
+  "digital_rule": {
+    "indices": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      14,
+      20
+    ],
+    "minimum_valid": 9,
+    "scale": "self-reported competence 1-5; equal item mean; no latent invariance claim"
+  },
+  "script_sha256": "3d56baf10eb529af2a29476c12e57fe0e3116deb5b3dca1123930531e6e5fe9c"
+}

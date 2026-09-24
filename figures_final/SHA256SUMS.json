@@ -1,0 +1,15 @@
+{
+  "README.md": "7600fdd326b96993955fe2592913993758d51fe78b793385b475ac1b034eb7c5",
+  "audit_against_original_sources.py": "80d55fa2322a783b1bd74323615f230866ea9391b003f89eb3d100094bddc5c9",
+  "data/plot_data.json": "4b4fc9196f66cfaa18ab0e1aefd9cded420233e73a8bccf883c5c1b00e637760",
+  "figures/figure2.png": "05a455f08629f9ab3ff97a81fbb9315f49d12360fe3b80581f1208d239e31358",
+  "figures/figure2.svg": "7396683cc8307e669dc35c581f5239a24b7ccfcad033de8ebcb356e84dd79cd3",
+  "figures/figure3.png": "6eef9d5f91961ed0b19180d8fbe1f129f7a1bf9fde53f6d03752d6e864401e99",
+  "figures/figure3.svg": "60e9656729c1de68339f0e68ab9c5783d677a0fa81ce108ca6443b6b1e8ae396",
+  "plot_figures.py": "3488b40b862e61ceff506e2b7b7fda317f02948f82a4e3eb1b556678acd570a3",
+  "requirements.txt": "4c40934e438ae009a1eb0b5a9322cce029fba6ca1af6e314c088c1957cee0c04",
+  "source_provenance.json": "f3149fe583e5722ea789244cb6e75bd583245c67f1264284197a7160d780f43b",
+  "validation/evidence_mapping.json": "29621cd583fea851492f1b169b89748b4360e2aaaca2b507f4967f44cddd061e",
+  "validation/numerical_validation.json": "7be2f7570901f263143d44473beba89c60f9c7f2ba8b9917e18eec51898aa8ae",
+  "validation/standalone_reproduction_validation.json": "070c58ff9a963b13a3c18c098d355160108c963d691094ef835f54d9a552c094"
+}

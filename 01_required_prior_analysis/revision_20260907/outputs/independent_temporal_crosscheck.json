@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "temporal_metric_rows_verified": 372,
+  "boundary_crossmatched_rows": 248,
+  "metrics_max_absolute_error": 1.64998223417534e-14,
+  "evaluation_source_cache_unchanged": true,
+  "evaluation_data_unchanged": true,
+  "all_policy_predictions_equal_existing_cache": true,
+  "refit_models_reported_by_primary_runner": 54,
+  "primary_runner_validation_gates": 26
+}

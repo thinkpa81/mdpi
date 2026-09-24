@@ -1,0 +1,173 @@
+{
+  "status": "complete",
+  "targets": {
+    "monthly": {
+      "n_development": 1565,
+      "n_whole": 1520,
+      "n_disjoint": 879,
+      "events_development": 674,
+      "events_whole": 594,
+      "events_disjoint": 326,
+      "max_absolute_errors": {
+        "log_loss": 0.0,
+        "roc_auc": 5.551115123125783e-17,
+        "average_precision": 5.551115123125783e-17,
+        "brier": 8.326672684688674e-17,
+        "calibration_intercept": 5.551115123125783e-17,
+        "calibration_slope": 2.220446049250313e-16,
+        "delta": 1.432676947996786e-14,
+        "joint_upper": 2.618738559334588e-14,
+        "paired_interval": 2.5066754227864863e-15,
+        "bootstrap_se": 1.2221668989342849e-16
+      },
+      "families": [
+        {
+          "domain": "whole",
+          "algorithm": "ridge",
+          "availability": "history_available",
+          "contrasts": 20,
+          "joint_superiority_rows": 1
+        },
+        {
+          "domain": "whole",
+          "algorithm": "ridge",
+          "availability": "history_unavailable",
+          "contrasts": 19,
+          "joint_superiority_rows": 1
+        },
+        {
+          "domain": "whole",
+          "algorithm": "hgb",
+          "availability": "history_available",
+          "contrasts": 29,
+          "joint_superiority_rows": 1
+        },
+        {
+          "domain": "whole",
+          "algorithm": "hgb",
+          "availability": "history_unavailable",
+          "contrasts": 23,
+          "joint_superiority_rows": 0
+        },
+        {
+          "domain": "disjoint",
+          "algorithm": "ridge",
+          "availability": "history_available",
+          "contrasts": 20,
+          "joint_superiority_rows": 0
+        },
+        {
+          "domain": "disjoint",
+          "algorithm": "ridge",
+          "availability": "history_unavailable",
+          "contrasts": 19,
+          "joint_superiority_rows": 0
+        },
+        {
+          "domain": "disjoint",
+          "algorithm": "hgb",
+          "availability": "history_available",
+          "contrasts": 29,
+          "joint_superiority_rows": 0
+        },
+        {
+          "domain": "disjoint",
+          "algorithm": "hgb",
+          "availability": "history_unavailable",
+          "contrasts": 23,
+          "joint_superiority_rows": 0
+        }
+      ]
+    },
+    "regular": {
+      "n_development": 1565,
+      "n_whole": 1520,
+      "n_disjoint": 879,
+      "events_development": 298,
+      "events_whole": 292,
+      "events_disjoint": 171,
+      "max_absolute_errors": {
+        "log_loss": 5.551115123125783e-17,
+        "roc_auc": 5.551115123125783e-17,
+        "average_precision": 8.326672684688674e-17,
+        "brier": 8.326672684688674e-17,
+        "calibration_intercept": 2.220446049250313e-16,
+        "calibration_slope": 1.1102230246251565e-16,
+        "delta": 1.0025834329407957e-14,
+        "joint_upper": 1.745131816832668e-14,
+        "paired_interval": 2.0539125955565396e-15,
+        "bootstrap_se": 1.1362438767648086e-16
+      },
+      "families": [
+        {
+          "domain": "whole",
+          "algorithm": "ridge",
+          "availability": "history_available",
+          "contrasts": 20,
+          "joint_superiority_rows": 0
+        },
+        {
+          "domain": "whole",
+          "algorithm": "ridge",
+          "availability": "history_unavailable",
+          "contrasts": 21,
+          "joint_superiority_rows": 0
+        },
+        {
+          "domain": "whole",
+          "algorithm": "hgb",
+          "availability": "history_available",
+          "contrasts": 22,
+          "joint_superiority_rows": 0
+        },
+        {
+          "domain": "whole",
+          "algorithm": "hgb",
+          "availability": "history_unavailable",
+          "contrasts": 23,
+          "joint_superiority_rows": 0
+        },
+        {
+          "domain": "disjoint",
+          "algorithm": "ridge",
+          "availability": "history_available",
+          "contrasts": 20,
+          "joint_superiority_rows": 0
+        },
+        {
+          "domain": "disjoint",
+          "algorithm": "ridge",
+          "availability": "history_unavailable",
+          "contrasts": 21,
+          "joint_superiority_rows": 0
+        },
+        {
+          "domain": "disjoint",
+          "algorithm": "hgb",
+          "availability": "history_available",
+          "contrasts": 22,
+          "joint_superiority_rows": 0
+        },
+        {
+          "domain": "disjoint",
+          "algorithm": "hgb",
+          "availability": "history_unavailable",
+          "contrasts": 23,
+          "joint_superiority_rows": 0
+        }
+      ]
+    }
+  },
+  "independent_checks": [
+    "raw frequency versus binary coding",
+    "256 candidates and complete tuning grids",
+    "budget eligibility and deterministic selection",
+    "freeze receipt and input hashes",
+    "OOF loss checkpoint consistency",
+    "metric recomputation from private predictions",
+    "direct paired-loss bootstrap reconstruction",
+    "within-family duplicate contrast removal",
+    "identical self-comparison zero bounds",
+    "shared overall/disjoint bootstrap weights"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "analysis": "Exact Shapley attribution of log-loss reduction for existing subset-learning procedures",
+  "optional_blocks": [
+    "D",
+    "B",
+    "M",
+    "P",
+    "C",
+    "A",
+    "K"
+  ],
+  "history_conditions": [
+    true,
+    false
+  ],
+  "algorithms": [
+    "ridge",
+    "hgb"
+  ],
+  "input_sha256": {
+    "development.csv": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+    "evaluation.csv": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+    "development_oof_predictions.npz": "aa900f431f1e4cf0f997e71bdd49e7180c9a2c124cb387c72330bd7834402825",
+    "evaluation_predictions_private.npz": "fec8c3db9737276b67006f26765ed2e6fb87e9fcc442b42be334ed5eef2bd1a7",
+    "evaluation_ids_private.csv": "386425f31fd3ba490821a2be5d1dc4d44f939ab802c8a4c63bb3caae22066695"
+  },
+  "script_sha256": "32f1d82314b9b0b2e0b851743b74b29a34fe180de15e06b2bd7252bc94b348ff",
+  "value_function": "v_i(S)=loss_i(algorithm-specific H-only or NONE model)-loss_i(model using S plus fixed H when applicable)",
+  "weights": "k! (6-k)! / 7! across all 64 subsets excluding the attributed block",
+  "baseline_caution": "H-present reference is learner-specific H-only model, not the P0 benchmark",
+  "positive_sign": "decrease in binary natural-log loss averaged over subset contexts",
+  "bootstrap": {
+    "reps": 2000,
+    "seed": 2026090717,
+    "joint_family_effects": 56,
+    "design": "paired multinomial bootstrap over all evaluation persons; same draws restricted and renormalized for disjoint subgroup",
+    "interval": "two-sided centered unstudentized max-absolute basic bootstrap band",
+    "critical_absolute_log_loss": 0.022735520539450417
+  },
+  "validation": {
+    "known_additive_pair_interaction_game": true,
+    "aggregate_individual_linearity": true,
+    "all_person_efficiency_max_abs_error": 8.881784197001252e-16,
+    "original_input_hashes_unchanged": true,
+    "evaluation_id_order_checked": true
+  },
+  "limits": [
+    "Retrospective exploratory analysis on previously examined evaluation outcomes.",
+    "Intervals condition on already fitted predictions and do not refit training, tuning or subset selection.",
+    "Per-subset tuned hyperparameters can differ; attribution belongs to learning procedures, not pure data content.",
+    "Development OOF predictions were reused for tuning and are only descriptive.",
+    "Temporal contrasts conflate sample composition, wave differences, wording changes and learning uncertainty.",
+    "Attributions are not causal effects, mutual information, individual true gains or ordinary prediction SHAP.",
+    "Joint band covers only the declared 56 effects under this bootstrap approximation, not all manuscript analyses."
+  ]
+}

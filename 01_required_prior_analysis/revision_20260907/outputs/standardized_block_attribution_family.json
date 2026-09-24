@@ -1,0 +1,12 @@
+{
+  "effects": 56,
+  "bootstrap_reps": 2000,
+  "seed": 2026090717,
+  "standardized_max_abs_critical_value": 3.2266291057245713,
+  "primary_max_abs_absolute_critical_value": 0.022735520539450417,
+  "minimum_se": 0.0001367245931107851,
+  "maximum_se": 0.01103266916256315,
+  "method": "two-sided fixed-bootstrap-SE standardized maximum-absolute band, single 56-effect family",
+  "cached_bootstrap_sha256": "d08d4f1a8e29ad9953954cd7dcda87d0913d6912f8a3080373a2b9249059a3c9",
+  "primary_attribution_sha256": "26fe6e84be4094d48cbbd273709433d60ed29dadf5e52db31e22ed16ddc955e4"
+}

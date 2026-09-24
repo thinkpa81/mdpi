@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-07",
+  "change": "Replace former combined G with separately selectable P provider-duty expectation and C consent response; primary groups H,D,B,M,P,C,A,K. No changes to coding or row-level CSVs.",
+  "previous_harmonize_script_sha256": "211290e05f69854f9ede8d8aab89182bb9320f7636145dfc0facc31bde4afd96",
+  "current_harmonize_script_sha256": "3d56baf10eb529af2a29476c12e57fe0e3116deb5b3dca1123930531e6e5fe9c",
+  "independent_temporary_regeneration": {
+    "development": {
+      "existing_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+      "regenerated_temporary_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+      "exact_byte_match": true,
+      "existing_csv_modified": false
+    },
+    "evaluation": {
+      "existing_sha256": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+      "regenerated_temporary_sha256": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+      "exact_byte_match": true,
+      "existing_csv_modified": false
+    }
+  },
+  "source_data_unchanged": true
+}

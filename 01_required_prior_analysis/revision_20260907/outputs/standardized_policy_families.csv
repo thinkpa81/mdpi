@@ -1,0 +1,9 @@
+algorithm,history_available,domain,n,contrasts,nondegenerate_contrasts,standardized_maximum_critical_value,primary_absolute_critical_value,bootstrap_reps,seed,minimum_nondegenerate_se,maximum_se,method
+ridge,False,whole,1520,21,21,2.606807609085381,0.023125055144324436,2000,20260909,0.0009112663688491308,0.011054424953440644,"fixed-bootstrap-SE standardized maximum, one-sided 95%; not bootstrap-t"
+ridge,False,disjoint,879,21,21,2.5752381693336783,0.03103450671618057,2000,20260909,0.0013519519740668566,0.014907533904921808,"fixed-bootstrap-SE standardized maximum, one-sided 95%; not bootstrap-t"
+ridge,True,whole,1520,25,25,2.65580397971585,0.02229214816222482,2000,20260909,0.00035922490433771805,0.010575285651947966,"fixed-bootstrap-SE standardized maximum, one-sided 95%; not bootstrap-t"
+ridge,True,disjoint,879,25,25,2.623851463746673,0.029735024026618886,2000,20260909,0.0005261953324369135,0.01428164411046526,"fixed-bootstrap-SE standardized maximum, one-sided 95%; not bootstrap-t"
+hgb,False,whole,1520,31,31,2.756492256429987,0.02297049839611392,2000,20260909,0.0030667152134065245,0.01099474358550129,"fixed-bootstrap-SE standardized maximum, one-sided 95%; not bootstrap-t"
+hgb,False,disjoint,879,31,31,2.747916138595601,0.03073256444047339,2000,20260909,0.004042411141930899,0.014581947382775025,"fixed-bootstrap-SE standardized maximum, one-sided 95%; not bootstrap-t"
+hgb,True,whole,1520,28,28,2.71628024333187,0.020632941366408974,2000,20260909,1.991546034497497e-05,0.010842566008116845,"fixed-bootstrap-SE standardized maximum, one-sided 95%; not bootstrap-t"
+hgb,True,disjoint,879,28,28,2.7606178470648786,0.028367832931910263,2000,20260909,2.688627641626557e-05,0.014944146719124002,"fixed-bootstrap-SE standardized maximum, one-sided 95%; not bootstrap-t"

@@ -22,3 +22,8 @@ venv/
 .DS_Store
 /reproduced_figures/
 /aggregate_checks/
+/removed/
+/regenerated_figures/
+/regenerated_audit/
+/rechecked_metrics/
+/figures_final/revised_figures/

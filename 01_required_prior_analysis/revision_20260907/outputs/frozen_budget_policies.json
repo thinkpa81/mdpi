@@ -1,0 +1,3120 @@
+{
+  "status": "retrospective reanalysis; evaluation outcomes previously examined",
+  "created_utc": "2026-09-07T15:19:14.468794+00:00",
+  "evaluation_accessed_by_development": false,
+  "development_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+  "original_development_freeze_sha256": "0bf2ef65453e4ea615407a25c2c0153494ef213154d28e906f06f5eda0760b80",
+  "original_development_oof_sha256": "aa900f431f1e4cf0f997e71bdd49e7180c9a2c124cb387c72330bd7834402825",
+  "protocol_sha256": "73bf9e133caf36e6b0fe54cad584e2c90767e7a50c660c704f057cf892f81c6b",
+  "code_sha256": "e5c0fa2bb9616159c5c40eb681fd9ddad527e7c93dd9155c9a58f9da14de055a",
+  "original_model_code_sha256": "9bd384b6ee19e0805e8bfc5d94d935d07db5d115f7e6082cf70d048622b8b1d5",
+  "selection_rule": "minimum inner OOF log loss, then actual additional items, then subset lexicographic",
+  "availability": {
+    "history_available": "all 256 subsets plus P0; H may be ignored",
+    "history_unavailable": "128 subsets excluding H, including NONE"
+  },
+  "budgets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "outer_seeds": [
+    202609070,
+    202609071
+  ],
+  "inner_folds": 5,
+  "policies": [
+    {
+      "policy_id": "ridge|history_available|budget=00",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 0,
+      "history_available": true,
+      "selected_subset": "P0",
+      "source_model": "P0",
+      "chosen_model": "P0",
+      "chosen_subset": "P0",
+      "selected_config": null,
+      "blocks": [
+        "H"
+      ],
+      "chosen_config": "null",
+      "uses_history": true,
+      "selected_additional_items": 0,
+      "selected_items": 0,
+      "development_oof_log_loss": 0.6620828063230408
+    },
+    {
+      "policy_id": "ridge|history_available|budget=01",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 1,
+      "history_available": true,
+      "selected_subset": "H_B",
+      "source_model": "ridge::H_B",
+      "chosen_model": "ridge::H_B",
+      "chosen_subset": "H_B",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "B"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 1,
+      "selected_items": 1,
+      "development_oof_log_loss": 0.6578158495921907
+    },
+    {
+      "policy_id": "ridge|history_available|budget=02",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 2,
+      "history_available": true,
+      "selected_subset": "H_B_A",
+      "source_model": "ridge::H_B_A",
+      "chosen_model": "ridge::H_B_A",
+      "chosen_subset": "H_B_A",
+      "selected_config": 0.1,
+      "blocks": [
+        "H",
+        "B",
+        "A"
+      ],
+      "chosen_config": "0.1",
+      "uses_history": true,
+      "selected_additional_items": 2,
+      "selected_items": 2,
+      "development_oof_log_loss": 0.6557119973590803
+    },
+    {
+      "policy_id": "ridge|history_available|budget=03",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 3,
+      "history_available": true,
+      "selected_subset": "H_B_A",
+      "source_model": "ridge::H_B_A",
+      "chosen_model": "ridge::H_B_A",
+      "chosen_subset": "H_B_A",
+      "selected_config": 0.1,
+      "blocks": [
+        "H",
+        "B",
+        "A"
+      ],
+      "chosen_config": "0.1",
+      "uses_history": true,
+      "selected_additional_items": 2,
+      "selected_items": 2,
+      "development_oof_log_loss": 0.6557119973590803
+    },
+    {
+      "policy_id": "ridge|history_available|budget=04",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 4,
+      "history_available": true,
+      "selected_subset": "H_D",
+      "source_model": "ridge::H_D",
+      "chosen_model": "ridge::H_D",
+      "chosen_subset": "H_D",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 4,
+      "selected_items": 4,
+      "development_oof_log_loss": 0.6396754472363618
+    },
+    {
+      "policy_id": "ridge|history_available|budget=05",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 5,
+      "history_available": true,
+      "selected_subset": "H_D_B",
+      "source_model": "ridge::H_D_B",
+      "chosen_model": "ridge::H_D_B",
+      "chosen_subset": "H_D_B",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 5,
+      "selected_items": 5,
+      "development_oof_log_loss": 0.6379948075675399
+    },
+    {
+      "policy_id": "ridge|history_available|budget=06",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 6,
+      "history_available": true,
+      "selected_subset": "H_D_B_A",
+      "source_model": "ridge::H_D_B_A",
+      "chosen_model": "ridge::H_D_B_A",
+      "chosen_subset": "H_D_B_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 6,
+      "selected_items": 6,
+      "development_oof_log_loss": 0.6362755316368176
+    },
+    {
+      "policy_id": "ridge|history_available|budget=07",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 7,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A",
+      "source_model": "ridge::H_D_B_M_A",
+      "chosen_model": "ridge::H_D_B_M_A",
+      "chosen_subset": "H_D_B_M_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 7,
+      "selected_items": 7,
+      "development_oof_log_loss": 0.6362310759849575
+    },
+    {
+      "policy_id": "ridge|history_available|budget=08",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 8,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A",
+      "source_model": "ridge::H_D_B_M_A",
+      "chosen_model": "ridge::H_D_B_M_A",
+      "chosen_subset": "H_D_B_M_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 7,
+      "selected_items": 7,
+      "development_oof_log_loss": 0.6362310759849575
+    },
+    {
+      "policy_id": "ridge|history_available|budget=09",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 9,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A",
+      "source_model": "ridge::H_D_B_M_A",
+      "chosen_model": "ridge::H_D_B_M_A",
+      "chosen_subset": "H_D_B_M_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 7,
+      "selected_items": 7,
+      "development_oof_log_loss": 0.6362310759849575
+    },
+    {
+      "policy_id": "ridge|history_available|budget=10",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 10,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A",
+      "source_model": "ridge::H_D_B_M_A",
+      "chosen_model": "ridge::H_D_B_M_A",
+      "chosen_subset": "H_D_B_M_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 7,
+      "selected_items": 7,
+      "development_oof_log_loss": 0.6362310759849575
+    },
+    {
+      "policy_id": "ridge|history_available|budget=11",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 11,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A",
+      "source_model": "ridge::H_D_B_M_A",
+      "chosen_model": "ridge::H_D_B_M_A",
+      "chosen_subset": "H_D_B_M_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 7,
+      "selected_items": 7,
+      "development_oof_log_loss": 0.6362310759849575
+    },
+    {
+      "policy_id": "ridge|history_available|budget=12",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 12,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A",
+      "source_model": "ridge::H_D_B_M_A",
+      "chosen_model": "ridge::H_D_B_M_A",
+      "chosen_subset": "H_D_B_M_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 7,
+      "selected_items": 7,
+      "development_oof_log_loss": 0.6362310759849575
+    },
+    {
+      "policy_id": "ridge|history_available|budget=13",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 13,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A",
+      "source_model": "ridge::H_D_B_M_A",
+      "chosen_model": "ridge::H_D_B_M_A",
+      "chosen_subset": "H_D_B_M_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 7,
+      "selected_items": 7,
+      "development_oof_log_loss": 0.6362310759849575
+    },
+    {
+      "policy_id": "ridge|history_available|budget=14",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 14,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A",
+      "source_model": "ridge::H_D_B_M_A",
+      "chosen_model": "ridge::H_D_B_M_A",
+      "chosen_subset": "H_D_B_M_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 7,
+      "selected_items": 7,
+      "development_oof_log_loss": 0.6362310759849575
+    },
+    {
+      "policy_id": "ridge|history_available|budget=15",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 15,
+      "history_available": true,
+      "selected_subset": "H_D_K",
+      "source_model": "ridge::H_D_K",
+      "chosen_model": "ridge::H_D_K",
+      "chosen_subset": "H_D_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 15,
+      "selected_items": 15,
+      "development_oof_log_loss": 0.633478707878488
+    },
+    {
+      "policy_id": "ridge|history_available|budget=16",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 16,
+      "history_available": true,
+      "selected_subset": "H_D_A_K",
+      "source_model": "ridge::H_D_A_K",
+      "chosen_model": "ridge::H_D_A_K",
+      "chosen_subset": "H_D_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 16,
+      "selected_items": 16,
+      "development_oof_log_loss": 0.6316089221778484
+    },
+    {
+      "policy_id": "ridge|history_available|budget=17",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 17,
+      "history_available": true,
+      "selected_subset": "H_D_B_A_K",
+      "source_model": "ridge::H_D_B_A_K",
+      "chosen_model": "ridge::H_D_B_A_K",
+      "chosen_subset": "H_D_B_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6303176464587247
+    },
+    {
+      "policy_id": "ridge|history_available|budget=18",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 18,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A_K",
+      "source_model": "ridge::H_D_B_M_A_K",
+      "chosen_model": "ridge::H_D_B_M_A_K",
+      "chosen_subset": "H_D_B_M_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6297690531788611
+    },
+    {
+      "policy_id": "ridge|history_available|budget=19",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 19,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A_K",
+      "source_model": "ridge::H_D_B_M_A_K",
+      "chosen_model": "ridge::H_D_B_M_A_K",
+      "chosen_subset": "H_D_B_M_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6297690531788611
+    },
+    {
+      "policy_id": "ridge|history_available|budget=20",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 20,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A_K",
+      "source_model": "ridge::H_D_B_M_A_K",
+      "chosen_model": "ridge::H_D_B_M_A_K",
+      "chosen_subset": "H_D_B_M_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6297690531788611
+    },
+    {
+      "policy_id": "ridge|history_available|budget=21",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 21,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A_K",
+      "source_model": "ridge::H_D_B_M_A_K",
+      "chosen_model": "ridge::H_D_B_M_A_K",
+      "chosen_subset": "H_D_B_M_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6297690531788611
+    },
+    {
+      "policy_id": "ridge|history_available|budget=22",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 22,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A_K",
+      "source_model": "ridge::H_D_B_M_A_K",
+      "chosen_model": "ridge::H_D_B_M_A_K",
+      "chosen_subset": "H_D_B_M_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6297690531788611
+    },
+    {
+      "policy_id": "ridge|history_available|budget=23",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 23,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A_K",
+      "source_model": "ridge::H_D_B_M_A_K",
+      "chosen_model": "ridge::H_D_B_M_A_K",
+      "chosen_subset": "H_D_B_M_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6297690531788611
+    },
+    {
+      "policy_id": "ridge|history_available|budget=24",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 24,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A_K",
+      "source_model": "ridge::H_D_B_M_A_K",
+      "chosen_model": "ridge::H_D_B_M_A_K",
+      "chosen_subset": "H_D_B_M_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6297690531788611
+    },
+    {
+      "policy_id": "ridge|history_available|budget=25",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 25,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A_K",
+      "source_model": "ridge::H_D_B_M_A_K",
+      "chosen_model": "ridge::H_D_B_M_A_K",
+      "chosen_subset": "H_D_B_M_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6297690531788611
+    },
+    {
+      "policy_id": "ridge|history_available|budget=26",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 26,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A_K",
+      "source_model": "ridge::H_D_B_M_A_K",
+      "chosen_model": "ridge::H_D_B_M_A_K",
+      "chosen_subset": "H_D_B_M_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6297690531788611
+    },
+    {
+      "policy_id": "ridge|history_available|budget=27",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 27,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_A_K",
+      "source_model": "ridge::H_D_B_M_A_K",
+      "chosen_model": "ridge::H_D_B_M_A_K",
+      "chosen_subset": "H_D_B_M_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6297690531788611
+    },
+    {
+      "policy_id": "ridge|history_available|budget=28",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 28,
+      "history_available": true,
+      "selected_subset": "H_D_B_P_A_K",
+      "source_model": "ridge::H_D_B_P_A_K",
+      "chosen_model": "ridge::H_D_B_P_A_K",
+      "chosen_subset": "H_D_B_P_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "P",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 28,
+      "selected_items": 28,
+      "development_oof_log_loss": 0.6294674622760528
+    },
+    {
+      "policy_id": "ridge|history_available|budget=29",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 29,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_P_A_K",
+      "source_model": "ridge::H_D_B_M_P_A_K",
+      "chosen_model": "ridge::H_D_B_M_P_A_K",
+      "chosen_subset": "H_D_B_M_P_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "P",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 29,
+      "selected_items": 29,
+      "development_oof_log_loss": 0.6292921291184919
+    },
+    {
+      "policy_id": "ridge|history_available|budget=30",
+      "algorithm": "ridge",
+      "availability": "history_available",
+      "budget": 30,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_P_A_K",
+      "source_model": "ridge::H_D_B_M_P_A_K",
+      "chosen_model": "ridge::H_D_B_M_P_A_K",
+      "chosen_subset": "H_D_B_M_P_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "P",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": true,
+      "selected_additional_items": 29,
+      "selected_items": 29,
+      "development_oof_log_loss": 0.6292921291184919
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=00",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 0,
+      "history_available": false,
+      "selected_subset": "NONE",
+      "source_model": "ridge::NONE",
+      "chosen_model": "ridge::NONE",
+      "chosen_subset": "NONE",
+      "selected_config": 0.001,
+      "blocks": [],
+      "chosen_config": "0.001",
+      "uses_history": false,
+      "selected_additional_items": 0,
+      "selected_items": 0,
+      "development_oof_log_loss": 0.6853643289188563
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=01",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 1,
+      "history_available": false,
+      "selected_subset": "B",
+      "source_model": "ridge::B",
+      "chosen_model": "ridge::B",
+      "chosen_subset": "B",
+      "selected_config": 0.1,
+      "blocks": [
+        "B"
+      ],
+      "chosen_config": "0.1",
+      "uses_history": false,
+      "selected_additional_items": 1,
+      "selected_items": 1,
+      "development_oof_log_loss": 0.6777381954029948
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=02",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 2,
+      "history_available": false,
+      "selected_subset": "B_A",
+      "source_model": "ridge::B_A",
+      "chosen_model": "ridge::B_A",
+      "chosen_subset": "B_A",
+      "selected_config": 0.1,
+      "blocks": [
+        "B",
+        "A"
+      ],
+      "chosen_config": "0.1",
+      "uses_history": false,
+      "selected_additional_items": 2,
+      "selected_items": 2,
+      "development_oof_log_loss": 0.6736656514353723
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=03",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 3,
+      "history_available": false,
+      "selected_subset": "B_C_A",
+      "source_model": "ridge::B_C_A",
+      "chosen_model": "ridge::B_C_A",
+      "chosen_subset": "B_C_A",
+      "selected_config": 0.1,
+      "blocks": [
+        "B",
+        "C",
+        "A"
+      ],
+      "chosen_config": "0.1",
+      "uses_history": false,
+      "selected_additional_items": 3,
+      "selected_items": 3,
+      "development_oof_log_loss": 0.6735209745197117
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=04",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 4,
+      "history_available": false,
+      "selected_subset": "D",
+      "source_model": "ridge::D",
+      "chosen_model": "ridge::D",
+      "chosen_subset": "D",
+      "selected_config": 1.0,
+      "blocks": [
+        "D"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 4,
+      "selected_items": 4,
+      "development_oof_log_loss": 0.6621656516928427
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=05",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 5,
+      "history_available": false,
+      "selected_subset": "D_B",
+      "source_model": "ridge::D_B",
+      "chosen_model": "ridge::D_B",
+      "chosen_subset": "D_B",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 5,
+      "selected_items": 5,
+      "development_oof_log_loss": 0.6582120307239033
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=06",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 6,
+      "history_available": false,
+      "selected_subset": "D_B_A",
+      "source_model": "ridge::D_B_A",
+      "chosen_model": "ridge::D_B_A",
+      "chosen_subset": "D_B_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 6,
+      "selected_items": 6,
+      "development_oof_log_loss": 0.6545563941969289
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=07",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 7,
+      "history_available": false,
+      "selected_subset": "D_B_A",
+      "source_model": "ridge::D_B_A",
+      "chosen_model": "ridge::D_B_A",
+      "chosen_subset": "D_B_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 6,
+      "selected_items": 6,
+      "development_oof_log_loss": 0.6545563941969289
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=08",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 8,
+      "history_available": false,
+      "selected_subset": "D_B_A",
+      "source_model": "ridge::D_B_A",
+      "chosen_model": "ridge::D_B_A",
+      "chosen_subset": "D_B_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 6,
+      "selected_items": 6,
+      "development_oof_log_loss": 0.6545563941969289
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=09",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 9,
+      "history_available": false,
+      "selected_subset": "D_B_A",
+      "source_model": "ridge::D_B_A",
+      "chosen_model": "ridge::D_B_A",
+      "chosen_subset": "D_B_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 6,
+      "selected_items": 6,
+      "development_oof_log_loss": 0.6545563941969289
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=10",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 10,
+      "history_available": false,
+      "selected_subset": "D_B_A",
+      "source_model": "ridge::D_B_A",
+      "chosen_model": "ridge::D_B_A",
+      "chosen_subset": "D_B_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 6,
+      "selected_items": 6,
+      "development_oof_log_loss": 0.6545563941969289
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=11",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 11,
+      "history_available": false,
+      "selected_subset": "D_B_A",
+      "source_model": "ridge::D_B_A",
+      "chosen_model": "ridge::D_B_A",
+      "chosen_subset": "D_B_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 6,
+      "selected_items": 6,
+      "development_oof_log_loss": 0.6545563941969289
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=12",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 12,
+      "history_available": false,
+      "selected_subset": "D_B_A",
+      "source_model": "ridge::D_B_A",
+      "chosen_model": "ridge::D_B_A",
+      "chosen_subset": "D_B_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 6,
+      "selected_items": 6,
+      "development_oof_log_loss": 0.6545563941969289
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=13",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 13,
+      "history_available": false,
+      "selected_subset": "D_B_A",
+      "source_model": "ridge::D_B_A",
+      "chosen_model": "ridge::D_B_A",
+      "chosen_subset": "D_B_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 6,
+      "selected_items": 6,
+      "development_oof_log_loss": 0.6545563941969289
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=14",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 14,
+      "history_available": false,
+      "selected_subset": "D_B_A",
+      "source_model": "ridge::D_B_A",
+      "chosen_model": "ridge::D_B_A",
+      "chosen_subset": "D_B_A",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 6,
+      "selected_items": 6,
+      "development_oof_log_loss": 0.6545563941969289
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=15",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 15,
+      "history_available": false,
+      "selected_subset": "D_K",
+      "source_model": "ridge::D_K",
+      "chosen_model": "ridge::D_K",
+      "chosen_subset": "D_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 15,
+      "selected_items": 15,
+      "development_oof_log_loss": 0.6534616584557627
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=16",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 16,
+      "history_available": false,
+      "selected_subset": "D_A_K",
+      "source_model": "ridge::D_A_K",
+      "chosen_model": "ridge::D_A_K",
+      "chosen_subset": "D_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 16,
+      "selected_items": 16,
+      "development_oof_log_loss": 0.6495521869548352
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=17",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 17,
+      "history_available": false,
+      "selected_subset": "D_B_A_K",
+      "source_model": "ridge::D_B_A_K",
+      "chosen_model": "ridge::D_B_A_K",
+      "chosen_subset": "D_B_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6465315444142528
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=18",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 18,
+      "history_available": false,
+      "selected_subset": "D_B_A_K",
+      "source_model": "ridge::D_B_A_K",
+      "chosen_model": "ridge::D_B_A_K",
+      "chosen_subset": "D_B_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6465315444142528
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=19",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 19,
+      "history_available": false,
+      "selected_subset": "D_B_A_K",
+      "source_model": "ridge::D_B_A_K",
+      "chosen_model": "ridge::D_B_A_K",
+      "chosen_subset": "D_B_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6465315444142528
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=20",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 20,
+      "history_available": false,
+      "selected_subset": "D_B_A_K",
+      "source_model": "ridge::D_B_A_K",
+      "chosen_model": "ridge::D_B_A_K",
+      "chosen_subset": "D_B_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6465315444142528
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=21",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 21,
+      "history_available": false,
+      "selected_subset": "D_B_A_K",
+      "source_model": "ridge::D_B_A_K",
+      "chosen_model": "ridge::D_B_A_K",
+      "chosen_subset": "D_B_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6465315444142528
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=22",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 22,
+      "history_available": false,
+      "selected_subset": "D_B_A_K",
+      "source_model": "ridge::D_B_A_K",
+      "chosen_model": "ridge::D_B_A_K",
+      "chosen_subset": "D_B_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6465315444142528
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=23",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 23,
+      "history_available": false,
+      "selected_subset": "D_B_A_K",
+      "source_model": "ridge::D_B_A_K",
+      "chosen_model": "ridge::D_B_A_K",
+      "chosen_subset": "D_B_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6465315444142528
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=24",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 24,
+      "history_available": false,
+      "selected_subset": "D_B_A_K",
+      "source_model": "ridge::D_B_A_K",
+      "chosen_model": "ridge::D_B_A_K",
+      "chosen_subset": "D_B_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6465315444142528
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=25",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 25,
+      "history_available": false,
+      "selected_subset": "D_B_A_K",
+      "source_model": "ridge::D_B_A_K",
+      "chosen_model": "ridge::D_B_A_K",
+      "chosen_subset": "D_B_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6465315444142528
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=26",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 26,
+      "history_available": false,
+      "selected_subset": "D_B_A_K",
+      "source_model": "ridge::D_B_A_K",
+      "chosen_model": "ridge::D_B_A_K",
+      "chosen_subset": "D_B_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6465315444142528
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=27",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 27,
+      "history_available": false,
+      "selected_subset": "D_B_A_K",
+      "source_model": "ridge::D_B_A_K",
+      "chosen_model": "ridge::D_B_A_K",
+      "chosen_subset": "D_B_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6465315444142528
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=28",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 28,
+      "history_available": false,
+      "selected_subset": "D_B_P_A_K",
+      "source_model": "ridge::D_B_P_A_K",
+      "chosen_model": "ridge::D_B_P_A_K",
+      "chosen_subset": "D_B_P_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "P",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 28,
+      "selected_items": 28,
+      "development_oof_log_loss": 0.645554504910448
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=29",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 29,
+      "history_available": false,
+      "selected_subset": "D_B_P_A_K",
+      "source_model": "ridge::D_B_P_A_K",
+      "chosen_model": "ridge::D_B_P_A_K",
+      "chosen_subset": "D_B_P_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "P",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 28,
+      "selected_items": 28,
+      "development_oof_log_loss": 0.645554504910448
+    },
+    {
+      "policy_id": "ridge|history_unavailable|budget=30",
+      "algorithm": "ridge",
+      "availability": "history_unavailable",
+      "budget": 30,
+      "history_available": false,
+      "selected_subset": "D_B_P_A_K",
+      "source_model": "ridge::D_B_P_A_K",
+      "chosen_model": "ridge::D_B_P_A_K",
+      "chosen_subset": "D_B_P_A_K",
+      "selected_config": 1.0,
+      "blocks": [
+        "D",
+        "B",
+        "P",
+        "A",
+        "K"
+      ],
+      "chosen_config": "1.0",
+      "uses_history": false,
+      "selected_additional_items": 28,
+      "selected_items": 28,
+      "development_oof_log_loss": 0.645554504910448
+    },
+    {
+      "policy_id": "hgb|history_available|budget=00",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 0,
+      "history_available": true,
+      "selected_subset": "H",
+      "source_model": "hgb::H",
+      "chosen_model": "hgb::H",
+      "chosen_subset": "H",
+      "selected_config": {
+        "max_leaf_nodes": 3,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 3}",
+      "uses_history": true,
+      "selected_additional_items": 0,
+      "selected_items": 0,
+      "development_oof_log_loss": 0.6620826133717034
+    },
+    {
+      "policy_id": "hgb|history_available|budget=01",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 1,
+      "history_available": true,
+      "selected_subset": "H_B",
+      "source_model": "hgb::H_B",
+      "chosen_model": "hgb::H_B",
+      "chosen_subset": "H_B",
+      "selected_config": {
+        "max_leaf_nodes": 3,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "B"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 3}",
+      "uses_history": true,
+      "selected_additional_items": 1,
+      "selected_items": 1,
+      "development_oof_log_loss": 0.656149609502737
+    },
+    {
+      "policy_id": "hgb|history_available|budget=02",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 2,
+      "history_available": true,
+      "selected_subset": "H_B_M",
+      "source_model": "hgb::H_B_M",
+      "chosen_model": "hgb::H_B_M",
+      "chosen_subset": "H_B_M",
+      "selected_config": {
+        "max_leaf_nodes": 3,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "B",
+        "M"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 3}",
+      "uses_history": true,
+      "selected_additional_items": 2,
+      "selected_items": 2,
+      "development_oof_log_loss": 0.6526472365345142
+    },
+    {
+      "policy_id": "hgb|history_available|budget=03",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 3,
+      "history_available": true,
+      "selected_subset": "H_B_M_A",
+      "source_model": "hgb::H_B_M_A",
+      "chosen_model": "hgb::H_B_M_A",
+      "chosen_subset": "H_B_M_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "B",
+        "M",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 3,
+      "selected_items": 3,
+      "development_oof_log_loss": 0.6499456254601639
+    },
+    {
+      "policy_id": "hgb|history_available|budget=04",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 4,
+      "history_available": true,
+      "selected_subset": "H_D",
+      "source_model": "hgb::H_D",
+      "chosen_model": "hgb::H_D",
+      "chosen_subset": "H_D",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 4,
+      "selected_items": 4,
+      "development_oof_log_loss": 0.6440872421067338
+    },
+    {
+      "policy_id": "hgb|history_available|budget=05",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 5,
+      "history_available": true,
+      "selected_subset": "H_D_M",
+      "source_model": "hgb::H_D_M",
+      "chosen_model": "hgb::H_D_M",
+      "chosen_subset": "H_D_M",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 5,
+      "selected_items": 5,
+      "development_oof_log_loss": 0.6378678578039242
+    },
+    {
+      "policy_id": "hgb|history_available|budget=06",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 6,
+      "history_available": true,
+      "selected_subset": "H_D_M_A",
+      "source_model": "hgb::H_D_M_A",
+      "chosen_model": "hgb::H_D_M_A",
+      "chosen_subset": "H_D_M_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 6,
+      "selected_items": 6,
+      "development_oof_log_loss": 0.6353580028168152
+    },
+    {
+      "policy_id": "hgb|history_available|budget=07",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 7,
+      "history_available": true,
+      "selected_subset": "H_D_M_C_A",
+      "source_model": "hgb::H_D_M_C_A",
+      "chosen_model": "hgb::H_D_M_C_A",
+      "chosen_subset": "H_D_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 7,
+      "selected_items": 7,
+      "development_oof_log_loss": 0.6332706689577972
+    },
+    {
+      "policy_id": "hgb|history_available|budget=08",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 8,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_C_A",
+      "source_model": "hgb::H_D_B_M_C_A",
+      "chosen_model": "hgb::H_D_B_M_C_A",
+      "chosen_subset": "H_D_B_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 8,
+      "selected_items": 8,
+      "development_oof_log_loss": 0.6314904390595096
+    },
+    {
+      "policy_id": "hgb|history_available|budget=09",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 9,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_C_A",
+      "source_model": "hgb::H_D_B_M_C_A",
+      "chosen_model": "hgb::H_D_B_M_C_A",
+      "chosen_subset": "H_D_B_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 8,
+      "selected_items": 8,
+      "development_oof_log_loss": 0.6314904390595096
+    },
+    {
+      "policy_id": "hgb|history_available|budget=10",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 10,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_C_A",
+      "source_model": "hgb::H_D_B_M_C_A",
+      "chosen_model": "hgb::H_D_B_M_C_A",
+      "chosen_subset": "H_D_B_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 8,
+      "selected_items": 8,
+      "development_oof_log_loss": 0.6314904390595096
+    },
+    {
+      "policy_id": "hgb|history_available|budget=11",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 11,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_C_A",
+      "source_model": "hgb::H_D_B_M_C_A",
+      "chosen_model": "hgb::H_D_B_M_C_A",
+      "chosen_subset": "H_D_B_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 8,
+      "selected_items": 8,
+      "development_oof_log_loss": 0.6314904390595096
+    },
+    {
+      "policy_id": "hgb|history_available|budget=12",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 12,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_C_A",
+      "source_model": "hgb::H_D_B_M_C_A",
+      "chosen_model": "hgb::H_D_B_M_C_A",
+      "chosen_subset": "H_D_B_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 8,
+      "selected_items": 8,
+      "development_oof_log_loss": 0.6314904390595096
+    },
+    {
+      "policy_id": "hgb|history_available|budget=13",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 13,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_C_A",
+      "source_model": "hgb::H_D_B_M_C_A",
+      "chosen_model": "hgb::H_D_B_M_C_A",
+      "chosen_subset": "H_D_B_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 8,
+      "selected_items": 8,
+      "development_oof_log_loss": 0.6314904390595096
+    },
+    {
+      "policy_id": "hgb|history_available|budget=14",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 14,
+      "history_available": true,
+      "selected_subset": "H_D_B_M_C_A",
+      "source_model": "hgb::H_D_B_M_C_A",
+      "chosen_model": "hgb::H_D_B_M_C_A",
+      "chosen_subset": "H_D_B_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "B",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 8,
+      "selected_items": 8,
+      "development_oof_log_loss": 0.6314904390595096
+    },
+    {
+      "policy_id": "hgb|history_available|budget=15",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 15,
+      "history_available": true,
+      "selected_subset": "H_D_P",
+      "source_model": "hgb::H_D_P",
+      "chosen_model": "hgb::H_D_P",
+      "chosen_subset": "H_D_P",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "P"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 15,
+      "selected_items": 15,
+      "development_oof_log_loss": 0.6284341422186445
+    },
+    {
+      "policy_id": "hgb|history_available|budget=16",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 16,
+      "history_available": true,
+      "selected_subset": "H_D_M_P",
+      "source_model": "hgb::H_D_M_P",
+      "chosen_model": "hgb::H_D_M_P",
+      "chosen_subset": "H_D_M_P",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 16,
+      "selected_items": 16,
+      "development_oof_log_loss": 0.6263444622412933
+    },
+    {
+      "policy_id": "hgb|history_available|budget=17",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 17,
+      "history_available": true,
+      "selected_subset": "H_D_M_P_A",
+      "source_model": "hgb::H_D_M_P_A",
+      "chosen_model": "hgb::H_D_M_P_A",
+      "chosen_subset": "H_D_M_P_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6241806893132597
+    },
+    {
+      "policy_id": "hgb|history_available|budget=18",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 18,
+      "history_available": true,
+      "selected_subset": "H_D_M_P_A",
+      "source_model": "hgb::H_D_M_P_A",
+      "chosen_model": "hgb::H_D_M_P_A",
+      "chosen_subset": "H_D_M_P_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6241806893132597
+    },
+    {
+      "policy_id": "hgb|history_available|budget=19",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 19,
+      "history_available": true,
+      "selected_subset": "H_D_M_P_A",
+      "source_model": "hgb::H_D_M_P_A",
+      "chosen_model": "hgb::H_D_M_P_A",
+      "chosen_subset": "H_D_M_P_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6241806893132597
+    },
+    {
+      "policy_id": "hgb|history_available|budget=20",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 20,
+      "history_available": true,
+      "selected_subset": "H_D_M_P_A",
+      "source_model": "hgb::H_D_M_P_A",
+      "chosen_model": "hgb::H_D_M_P_A",
+      "chosen_subset": "H_D_M_P_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6241806893132597
+    },
+    {
+      "policy_id": "hgb|history_available|budget=21",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 21,
+      "history_available": true,
+      "selected_subset": "H_D_M_P_A",
+      "source_model": "hgb::H_D_M_P_A",
+      "chosen_model": "hgb::H_D_M_P_A",
+      "chosen_subset": "H_D_M_P_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6241806893132597
+    },
+    {
+      "policy_id": "hgb|history_available|budget=22",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 22,
+      "history_available": true,
+      "selected_subset": "H_D_M_P_A",
+      "source_model": "hgb::H_D_M_P_A",
+      "chosen_model": "hgb::H_D_M_P_A",
+      "chosen_subset": "H_D_M_P_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6241806893132597
+    },
+    {
+      "policy_id": "hgb|history_available|budget=23",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 23,
+      "history_available": true,
+      "selected_subset": "H_D_M_P_A",
+      "source_model": "hgb::H_D_M_P_A",
+      "chosen_model": "hgb::H_D_M_P_A",
+      "chosen_subset": "H_D_M_P_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6241806893132597
+    },
+    {
+      "policy_id": "hgb|history_available|budget=24",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 24,
+      "history_available": true,
+      "selected_subset": "H_D_M_P_A",
+      "source_model": "hgb::H_D_M_P_A",
+      "chosen_model": "hgb::H_D_M_P_A",
+      "chosen_subset": "H_D_M_P_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6241806893132597
+    },
+    {
+      "policy_id": "hgb|history_available|budget=25",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 25,
+      "history_available": true,
+      "selected_subset": "H_D_M_P_A",
+      "source_model": "hgb::H_D_M_P_A",
+      "chosen_model": "hgb::H_D_M_P_A",
+      "chosen_subset": "H_D_M_P_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6241806893132597
+    },
+    {
+      "policy_id": "hgb|history_available|budget=26",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 26,
+      "history_available": true,
+      "selected_subset": "H_D_M_P_A",
+      "source_model": "hgb::H_D_M_P_A",
+      "chosen_model": "hgb::H_D_M_P_A",
+      "chosen_subset": "H_D_M_P_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6241806893132597
+    },
+    {
+      "policy_id": "hgb|history_available|budget=27",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 27,
+      "history_available": true,
+      "selected_subset": "H_D_M_P_A",
+      "source_model": "hgb::H_D_M_P_A",
+      "chosen_model": "hgb::H_D_M_P_A",
+      "chosen_subset": "H_D_M_P_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.6241806893132597
+    },
+    {
+      "policy_id": "hgb|history_available|budget=28",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 28,
+      "history_available": true,
+      "selected_subset": "H_D_M_P_C_K",
+      "source_model": "hgb::H_D_M_P_C_K",
+      "chosen_model": "hgb::H_D_M_P_C_K",
+      "chosen_subset": "H_D_M_P_C_K",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P",
+        "C",
+        "K"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 28,
+      "selected_items": 28,
+      "development_oof_log_loss": 0.6221157681523305
+    },
+    {
+      "policy_id": "hgb|history_available|budget=29",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 29,
+      "history_available": true,
+      "selected_subset": "H_D_M_P_C_A_K",
+      "source_model": "hgb::H_D_M_P_C_A_K",
+      "chosen_model": "hgb::H_D_M_P_C_A_K",
+      "chosen_subset": "H_D_M_P_C_A_K",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P",
+        "C",
+        "A",
+        "K"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 29,
+      "selected_items": 29,
+      "development_oof_log_loss": 0.620817620210149
+    },
+    {
+      "policy_id": "hgb|history_available|budget=30",
+      "algorithm": "hgb",
+      "availability": "history_available",
+      "budget": 30,
+      "history_available": true,
+      "selected_subset": "H_D_M_P_C_A_K",
+      "source_model": "hgb::H_D_M_P_C_A_K",
+      "chosen_model": "hgb::H_D_M_P_C_A_K",
+      "chosen_subset": "H_D_M_P_C_A_K",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "H",
+        "D",
+        "M",
+        "P",
+        "C",
+        "A",
+        "K"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": true,
+      "selected_additional_items": 29,
+      "selected_items": 29,
+      "development_oof_log_loss": 0.620817620210149
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=00",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 0,
+      "history_available": false,
+      "selected_subset": "NONE",
+      "source_model": "hgb::NONE",
+      "chosen_model": "hgb::NONE",
+      "chosen_subset": "NONE",
+      "selected_config": {
+        "max_leaf_nodes": 3,
+        "learning_rate": 0.05
+      },
+      "blocks": [],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 3}",
+      "uses_history": false,
+      "selected_additional_items": 0,
+      "selected_items": 0,
+      "development_oof_log_loss": 0.6853643289188563
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=01",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 1,
+      "history_available": false,
+      "selected_subset": "B",
+      "source_model": "hgb::B",
+      "chosen_model": "hgb::B",
+      "chosen_subset": "B",
+      "selected_config": {
+        "max_leaf_nodes": 3,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "B"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 3}",
+      "uses_history": false,
+      "selected_additional_items": 1,
+      "selected_items": 1,
+      "development_oof_log_loss": 0.6760966845523163
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=02",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 2,
+      "history_available": false,
+      "selected_subset": "B_A",
+      "source_model": "hgb::B_A",
+      "chosen_model": "hgb::B_A",
+      "chosen_subset": "B_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "B",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 2,
+      "selected_items": 2,
+      "development_oof_log_loss": 0.6710019459030957
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=03",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 3,
+      "history_available": false,
+      "selected_subset": "B_M_A",
+      "source_model": "hgb::B_M_A",
+      "chosen_model": "hgb::B_M_A",
+      "chosen_subset": "B_M_A",
+      "selected_config": {
+        "max_leaf_nodes": 3,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "B",
+        "M",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 3}",
+      "uses_history": false,
+      "selected_additional_items": 3,
+      "selected_items": 3,
+      "development_oof_log_loss": 0.6681826337714976
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=04",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 4,
+      "history_available": false,
+      "selected_subset": "D",
+      "source_model": "hgb::D",
+      "chosen_model": "hgb::D",
+      "chosen_subset": "D",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 4,
+      "selected_items": 4,
+      "development_oof_log_loss": 0.6641680792622449
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=05",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 5,
+      "history_available": false,
+      "selected_subset": "D_C",
+      "source_model": "hgb::D_C",
+      "chosen_model": "hgb::D_C",
+      "chosen_subset": "D_C",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "C"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 5,
+      "selected_items": 5,
+      "development_oof_log_loss": 0.6579254494910797
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=06",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 6,
+      "history_available": false,
+      "selected_subset": "D_B_C",
+      "source_model": "hgb::D_B_C",
+      "chosen_model": "hgb::D_B_C",
+      "chosen_subset": "D_B_C",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "B",
+        "C"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 6,
+      "selected_items": 6,
+      "development_oof_log_loss": 0.6529262330125998
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=07",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 7,
+      "history_available": false,
+      "selected_subset": "D_M_C_A",
+      "source_model": "hgb::D_M_C_A",
+      "chosen_model": "hgb::D_M_C_A",
+      "chosen_subset": "D_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 7,
+      "selected_items": 7,
+      "development_oof_log_loss": 0.650369538146649
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=08",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 8,
+      "history_available": false,
+      "selected_subset": "D_B_M_C_A",
+      "source_model": "hgb::D_B_M_C_A",
+      "chosen_model": "hgb::D_B_M_C_A",
+      "chosen_subset": "D_B_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "B",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 8,
+      "selected_items": 8,
+      "development_oof_log_loss": 0.6485929332417237
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=09",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 9,
+      "history_available": false,
+      "selected_subset": "D_B_M_C_A",
+      "source_model": "hgb::D_B_M_C_A",
+      "chosen_model": "hgb::D_B_M_C_A",
+      "chosen_subset": "D_B_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "B",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 8,
+      "selected_items": 8,
+      "development_oof_log_loss": 0.6485929332417237
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=10",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 10,
+      "history_available": false,
+      "selected_subset": "D_B_M_C_A",
+      "source_model": "hgb::D_B_M_C_A",
+      "chosen_model": "hgb::D_B_M_C_A",
+      "chosen_subset": "D_B_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "B",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 8,
+      "selected_items": 8,
+      "development_oof_log_loss": 0.6485929332417237
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=11",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 11,
+      "history_available": false,
+      "selected_subset": "D_B_M_C_A",
+      "source_model": "hgb::D_B_M_C_A",
+      "chosen_model": "hgb::D_B_M_C_A",
+      "chosen_subset": "D_B_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "B",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 8,
+      "selected_items": 8,
+      "development_oof_log_loss": 0.6485929332417237
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=12",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 12,
+      "history_available": false,
+      "selected_subset": "D_B_M_C_A",
+      "source_model": "hgb::D_B_M_C_A",
+      "chosen_model": "hgb::D_B_M_C_A",
+      "chosen_subset": "D_B_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "B",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 8,
+      "selected_items": 8,
+      "development_oof_log_loss": 0.6485929332417237
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=13",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 13,
+      "history_available": false,
+      "selected_subset": "D_B_M_C_A",
+      "source_model": "hgb::D_B_M_C_A",
+      "chosen_model": "hgb::D_B_M_C_A",
+      "chosen_subset": "D_B_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "B",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 8,
+      "selected_items": 8,
+      "development_oof_log_loss": 0.6485929332417237
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=14",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 14,
+      "history_available": false,
+      "selected_subset": "D_B_M_C_A",
+      "source_model": "hgb::D_B_M_C_A",
+      "chosen_model": "hgb::D_B_M_C_A",
+      "chosen_subset": "D_B_M_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "B",
+        "M",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 8,
+      "selected_items": 8,
+      "development_oof_log_loss": 0.6485929332417237
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=15",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 15,
+      "history_available": false,
+      "selected_subset": "D_P",
+      "source_model": "hgb::D_P",
+      "chosen_model": "hgb::D_P",
+      "chosen_subset": "D_P",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "P"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 15,
+      "selected_items": 15,
+      "development_oof_log_loss": 0.6465103724542357
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=16",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 16,
+      "history_available": false,
+      "selected_subset": "D_P_C",
+      "source_model": "hgb::D_P_C",
+      "chosen_model": "hgb::D_P_C",
+      "chosen_subset": "D_P_C",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "P",
+        "C"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 16,
+      "selected_items": 16,
+      "development_oof_log_loss": 0.6441902261965382
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=17",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 17,
+      "history_available": false,
+      "selected_subset": "D_M_P_A",
+      "source_model": "hgb::D_M_P_A",
+      "chosen_model": "hgb::D_M_P_A",
+      "chosen_subset": "D_M_P_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "M",
+        "P",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 17,
+      "selected_items": 17,
+      "development_oof_log_loss": 0.640925623536283
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=18",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 18,
+      "history_available": false,
+      "selected_subset": "D_M_P_C_A",
+      "source_model": "hgb::D_M_P_C_A",
+      "chosen_model": "hgb::D_M_P_C_A",
+      "chosen_subset": "D_M_P_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "M",
+        "P",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6379512231708448
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=19",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 19,
+      "history_available": false,
+      "selected_subset": "D_M_P_C_A",
+      "source_model": "hgb::D_M_P_C_A",
+      "chosen_model": "hgb::D_M_P_C_A",
+      "chosen_subset": "D_M_P_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "M",
+        "P",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6379512231708448
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=20",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 20,
+      "history_available": false,
+      "selected_subset": "D_M_P_C_A",
+      "source_model": "hgb::D_M_P_C_A",
+      "chosen_model": "hgb::D_M_P_C_A",
+      "chosen_subset": "D_M_P_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "M",
+        "P",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6379512231708448
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=21",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 21,
+      "history_available": false,
+      "selected_subset": "D_M_P_C_A",
+      "source_model": "hgb::D_M_P_C_A",
+      "chosen_model": "hgb::D_M_P_C_A",
+      "chosen_subset": "D_M_P_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "M",
+        "P",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6379512231708448
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=22",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 22,
+      "history_available": false,
+      "selected_subset": "D_M_P_C_A",
+      "source_model": "hgb::D_M_P_C_A",
+      "chosen_model": "hgb::D_M_P_C_A",
+      "chosen_subset": "D_M_P_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "M",
+        "P",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6379512231708448
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=23",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 23,
+      "history_available": false,
+      "selected_subset": "D_M_P_C_A",
+      "source_model": "hgb::D_M_P_C_A",
+      "chosen_model": "hgb::D_M_P_C_A",
+      "chosen_subset": "D_M_P_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "M",
+        "P",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6379512231708448
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=24",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 24,
+      "history_available": false,
+      "selected_subset": "D_M_P_C_A",
+      "source_model": "hgb::D_M_P_C_A",
+      "chosen_model": "hgb::D_M_P_C_A",
+      "chosen_subset": "D_M_P_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "M",
+        "P",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6379512231708448
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=25",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 25,
+      "history_available": false,
+      "selected_subset": "D_M_P_C_A",
+      "source_model": "hgb::D_M_P_C_A",
+      "chosen_model": "hgb::D_M_P_C_A",
+      "chosen_subset": "D_M_P_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "M",
+        "P",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6379512231708448
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=26",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 26,
+      "history_available": false,
+      "selected_subset": "D_M_P_C_A",
+      "source_model": "hgb::D_M_P_C_A",
+      "chosen_model": "hgb::D_M_P_C_A",
+      "chosen_subset": "D_M_P_C_A",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "M",
+        "P",
+        "C",
+        "A"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 18,
+      "selected_items": 18,
+      "development_oof_log_loss": 0.6379512231708448
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=27",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 27,
+      "history_available": false,
+      "selected_subset": "D_P_C_K",
+      "source_model": "hgb::D_P_C_K",
+      "chosen_model": "hgb::D_P_C_K",
+      "chosen_subset": "D_P_C_K",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "P",
+        "C",
+        "K"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 27,
+      "selected_items": 27,
+      "development_oof_log_loss": 0.6370776595795395
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=28",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 28,
+      "history_available": false,
+      "selected_subset": "D_M_P_A_K",
+      "source_model": "hgb::D_M_P_A_K",
+      "chosen_model": "hgb::D_M_P_A_K",
+      "chosen_subset": "D_M_P_A_K",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "M",
+        "P",
+        "A",
+        "K"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 28,
+      "selected_items": 28,
+      "development_oof_log_loss": 0.6344975802563864
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=29",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 29,
+      "history_available": false,
+      "selected_subset": "D_M_P_C_A_K",
+      "source_model": "hgb::D_M_P_C_A_K",
+      "chosen_model": "hgb::D_M_P_C_A_K",
+      "chosen_subset": "D_M_P_C_A_K",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "M",
+        "P",
+        "C",
+        "A",
+        "K"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 29,
+      "selected_items": 29,
+      "development_oof_log_loss": 0.6317969039258379
+    },
+    {
+      "policy_id": "hgb|history_unavailable|budget=30",
+      "algorithm": "hgb",
+      "availability": "history_unavailable",
+      "budget": 30,
+      "history_available": false,
+      "selected_subset": "D_M_P_C_A_K",
+      "source_model": "hgb::D_M_P_C_A_K",
+      "chosen_model": "hgb::D_M_P_C_A_K",
+      "chosen_subset": "D_M_P_C_A_K",
+      "selected_config": {
+        "max_leaf_nodes": 7,
+        "learning_rate": 0.05
+      },
+      "blocks": [
+        "D",
+        "M",
+        "P",
+        "C",
+        "A",
+        "K"
+      ],
+      "chosen_config": "{\"learning_rate\": 0.05, \"max_leaf_nodes\": 7}",
+      "uses_history": false,
+      "selected_additional_items": 29,
+      "selected_items": 29,
+      "development_oof_log_loss": 0.6317969039258379
+    }
+  ]
+}

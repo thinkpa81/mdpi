@@ -1,0 +1,73 @@
+{
+  "source_scope": "embedded variable/value labels plus fetched full-questionnaire text extracts when provided; no individual fieldwork dates provided in analysis data",
+  "waves": [
+    {
+      "year": 2023,
+      "variables": 307,
+      "selected_variables": 35,
+      "respondent_timestamp_fields": [],
+      "extract_sha256": "b595655c3d8ad01b740c719f46d7f3967cff018c7f81d8002c72fdac58a05a4c",
+      "current_drive_dictionary_sha256": "3b207d94a6341bfae683ea9e30e9ab7fc415605d170b87bb81aa73184b42198f",
+      "current_drive_variable_dictionary_exact_text_contained": true,
+      "current_drive_value_dictionary_exact_text_contained": true
+    },
+    {
+      "year": 2024,
+      "variables": 307,
+      "selected_variables": 35,
+      "respondent_timestamp_fields": [],
+      "extract_sha256": "f1fce6f4e07a4ff98b1f8087858271377e070bb6c64cf81f1f7edaffe0bb384b",
+      "current_drive_dictionary_sha256": "f21af6632a123708ef3d287e37a108fbef6e32a366b0abffe09591d022feec95",
+      "current_drive_variable_dictionary_exact_text_contained": true,
+      "current_drive_value_dictionary_exact_text_contained": true
+    },
+    {
+      "year": 2025,
+      "variables": 322,
+      "selected_variables": 35,
+      "respondent_timestamp_fields": [],
+      "extract_sha256": "31936e9caa90ee75c7cc4adb2bfeb6ed6d2c061f552ef60f3823fd39a960dcf6",
+      "current_drive_dictionary_sha256": "9089983732f5a62a1aeb59802f2b8133bce3da6192c99c3be59de5a89c8c25c6",
+      "current_drive_variable_dictionary_exact_text_contained": true,
+      "current_drive_value_dictionary_exact_text_contained": true
+    }
+  ],
+  "questionnaires": [
+    {
+      "year": 2023,
+      "source_name": "2023_questionnaire.txt",
+      "sha256": "d2aeebab793274d6426253d6a78428936f260f0f3487830b297de08f4d141f3b",
+      "recent_year_Q1": true,
+      "commerce_examples": true,
+      "interview_date_form_field": true,
+      "expanded_consumer_service_explanation": false
+    },
+    {
+      "year": 2024,
+      "source_name": "2024_questionnaire.txt",
+      "sha256": "7f4fce60bb970c3ba56b8fff7e61438917dacc0a4dd974d8a09adf040dfde806",
+      "recent_year_Q1": true,
+      "commerce_examples": true,
+      "interview_date_form_field": true,
+      "expanded_consumer_service_explanation": false
+    },
+    {
+      "year": 2025,
+      "source_name": "2025_questionnaire.txt",
+      "sha256": "20392e8bdd1eae9a4269a82bc448c1a48827154407f19a5226f3723af49d3a5d",
+      "recent_year_Q1": true,
+      "commerce_examples": true,
+      "interview_date_form_field": true,
+      "expanded_consumer_service_explanation": true
+    }
+  ],
+  "common11_exact_wording_count": 10,
+  "common11_near_equivalent_count": 1,
+  "limitations": [
+    "No transaction amount, order conversion, retention or intervention outcome is measured by q1_8.",
+    "2025 adds a detailed consumer-service description and commercial examples; common item codes do not establish stable interpretation across waves.",
+    "Single-item temporal response stability is not internal-consistency reliability.",
+    "Equal-weight competence and provider-duty means are operational indices; alpha alone does not establish construct validity or longitudinal measurement invariance.",
+    "Information-block choices cover this declared feature universe, not all possible customer information."
+  ]
+}

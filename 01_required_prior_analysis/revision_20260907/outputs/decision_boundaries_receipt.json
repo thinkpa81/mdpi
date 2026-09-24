@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "input_evaluation_sha256": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+  "prediction_sha256": "fec8c3db9737276b67006f26765ed2e6fb87e9fcc442b42be334ed5eef2bd1a7",
+  "policy_sha256": "039547f1773f4b51112d58b0a7a782fc8477ab576e761d612033355c5162a844",
+  "seed": 20260909,
+  "bootstrap_reps": 2000,
+  "policy_rows": 248,
+  "candidate_rows": 1540,
+  "domains": {
+    "whole": 1520,
+    "disjoint": 879
+  },
+  "inference": "fixed-model bootstrap; per-family coverage, no across-family guarantee; not selection/refit uncertainty",
+  "safeguards": [
+    "history availability does not force use",
+    "no evaluation-driven policy selection",
+    "all budget checks passed",
+    "evaluation ID alignment verified",
+    "source hash verified"
+  ]
+}

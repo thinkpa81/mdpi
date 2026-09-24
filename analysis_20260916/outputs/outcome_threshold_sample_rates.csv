@@ -1,0 +1,10 @@
+sample,sample_label,outcome_year,threshold,positive_codes,n,positive_count,percent
+development,개발표본,2024,any_use,"1,2,3,4",1565,880,56.23003194888179
+development,개발표본,2024,monthly_use,"1,2,3",1565,674,43.067092651757186
+development,개발표본,2024,regular_use,"1,2",1565,298,19.04153354632588
+evaluation_full,전체 평가표본,2025,any_use,"1,2,3,4",1520,853,56.11842105263158
+evaluation_full,전체 평가표본,2025,monthly_use,"1,2,3",1520,594,39.078947368421055
+evaluation_full,전체 평가표본,2025,regular_use,"1,2",1520,292,19.210526315789473
+evaluation_disjoint,참여자 비중복 평가표본,2025,any_use,"1,2,3,4",879,471,53.58361774744027
+evaluation_disjoint,참여자 비중복 평가표본,2025,monthly_use,"1,2,3",879,326,37.087599544937426
+evaluation_disjoint,참여자 비중복 평가표본,2025,regular_use,"1,2",879,171,19.453924914675767

@@ -1,0 +1,36 @@
+{
+  "status": "20260916 raw-input harmonization, original representative-policy refit, alternative-outcome analysis executed; original full nested-CV pipeline not rerun.",
+  "recorded_execution": {
+    "source": "01_required_prior_analysis/analysis_outputs/evaluation_summary.json",
+    "python": "3.12.13",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0"
+  },
+  "requirements_analysis": {
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0",
+    "matplotlib": "3.10.8"
+  },
+  "optional_recorded_readme": {
+    "openpyxl": "3.1.5",
+    "python-docx": "1.2.0"
+  },
+  "not_fully_locked": [
+    "operating system",
+    "BLAS",
+    "font environment",
+    "PyMuPDF",
+    "Pillow"
+  ],
+  "executed_20260916": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0"
+  }
+}

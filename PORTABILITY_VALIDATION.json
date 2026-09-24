@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "tested_packaged_code": [
+    "analysis_20260916/code/extract_validate_metrics.py",
+    "analysis_20260916/code/refit_original_representatives.py"
+  ],
+  "test_scope": "Extracted package executed with alternate output paths; original representative refit used authorized private inputs outside public archive. Alternative-outcome full rerun was performed separately before packaging, not repeated for portability test.",
+  "aggregate_rows": 40,
+  "maximum_original_metric_errors": {
+    "log_loss": 0.0,
+    "roc_auc": 0.0,
+    "average_precision": 0.0,
+    "brier": 8.326672684688674e-17,
+    "calibration_intercept": 8.326672684688674e-17,
+    "calibration_slope": 1.1102230246251565e-16
+  },
+  "refit_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0"
+  },
+  "no_private_records_in_archive": true
+}

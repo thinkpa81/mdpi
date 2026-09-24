@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "seconds": 475.1831669807434,
+  "outer_folds": 10,
+  "evaluation_accessed": false,
+  "policies": 124,
+  "development_n": 1565,
+  "frozen_budget_sha256": "73cc56f6ce78fd154571657a7b5c9b0a57befa909b02e75bacf5998b487560b5",
+  "inference_note": "Two repeated partitions do not double sample size. Selection frequencies are descriptive."
+}

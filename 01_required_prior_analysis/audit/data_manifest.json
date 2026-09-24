@@ -1,0 +1,180 @@
+{
+  "source_policy": "Authorized source files read only; current Drive Numeric-sheet text export hash matches numeric CSV byte for byte. Original XLSX binary byte identity is not claimed. Row-level outputs private.",
+  "waves": [
+    {
+      "year": 2023,
+      "source_name": "2023_numeric.csv",
+      "source_bytes": 2916938,
+      "source_sha256": "7d132d7884e2f8c53a4d5f8af477ff4c78d8e3f972f17611774ba8eb19c2935d",
+      "source_rows": 4581,
+      "source_columns": 307,
+      "current_drive_numeric_sha256": "7d132d7884e2f8c53a4d5f8af477ff4c78d8e3f972f17611774ba8eb19c2935d",
+      "current_drive_numeric_exact_byte_match": true,
+      "independent_text_comparison": {
+        "rows": 4581,
+        "columns": 307,
+        "exact_cell_mismatches": 0,
+        "tolerance_cell_mismatches": 0,
+        "categorical_mismatches": 0,
+        "max_numeric_abs_difference": 0.0
+      },
+      "text_sha256": "b595655c3d8ad01b740c719f46d7f3967cff018c7f81d8002c72fdac58a05a4c",
+      "prior_view_comparison": {
+        "rows": 4581,
+        "columns": 49,
+        "exact_cell_mismatches": 0,
+        "tolerance_cell_mismatches": 0,
+        "categorical_mismatches": 0,
+        "max_numeric_abs_difference": 0.0
+      },
+      "view_sha256": "7b69f11adb328c65e6018d4766a2cc4215814425e8202da110d0a5ca44db5daa"
+    },
+    {
+      "year": 2024,
+      "source_name": "2024_numeric.csv",
+      "source_bytes": 2893058,
+      "source_sha256": "82ff03b016ea0ea049e83ae4ce12d0f9313ac6645eec467a50726264607174ac",
+      "source_rows": 4420,
+      "source_columns": 307,
+      "current_drive_numeric_sha256": "82ff03b016ea0ea049e83ae4ce12d0f9313ac6645eec467a50726264607174ac",
+      "current_drive_numeric_exact_byte_match": true,
+      "independent_text_comparison": {
+        "rows": 4420,
+        "columns": 307,
+        "exact_cell_mismatches": 0,
+        "tolerance_cell_mismatches": 0,
+        "categorical_mismatches": 0,
+        "max_numeric_abs_difference": 0.0
+      },
+      "text_sha256": "f1fce6f4e07a4ff98b1f8087858271377e070bb6c64cf81f1f7edaffe0bb384b",
+      "prior_view_comparison": {
+        "rows": 4420,
+        "columns": 49,
+        "exact_cell_mismatches": 0,
+        "tolerance_cell_mismatches": 0,
+        "categorical_mismatches": 0,
+        "max_numeric_abs_difference": 0.0
+      },
+      "view_sha256": "35d6f003b580c318e58e6682921c69d6fc57cedfd022dc2ab4786d4525eb03fa"
+    },
+    {
+      "year": 2025,
+      "source_name": "2025_numeric.csv",
+      "source_bytes": 2839031,
+      "source_sha256": "6eb8e9400e1211f32d0a0f8fc48bef9d3ed35e27810187402165c097021d0120",
+      "source_rows": 4324,
+      "source_columns": 322,
+      "current_drive_numeric_sha256": "6eb8e9400e1211f32d0a0f8fc48bef9d3ed35e27810187402165c097021d0120",
+      "current_drive_numeric_exact_byte_match": true,
+      "independent_text_comparison": {
+        "rows": 4324,
+        "columns": 322,
+        "exact_cell_mismatches": 0,
+        "tolerance_cell_mismatches": 0,
+        "categorical_mismatches": 0,
+        "max_numeric_abs_difference": 0.0
+      },
+      "text_sha256": "31936e9caa90ee75c7cc4adb2bfeb6ed6d2c061f552ef60f3823fd39a960dcf6",
+      "prior_view_comparison": {
+        "rows": 4324,
+        "columns": 49,
+        "exact_cell_mismatches": 0,
+        "tolerance_cell_mismatches": 0,
+        "categorical_mismatches": 0,
+        "max_numeric_abs_difference": 0.0
+      },
+      "view_sha256": "c7689dbf712383411d55e7b1bb3f60c83c0e2bc342c01054769112545489f02c"
+    }
+  ],
+  "comparison_tolerance": "rtol=atol=1e-12 only for numeric workbook serialization differences",
+  "development": {
+    "n": 1565,
+    "events": 880,
+    "prevalence": 0.5623003194888179,
+    "unique_ids": 1565,
+    "output_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+    "valid_longitudinal_weight_n": 1565,
+    "model_columns_missing": {
+      "prior_any_use": 0,
+      "gender": 0,
+      "age_group": 0,
+      "education": 0,
+      "region": 0,
+      "benefit_expectation": 53,
+      "data_management": 0,
+      "safeguard_expectation": 0,
+      "consent_strategy": 0,
+      "genai_experience": 0,
+      "digital_competence_11": 0
+    }
+  },
+  "evaluation": {
+    "n": 1520,
+    "events": 853,
+    "prevalence": 0.5611842105263158,
+    "unique_ids": 1520,
+    "output_sha256": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+    "valid_longitudinal_weight_n": 1369,
+    "model_columns_missing": {
+      "prior_any_use": 0,
+      "gender": 0,
+      "age_group": 0,
+      "education": 0,
+      "region": 0,
+      "benefit_expectation": 52,
+      "data_management": 7,
+      "safeguard_expectation": 0,
+      "consent_strategy": 0,
+      "genai_experience": 0,
+      "digital_competence_11": 0
+    }
+  },
+  "overlap": {
+    "shared_ids": 641,
+    "evaluation_share": 0.4217105263157895,
+    "evaluation_person_disjoint_n": 879,
+    "evaluation_person_disjoint_events": 471
+  },
+  "common_all_waves_ids": 3333,
+  "source_weight_rule": "outcome_long_weight is descriptive/evaluation-only and is never a model feature; 2025 missing weights are not filled with invented weights",
+  "digital_rule": {
+    "indices": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      14,
+      20
+    ],
+    "minimum_valid": 9,
+    "scale": "self-reported competence 1-5; equal item mean; no latent invariance claim"
+  },
+  "script_sha256": "3d56baf10eb529af2a29476c12e57fe0e3116deb5b3dca1123930531e6e5fe9c",
+  "current_source_proof_sha256": "28f43130fad1d9020347ba7532d2b7f3ec8301cfc9da4ee72d7796d21c0f1eda",
+  "information_grouping_amendment": {
+    "date": "2026-09-07",
+    "change": "Replace former combined G with separately selectable P provider-duty expectation and C consent response; primary groups H,D,B,M,P,C,A,K. No changes to coding or row-level CSVs.",
+    "previous_harmonize_script_sha256": "211290e05f69854f9ede8d8aab89182bb9320f7636145dfc0facc31bde4afd96",
+    "current_harmonize_script_sha256": "3d56baf10eb529af2a29476c12e57fe0e3116deb5b3dca1123930531e6e5fe9c",
+    "independent_temporary_regeneration": {
+      "development": {
+        "existing_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+        "regenerated_temporary_sha256": "1fa4a879744932952bfa4712295556b97d50f008fdf638e6969ae27ba83eff21",
+        "exact_byte_match": true,
+        "existing_csv_modified": false
+      },
+      "evaluation": {
+        "existing_sha256": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+        "regenerated_temporary_sha256": "f01b17de9d08a806bdcc1d624e48118d1e3ef262ac8762b5be25f4cdb08dce00",
+        "exact_byte_match": true,
+        "existing_csv_modified": false
+      }
+    },
+    "source_data_unchanged": true
+  }
+}

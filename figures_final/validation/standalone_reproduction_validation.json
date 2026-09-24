@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "checks": {
+    "figure2.png": {
+      "original_renderer_sha256": "05a455f08629f9ab3ff97a81fbb9315f49d12360fe3b80581f1208d239e31358",
+      "standalone_renderer_sha256": "05a455f08629f9ab3ff97a81fbb9315f49d12360fe3b80581f1208d239e31358",
+      "pixel_identical_png_file": true
+    },
+    "figure3.png": {
+      "original_renderer_sha256": "6eef9d5f91961ed0b19180d8fbe1f129f7a1bf9fde53f6d03752d6e864401e99",
+      "standalone_renderer_sha256": "6eef9d5f91961ed0b19180d8fbe1f129f7a1bf9fde53f6d03752d6e864401e99",
+      "pixel_identical_png_file": true
+    }
+  }
+}
