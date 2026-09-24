@@ -855,13 +855,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 6980,
-      "sha256": "52483757b70bf07990a989009a1b98d30330e6ff48ee3ffadbc53b5b9b37dc22"
+      "bytes": 6848,
+      "sha256": "cc306e58092101f990cb8735fa8996a3b30c0556f0db7fb1f778abfe767a8faa"
     },
     {
       "path": "README_분석재현안내.md",
-      "bytes": 16453,
-      "sha256": "d7aa6637a3beafe39f70f2d5dd230214b80e56cfc6e6bf79f26727eb28743be5"
+      "bytes": 16356,
+      "sha256": "d152399970870f07780630f81ee112121a329f8baf6153e91bc9b4ed204f61d9"
     },
     {
       "path": "RELEASE_VALIDATION.json",

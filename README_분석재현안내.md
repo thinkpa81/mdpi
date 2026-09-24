@@ -55,7 +55,7 @@ python analysis_20260916/code/extract_validate_metrics.py --output-dir rechecked
 
 ## 2. 제공·제외 자료와 환경
 
-기존 통계·집계표 코드 17개와 모든 공개 집계 결과를 보존하고, 이번 추가분석 코드·프로토콜·집계표·검증 결과를 포함한다. 과거 DOCX·패키지 작성용 코드 8개는 제외하였다. 최종 Word는 이 ZIP의 코드로 자동 재생성되는 산출물이 아니다. 원자료, 참여자별 파생자료, 식별자 값, 개인 예측값, 개별 폴드, 모형 객체와 중복 실행 체크포인트는 포함하지 않는다.
+기존 통계·집계표 코드 17개와 모든 공개 집계 결과를 보존하고, 이번 추가분석 코드·프로토콜·집계표·검증 결과를 포함한다. 과거 DOCX·패키지 작성용 코드 8개는 제외하였다. 최종 Word 문서는 이 저장소의 코드로 자동 재생성되는 산출물이 아니다. 원자료, 참여자별 파생자료, 식별자 값, 개인 예측값, 개별 폴드, 모형 객체와 중복 실행 체크포인트는 포함하지 않는다.
 
 실제 추가분석 환경은 Python 3.12.14, NumPy 2.3.5, pandas 2.2.3, SciPy 1.17.0, scikit-learn 1.8.0, joblib 1.5.3, threadpoolctl 3.6.0이다. 기존 실행 Python은 3.12.13이며 나머지 주요 패키지는 같다. 운영체제·BLAS를 동결한 컨테이너 환경은 아니다. 설치환경을 다시 구성하는 전체 설치 실험까지 수행한 것은 아니다.
 
@@ -67,7 +67,7 @@ Excel Numeric 시트를 직접 읽을 경우 openpyxl 3.1.5가 추가로 필요�
 
 ## 3. 이번 보완분 재현 순서
 
-ZIP 최상위를 현재 작업디렉터리로 사용한다. 원 집계 결과 보존을 위해 패키지 작업 사본에서 실행한다. 승인받은 2023_numeric.csv, 2024_numeric.csv, 2025_numeric.csv를 analysis_20260916/private/raw/에 준비한다. 자료는 제공기관의 이용조건에 따라 별도로 확보해야 한다. 입력 열과 값의 정의는 INPUT_SCHEMA_NO_OBSERVATIONS.json 및 harmonize_data.py를 따른다.
+저장소 작업 사본의 최상위를 현재 작업 디렉터리로 사용한다. 원 집계 결과를 보존하기 위해 분석은 작업 사본에서 실행한다. 승인받은 2023_numeric.csv, 2024_numeric.csv, 2025_numeric.csv를 analysis_20260916/private/raw/에 준비한다. 자료는 제공기관의 이용조건에 따라 별도로 확보해야 한다. 입력 열과 값의 정의는 INPUT_SCHEMA_NO_OBSERVATIONS.json 및 harmonize_data.py를 따른다.
 
 ```bash
 python 01_required_prior_analysis/code/harmonize_data.py --input-dir analysis_20260916/private/raw --private-output analysis_20260916/private --report-dir analysis_20260916/outputs/harmonization
@@ -140,4 +140,4 @@ MANIFEST_SHA256.json은 자기 자신과 removed를 제외한 현재 공개 파�
 
 분석·통계 Python 코드는 변경하지 않았다. 배포 검사 코드 verify_package.py에 removed 제외만 추가하였다. README 및 S16·S17 안내의 현존 파일 경로를 갱신하고, 공개 목록·해시를 다시 작성하였다. 과거 검증·동결 기록은 당시 실행 근거로 보존하였다. 이번 검증은 공개 파일·집계값·문서 대응 확인이며 전체 모델 재학습을 수행한 것이 아니다. 상세 결과는 RELEASE_VALIDATION.json을 따른다.
 
-원고의 JTAER_Reproducibility_Package_20260922.zip은 이전 배포명이다. 현재 GitHub 정리본은 2026년 9월 24일 버전으로 구분하며, 같은 바이트의 ZIP이라고 표시하지 않는다. 논문 제출 시 실제 공개 저장소와 커밋 식별자를 자료 이용 가능성 설명에 맞추어 기재한다.
+현재 GitHub 정리본은 2026년 9월 24일 공개 정리본이다. 논문 제출 시 실제 공개 저장소와 커밋 식별자를 자료 이용 가능성 설명에 맞추어 기재한다.

@@ -65,6 +65,6 @@ Development out-of-fold scores used for selection are distinct from nested-valid
 
 The publication cleanup rechecked released-file integrity, aggregate metrics, figure inputs, and selected manuscript/supplementary values. It did not rerun the complete original selection, nested validation, or participant-level resampling pipeline. Historical PASS records describe their recorded runs. See `RELEASE_VALIDATION.json` for the checks actually performed for this release.
 
-The manuscript names an earlier ZIP package dated 22 September 2026. This repository is the curated release dated 24 September 2026; its current manifest is authoritative for this version. It must not be described as byte-identical to the earlier ZIP. Record the repository commit identifier when citing the released code.
+This repository is the curated release dated 24 September 2026; its current manifest is authoritative for this version. Record the repository commit identifier when citing the released code.
 
 No new software license or rights to redistribute provider microdata are granted by this cleanup.
